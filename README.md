@@ -1,2 +1,1 @@
-# origamid-javascript-completo
-Curso Origamid - JavaScript Completo ES6+
+# Curso Origamid - JavaScript Completo ES6+
