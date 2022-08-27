@@ -69,7 +69,7 @@
 
 # Aulas do Curso
 
-- [] A Linguagem
+- [ ] A Linguagem
 - [] Configuração do ambiente
 - [] Variáveis
 - [] Tipo de dados
