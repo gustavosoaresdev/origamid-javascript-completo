@@ -66,3 +66,111 @@
 #### Administrador e Designer
 #### Mestrando em User Experience Design
 #### Fundador da Origamid
+
+# Aulas do Curso
+
+- [] A Linguagem
+- [] Configuração do ambiente
+- [] Variáveis
+- [] Tipo de dados
+- [] Números e operadores
+- [] Boolean e condicionais
+- [] Funções
+- [] Objetos
+- [] Tudo é objeto
+- [] Arrays e Loops
+- [] Atribuição e ternário
+- [] Escopo
+- [] O que é o DOM
+- [] HTML e CSS do Projeto
+- [] Seleção de elementos
+- [] Foreach e Arrow function
+- [] Classes e atributos
+- [] Dimensões e distâncias
+- [] Eventos
+- [] Transversing e manipulação
+- [] Navegação por tabs
+- [] Accordion List
+- [] Scroll suave nos links internos
+- [] Animação ao scroll
+- [] Constructor Function
+- [] Prototype
+- [] Native, host e user
+- [] String
+- [] Number e Math
+- [] Array
+- [] Array iteração
+- [] Function
+- [] Object
+- [] Dataset
+- [] Modules
+- [] Modal
+- [] Tooltip
+- [] Dropdown menu
+- [] Event Bubble
+- [] clickoutside
+- [] setTimeout e setInterval
+- [] Menu mobile
+- [] Anima números
+- [] Date Object
+- [] Forms
+- [] Button creator HTML CSS
+- [] localStorage
+- [] JavaScript assincrono
+- [] Promises
+- [] Fetch
+- [] JSON
+- [] API e HTTP
+- [] Async await
+- [] History API
+- [] Animais fetch
+- [] Bitcoin fetch
+- [] Classes
+- [] Get e Set
+- [] Extends
+- [] Countdown
+- [] Function expression
+- [] Factory function
+- [] Clojures e debugging
+- [] Destructuring
+- [] Rest e spread
+- [] Loops e iterable
+- [] Regexp seleção
+- [] Regexp substituição
+- [] Regexp padrões
+- [] Regexp métodos
+- [] Limpar CPF
+- [] Validar CPF
+- [] Linha de comando
+- [] NPM
+- [] Eslint
+- [] Webpack
+- [] Babel
+- [] Git
+- [] Repositório git
+- [] Refatorar scroll suave
+- [] Refatorar accordion
+- [] Refatorar tabnav
+- [] Refatorar modal
+- [] Refatorar tooltip
+- [] Refatorar anima números
+- [] Refatorar fetch animais
+- [] Refatorar fetch bitcoin
+- [] Refazer animação scroll
+- [] Debounce
+- [] Refatorar dropdown menu
+- [] Refatorar menu mobile
+- [] Refatorar funcionamento
+- [] Slide inicio
+- [] Slide eventos
+- [] Slide atualizar distâncias
+- [] Slide touch events
+- [] Slide config
+- [] Next e prev
+- [] Slide resize
+- [] Slide nav
+- [] Slide páginação
+- [] Slide custom controls
+- [] Slide animais fantásticos
+- [] Melhorias no projeto final
+- [] JavaScript completo ES6+ conclusão
