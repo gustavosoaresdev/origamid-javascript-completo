@@ -13,5 +13,5 @@ Comunicação com banco de dados, manipulação de arquivos e mais (Node)
 Geralmente se aproveitando de benefícios do HTML5
 
 ## JavaScript
-Não é Java, não é Java Script;
+Não é Java, não é Java Script,
 É JavaScript.
