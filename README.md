@@ -69,9 +69,9 @@ Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender
 
 # Aulas do Curso
 
-- [ ] A Linguagem
+- [X] A Linguagem
 
-- [ ] Configuração do ambiente
+- [X] Configuração do ambiente
 
 - [ ] Variáveis
 
