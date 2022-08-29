@@ -41,3 +41,14 @@ Palavra chave **var** seguida do nome, sinal de igual e o valor.
     var idade = 19;
     var possuiFaculdade = false;
 ```
+
+## Vírgula
+
+Utilize a vírgula para criar mais de uma variável, sem repetir a
+palavra chave **var**
+
+```js
+    var nome = 'Gustavo',
+        idade = 19,
+        possuiFaculdade = false;
+```

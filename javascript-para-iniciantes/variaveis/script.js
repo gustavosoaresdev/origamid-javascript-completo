@@ -13,3 +13,10 @@ var precoTotal = preco * totalComprado;
 console.log(precoTotal);    //  125
 
 /* ================================================================================= */
+
+var sobrenome = 'Soares',
+    estado = 'Rio Grande do Sul';
+
+console.log(sobrenome, estado);    //   Soares Rio Grande do Sul
+
+/* ================================================================================= */
