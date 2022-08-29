@@ -56,3 +56,14 @@ uma string.
 
 *Não necessariamente precisamos*
 *atribuir valores a uma variável*
+
+## Template String
+
+```js
+    var gols = 1000;
+    var frase1 = 'Romário fez ' + gols + ' gols';
+    var frase2 = `Romário fez ${gols} gols`;    //  utilizando template string
+```
+
+*Você deve passar expressões /*
+*variáveis dentro de ${}*

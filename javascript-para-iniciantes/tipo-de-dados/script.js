@@ -15,3 +15,7 @@ var frase = "Esse é o \"melhor\" jogo";
 console.log(frase);
 
 /* ================================================================================= */
+
+var gols = 1000;
+var frase2 = `Romário fez ${gols * 2} gols`;
+console.log(frase2);
