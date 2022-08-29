@@ -36,3 +36,12 @@
 
 *É possivel verificar se uma variável é NaN*
 *ou não com a função isNaN()*
+
+## NaN (Not a Number)
+
+```js
+    var numero = 80;
+    var unidade = 'kg';
+    var peso = numero + unidade;    //  '80kg'
+    var pesoPorDois = peso / 2; //  NaN (Not a Number)
+```
