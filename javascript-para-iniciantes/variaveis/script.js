@@ -49,3 +49,12 @@ comida = 'Pizza';
 console.log(comida);    //  Pizza
 
 /* ================================================================================= */
+
+var time = 'Internacional';
+time = 'Grêmio';
+console.log(time);    //    Grêmio
+
+//  com **let** é a mesma coisa.
+
+/* não importa quantas vezes eu mudo o valor, ele sempre retornara o
+último valor reatribuído. */

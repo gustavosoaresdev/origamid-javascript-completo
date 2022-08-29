@@ -111,3 +111,21 @@ movido.
     console.log(profissao);
     //   retorna Designer
 ```
+
+## Mudar o valor atribuído
+
+É possível mudar os valores atribuídos a variáveis declaradas com
+**var** e **let**. Poré não é possível modificar valores das
+declaradas com **const**
+
+```js
+    var idade = 18;
+    idade = 19;
+
+    let preco = 50;
+    preco = 25;
+
+    const possuiFaculdade = true;
+    possuiFaculdade = false;
+    //  retorna um erro
+```
