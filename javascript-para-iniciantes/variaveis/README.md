@@ -21,3 +21,13 @@ Inicia com a palavra **var**, **let** ou **const**
     let idade = 19;
     const possuiFaculdade = false;
 ```
+
+## Evitam repetições
+
+DRY (Don't repeat yourself)
+
+```js
+    var preco = 20;
+    var totalComprado = 5;
+    var precoTotal = preco * totalComprado;
+```
