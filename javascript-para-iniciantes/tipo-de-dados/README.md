@@ -43,3 +43,16 @@ uma string.
     var gols = 1000;
     var frase = 'Romário fez ' + gols + ' gols';
 ```
+
+## Aspas duplas, Simples e Template String
+
+```js
+    'JavaScript é "super" fácil';
+    "JavaScript é 'super' fácil";
+    "JavaScript é \"super\" fácil";
+    `JavaScript é "super" fácil`;
+    "JavaScript é "super" fácil";   //  Inválido
+```
+
+*Não necessariamente precisamos*
+*atribuir valores a uma variável*
