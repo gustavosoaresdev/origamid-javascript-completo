@@ -15,3 +15,13 @@ Todos são primitivos exceto os objetos.
 ```
 
 *Primitivos são dados imutáveis.*
+
+## Verificar tipo de dado
+
+```js
+    var nome = 'Gustavo';
+    console.log(typeof nome);
+    //  retorna string
+```
+
+*typeof null retorna object*
