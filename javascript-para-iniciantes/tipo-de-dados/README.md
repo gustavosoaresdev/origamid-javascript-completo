@@ -25,3 +25,21 @@ Todos são primitivos exceto os objetos.
 ```
 
 *typeof null retorna object*
+
+## String
+
+Você pode somar uma string e assim concatenar as palavras.
+
+```js
+    var nome = 'Gustavo';
+    var sobrenome = 'Soares Thomann';
+    var nomeCompleto = nome + ' ' + sobrenome;
+```
+
+Você pode somar números com strings, o resultado final sempre será
+uma string.
+
+```js
+    var gols = 1000;
+    var frase = 'Romário fez ' + gols + ' gols';
+```
