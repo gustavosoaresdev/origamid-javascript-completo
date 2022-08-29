@@ -87,3 +87,12 @@ nome é diferente de Nome
     var _nome;
     var possuiFaculdadeNoExterior;
 ```
+
+## Declarar
+
+Erro ao tentar utilizar uma variável que não foi declarada.
+
+```js
+    console.log(nome);
+    //  retorna nome is not defined
+```

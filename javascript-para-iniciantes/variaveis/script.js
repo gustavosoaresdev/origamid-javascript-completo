@@ -23,10 +23,15 @@ console.log(sobrenome, estado);    //   Soares Rio Grande do Sul
 
 var semDefinir;
 console.log(semDefinir);    //  undefined
-console.log(aindaNaoDefinido);    //    ReferenceError: aindaNaoDefinido is not defined
 
 /* ================================================================================= */
 
 var $nome = 'Gustavo soares';
 var _age = 19;
 var comidaFavorita = 'Pizza';
+
+/* ================================================================================= */
+
+console.log(aindaNaoDefinido);  //  ReferenceError: aindaNaoDefinido is not defined
+
+/* ================================================================================= */
