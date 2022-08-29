@@ -58,3 +58,17 @@ Começa por multiplicação e divisão, depois por soma e subtração.
 ```
 
 *Parênteses para priorizar uma expressão*
+
+## Operadores Aritméticos Unários
+
+```js
+    var incremento = 5;
+    console.log(incremento++);  //  5
+    console.log(incremento);    //  6
+
+    var incremento2 = 5;
+    console.log(++incremento2); //  6
+    console.log(incremento2);   //  6
+```
+
+*Mesma coisa para o decremento --x*
