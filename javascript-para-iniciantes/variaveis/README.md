@@ -96,3 +96,18 @@ Erro ao tentar utilizar uma variável que não foi declarada.
     console.log(nome);
     //  retorna nome is not defined
 ```
+
+## Hoisting
+
+São movidas para cima do código, porém o valor atribuido não é
+movido.
+
+```js
+    console.log(nome);
+    var nome = 'Gustavo';
+    // retorna undefined
+
+    var profissao = 'Designer';
+    console.log(profissao);
+    //   retorna Designer
+```

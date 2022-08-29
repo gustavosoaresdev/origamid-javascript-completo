@@ -35,3 +35,17 @@ var comidaFavorita = 'Pizza';
 console.log(aindaNaoDefinido);  //  ReferenceError: aindaNaoDefinido is not defined
 
 /* ================================================================================= */
+
+console.log(comida);    //  undefined
+var comida = 'Pizza';
+
+//  mesma coisa se tivesse assim:
+var comida;
+console.log(comida);    //  undefined
+
+//  pode ser assim:
+var comida;
+comida = 'Pizza';
+console.log(comida);    //  Pizza
+
+/* ================================================================================= */
