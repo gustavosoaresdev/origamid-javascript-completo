@@ -20,3 +20,9 @@ var sobrenome = 'Soares',
 console.log(sobrenome, estado);    //   Soares Rio Grande do Sul
 
 /* ================================================================================= */
+
+var semDefinir;
+console.log(semDefinir);    //  undefined
+console.log(aindaNaoDefinido);    //    ReferenceError: aindaNaoDefinido is not defined
+
+/* ================================================================================= */

@@ -52,3 +52,12 @@ palavra chave **var**
         idade = 19,
         possuiFaculdade = false;
 ```
+
+## Sem valor
+
+Pode declarar ela e não atribuir valor inicialmente.
+
+```js
+    var precoAplicativo;
+    //  retorna undefined
+```
