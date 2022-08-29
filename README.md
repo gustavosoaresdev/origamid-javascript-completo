@@ -77,7 +77,7 @@ Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender
 
 - [X] Tipo de dados
 
-- [ ] Números e operadores
+- [X] Números e operadores
 
 - [ ] Boolean e condicionais
 
