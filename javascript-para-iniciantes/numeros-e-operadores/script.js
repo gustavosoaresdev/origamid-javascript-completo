@@ -39,3 +39,8 @@ var x4 = 7;
 console.log(--x4);  //  6
 
 /* ================================================================================= */
+
+var idade = '19';
+var somaIdade = 5;
+console.log(idade + somaIdade); //  195
+console.log(+idade + somaIdade);    //  24

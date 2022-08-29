@@ -72,3 +72,27 @@ Começa por multiplicação e divisão, depois por soma e subtração.
 ```
 
 *Mesma coisa para o decremento --x*
+
+## Operadores Aritméticos Unários 2
+
+O **+** e **-** tenta transformar o valor seguinte em número
+
+```js
+    var frase = 'Isso é um teste';
+    +frase; //  NaN
+    -frase; //  NaN
+
+    var idade = '19';
+    +idade; //  19 (número)
+    -idade; //  -19 (número)
+    console.log(+idade + 5);    //  24
+
+    var possuiFaculdade = false;
+    console.log(+possuiFaculdade); //  0
+```
+
+*O - antes de um número torna ele negativo*
+
+#### Guia Completo de Operadores
+
+[MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators)
