@@ -61,3 +61,29 @@ Pode declarar ela e não atribuir valor inicialmente.
     var precoAplicativo;
     //  retorna undefined
 ```
+
+## Nome
+
+#### Os nomes podem iniciar com $, _ ou letras.
+Podem conter números mas não iniciar com eles
+
+#### Case sensitive
+nome é diferente de Nome
+
+#### Não utilizar palavras reservadas
+[W3Schools](https://www.w3schools.com/js/js_reserved.asp)
+
+#### Camel case
+É comum nomearmos assim: abrirModal
+
+```js
+    //  Inválido
+    var #nome;
+    var function;
+    var 1possuiFaculdade;
+
+    //  Válido
+    var $selecionar;
+    var _nome;
+    var possuiFaculdadeNoExterior;
+```

@@ -26,3 +26,7 @@ console.log(semDefinir);    //  undefined
 console.log(aindaNaoDefinido);    //    ReferenceError: aindaNaoDefinido is not defined
 
 /* ================================================================================= */
+
+var $nome = 'Gustavo soares';
+var _age = 19;
+var comidaFavorita = 'Pizza';
