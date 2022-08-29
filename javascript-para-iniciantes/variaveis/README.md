@@ -31,3 +31,13 @@ DRY (Don't repeat yourself)
     var totalComprado = 5;
     var precoTotal = preco * totalComprado;
 ```
+
+## Sintaxe
+
+Palavra chave **var** seguida do nome, sinal de igual e o valor.
+
+```js
+    var nome = 'Gustavo';
+    var idade = 19;
+    var possuiFaculdade = false;
+```
