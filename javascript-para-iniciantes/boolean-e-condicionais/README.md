@@ -99,3 +99,15 @@ O operador **!**, nega uma operação booleana. Ou seja,
 *Dica, você pode utilizar o (!!)*
 *para verificar se uma expressão é*
 *Truthy ou Falsy*
+
+## Operadores de comparação 1
+
+Vão sempre retornar um valor booleano
+
+```js
+    10 > 5; //  true
+    5 > 10; //  false
+    20 < 10;    //  false
+    10 <= 10;   //  true
+    10 >= 11    //  false
+```

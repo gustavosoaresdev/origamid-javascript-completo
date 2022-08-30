@@ -69,3 +69,23 @@ console.log(!!char);    //  false
 console.log(!!true);    //  true
 
 /* ================================================================================= */
+
+var minhaIdade = 19,
+    idadeDoMeuIrmao = 30;
+
+console.log(minhaIdade > idadeDoMeuIrmao);  //  false
+
+if (minhaIdade > idadeDoMeuIrmao) {
+    console.log('Gustavo é mais velho');
+}
+else {
+    console.log('Marcio é mais velho');
+}
+
+//  o retorno dessa condição será: Marcio é mais velho
+
+var cond = 10 <= 5;
+console.log(!cond); //  true
+console.log(cond);  //  false
+
+/* ================================================================================= */
