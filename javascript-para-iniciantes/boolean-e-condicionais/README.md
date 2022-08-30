@@ -30,3 +30,24 @@ Verificar se uma expressão é verdadeira com **if**, caso contrário o
 *O valor dentro dos parênteses*
 *sempre será avaliado em*
 *false ou true.*
+
+## Condicionais else if
+
+Se o **if** não for verdadeiro, ele testa o **else if**
+
+```js
+    var possuiGraduacao = true;
+    var possuiDoutorado = false;
+
+    if(possuiDoutorado) {
+        console.log('Possui graduação e doutorado');
+    }
+    else if(possuiGraduacao) {
+        console.log('Possui graduação, mas não possui doutorado');
+    }
+    else {
+        console.log('Não possui graduação');
+    }
+
+    //  retorna Possui graduação, mas não possui doutorado
+```

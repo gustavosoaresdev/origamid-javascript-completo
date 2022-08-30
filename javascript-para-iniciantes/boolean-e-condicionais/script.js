@@ -16,3 +16,20 @@ else {
 }
 
 /* ================================================================================= */
+
+var possuiGraduacao2 = true;
+var possuiDoutorado2 = false;
+
+if (possuiDoutorado2) {
+    console.log('Possui graduação e doutorado');
+}
+else if (possuiGraduacao2) {
+    console.log('Possui graduação, mas não possui doutorado');
+}
+else {
+    console.log('Não possui graduação');
+}
+
+//  retorna Possui graduação, mas não possui doutorado
+
+/* ================================================================================= */w
