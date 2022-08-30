@@ -68,3 +68,15 @@ Existem valores que retornam **true** e outros que retornam
 ```
 
 *Todo resto é truthy*
+
+## Truthy
+
+```js
+    //  Truthy
+    if(true)
+    if(1)
+    if(' ')    //   é truthy porque tem espaço, e conta como um caracter.
+    if('Gustavo')
+    if(-5)
+    if({})
+```
