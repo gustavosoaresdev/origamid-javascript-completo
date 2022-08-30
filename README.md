@@ -79,7 +79,7 @@ Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender
 
 - [X] Números e operadores
 
-- [ ] Boolean e condicionais
+- [X] Boolean e condicionais
 
 - [ ] Funções
 
