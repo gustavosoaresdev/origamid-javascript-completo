@@ -133,3 +133,14 @@ e -5 é true, porque não é 0, ou seja, qualquer número negativo
 que não for 0 ou -0, será true. */
 
 /* ================================================================================= */
+
+var cond2 = (5 - 5) || (5 + 5) || (10 - 2);
+console.log(cond2);
+
+//  nesse caso retornara: 10
+/* vem comigo; (5 - 5) é igual a 0, (5 + 5): é igual a 10.
+quando ele encontrar o primeiro valor true, ele para!
+não importa se os próximos serão true, se ele encontrar
+o primeiro true, ele para, e não continuará lendo os próximos valores. */
+
+/* ================================================================================= */

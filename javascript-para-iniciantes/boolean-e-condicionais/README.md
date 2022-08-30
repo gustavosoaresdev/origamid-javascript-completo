@@ -147,3 +147,20 @@ quando usamos **===**
 *Se algum valor for false ele irá retornar*
 *o mesmo e não irá continuar a verificar*
 *os próximos*
+
+## Operadores Lógicos (||)
+
+**||** Compara se uma expressão **ou** outra é verdadeira
+
+```js
+    true || true;   //  true
+    true || false;  //  true
+    false || true;  //  true
+    false || false; //  false
+    'Gato' || 'Cão';    //  'Gato'
+    (5 - 5) || (5 + 5); //  10
+    'Cão' || false;    //  'Cão'
+    (5 >= 5) || (3 < 6);    //  true
+```
+
+*Retornara o primeiro valor true que encontrar*
