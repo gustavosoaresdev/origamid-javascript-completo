@@ -107,3 +107,29 @@ console.log(n === 'Gustavo');   //  true
 //  é recomendável usar o (===)
 
 /* ================================================================================= */
+
+if ((5 - 5) && (5 + 5)) {
+    console.log('Verdadeiro');
+}
+else {
+    console.log('Falso');
+}
+
+//  nesse caso retornara: Falso
+/* porque (5 - 5) da 0, e 0 é um valor false.
+isso quer dizer que se deu false já de começo, ele não irá continuar
+a verificar os próximos valores. */
+
+if ((5 - 10) && (5 + 5)) {
+    console.log('Verdadeiro');
+}
+else {
+    console.log('Falso');
+}
+
+//  nesse caso retornara: Verdadeiro
+/* é meio confuso kkkk eu sei, mas (5 - 10) retornara: -5
+e -5 é true, porque não é 0, ou seja, qualquer número negativo
+que não for 0 ou -0, será true. */
+
+/* ================================================================================= */
