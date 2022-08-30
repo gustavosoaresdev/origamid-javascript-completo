@@ -89,3 +89,21 @@ console.log(!cond); //  true
 console.log(cond);  //  false
 
 /* ================================================================================= */
+
+var x = 10;
+console.log(x === 10);  //  true
+
+//  não confundam, (=) é atribuição, (==) e (===) é comparação.
+
+/*  (===) não verifica apenas o valor, ele verifica o tipo de dado também,
+diferente do (==) que só verifica o valor. */
+
+//  quer dizer que isso:
+console.log('10' === 10);  //  é false
+
+var n = 'Gustavo';
+console.log(n === 'Gustavo');   //  true
+
+//  é recomendável usar o (===)
+
+/* ================================================================================= */

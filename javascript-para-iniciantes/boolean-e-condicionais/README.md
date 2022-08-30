@@ -111,3 +111,19 @@ Vão sempre retornar um valor booleano
     10 <= 10;   //  true
     10 >= 11    //  false
 ```
+
+## Operadores de comparação 2
+
+O **==** faz uma comparação não tão estrita e o **===** faz uma
+comparação estrita, ou seja, o tipo de dado deve ser o mesmo
+quando usamos **===**
+
+```js
+    10 == '10'; //  true
+    10 == 10;   //  true
+    10 === '10';    //  false
+    10 === 10;  //  true
+    10 != 15;   //  true
+    10 != '10'; //  false
+    10 !== '10';    //  true
+```
