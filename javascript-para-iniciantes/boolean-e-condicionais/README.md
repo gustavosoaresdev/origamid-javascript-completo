@@ -164,3 +164,31 @@ quando usamos **===**
 ```
 
 *Retornara o primeiro valor true que encontrar*
+
+## Switch
+
+Com o **switch** você pode verificar se uma variável é igual à
+diferentes valores utilizando **case**. Caso ela seja igual, você
+pode fazer alguma coisa e utilizar a palavra chave **break;** para
+cancelar a continuação. O valor de default ocorrerá caso nenhuma
+das anteriores seja verdadeira.
+
+```js
+    var corFavorita = 'Azul';
+
+    switch(corFavorita) {
+        case 'Azul':
+            console.log('Olhe para o céu');
+            break;
+        case 'Vermelho':
+            console.log('Olhe para rosas');
+            break;
+        case 'Amarelo':
+            console.log('Olhe para o sol');
+            break;
+
+        default:
+            console.log('Error');
+            break;
+    }
+```

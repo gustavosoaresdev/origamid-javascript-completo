@@ -144,3 +144,22 @@ não importa se os próximos serão true, se ele encontrar
 o primeiro true, ele para, e não continuará lendo os próximos valores. */
 
 /* ================================================================================= */
+
+var corFavorita = 'Azul';
+
+switch (corFavorita) {
+    case 'Azul':
+        console.log('Olhe para o céu');
+        break;
+    case 'Amarelo':
+        console.log('Olhe para o sol');
+        break;
+    case 'Verde':
+        console.log('Olhe para a floresta');
+        break;
+    default:
+        console.log('Error');
+}
+
+/* caso nenhum desses case for verdadeiro, o default
+será ativado, e retornara: Error. */
