@@ -53,3 +53,19 @@ else {
 }
 
 /* ================================================================================= */
+
+if (!possuiGraduacao) {
+    console.log('Não possui graduação');
+}
+
+/* a condição de cima é true, porque a variável possuiGraduacao
+é false, e na condição antes da variável tem o operador de negação (!)
+que faz com que a variável seja true. */
+
+//  o operador de negação (!) sempre inverte a condição.
+
+var char = '';
+console.log(!!char);    //  false
+console.log(!!true);    //  true
+
+/* ================================================================================= */

@@ -80,3 +80,22 @@ Existem valores que retornam **true** e outros que retornam
     if(-5)
     if({})
 ```
+
+## Operador Lógico de Negação (!)
+
+O operador **!**, nega uma operação booleana. Ou seja,
+**!true** é igual a **false** e **!false** é igual a **true**.
+
+```js
+    //  Truthy
+    if(!true)   //  false
+    if(!1)  //  false
+    if(!'') //  true
+    if(!undefined)  //  true
+    if(!!' ')   //  true
+    if(!!'')    //  false
+```
+
+*Dica, você pode utilizar o (!!)*
+*para verificar se uma expressão é*
+*Truthy ou Falsy*
