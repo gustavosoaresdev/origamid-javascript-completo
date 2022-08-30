@@ -51,3 +51,20 @@ Se o **if** não for verdadeiro, ele testa o **else if**
 
     //  retorna Possui graduação, mas não possui doutorado
 ```
+
+## Truthy e Falsy
+
+Existem valores que retornam **true** e outros que retornam
+**false** quando verificados em uma expressão booleana.
+
+```js
+    //  Falsy
+    if(false)
+    if(0)   //  ou -0
+    if(NaN)
+    if(null)
+    if(undefined)
+    if('')  //  ou "" ou ``
+```
+
+*Todo resto é truthy*

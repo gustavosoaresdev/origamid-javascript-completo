@@ -32,4 +32,24 @@ else {
 
 //  retorna Possui graduação, mas não possui doutorado
 
-/* ================================================================================= */w
+/* ================================================================================= */
+
+var nome = ' ';
+
+if (nome) {
+    console.log(nome);
+}
+else {
+    console.log('Nome não identificado.');
+}
+
+var numero = 0;
+
+if (numero) {
+    console.log('Truthy');
+}
+else {
+    console.log('Falsy');
+}
+
+/* ================================================================================= */
