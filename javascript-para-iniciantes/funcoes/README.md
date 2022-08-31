@@ -17,3 +17,13 @@ valor.
 ```
 
 *Chamada de function declaration*
+
+```js
+    function pi() {
+        return 3.14;
+    }
+
+    var total = 5 * pi();   //  15.7
+```
+
+*Parênteses () executam uma função*
