@@ -81,7 +81,7 @@ Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender
 
 - [X] Boolean e condicionais
 
-- [ ] Funções
+- [X] Funções
 
 - [ ] Objetos
 
