@@ -171,3 +171,17 @@ contexto **pai**
     dados();    //  Retorna: 'Gustavo, 20, Rio Grande do Sul, Designer'
     outrosDados();  //  retorna um erro
 ```
+
+## Hoisting
+
+Antes de executar uma função, o JS 'move' todas as funções
+declaradas para a memória
+
+```js
+    imc(80, 1.80);  //  imc aparece no console
+
+    function imc(peso, altura) {
+        const imc = peso / (altura ** 2);
+        console.log(imc);
+    }
+```
