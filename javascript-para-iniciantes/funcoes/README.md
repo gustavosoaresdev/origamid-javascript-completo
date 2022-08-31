@@ -48,3 +48,26 @@ Ao **executar** uma função, você pode passar **argumentos**.
 *parâmetro. Você pode definir*
 *mais de um parâmetro ou nenhum*
 *também*
+
+## Parênteses executa a função
+
+```js
+    function corFavorita(cor) {
+        if(cor === 'azul') {
+            return 'Você gosta do céu';
+        }
+        else if(cor === 'verde') {
+            return 'Você gosta de mato';
+        }
+        else {
+            return 'Você não gosta de nada';
+        }
+    }
+
+    corFavorita();  //  retorna 'Você não gosta de nada'
+```
+
+*Se apenas definirmos a função*
+*com o function e não executarmos*
+*a mesma, nada que estiver dentro*
+*dela irá acontecer*
