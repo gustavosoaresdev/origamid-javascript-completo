@@ -57,3 +57,19 @@ imc2(20, 1.8);  //  undefined
 console.log(imc2(1000, 1.80));  //  retorna o imc e undefined
 
 /* ================================================================================= */
+
+function terceiraIdade(idade) {
+    if (typeof idade !== 'number') {
+        return 'Por favor preencha um número'
+    }
+    else if (idade >= 60) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+console.log(terceiraIdade('oi'));   //  Por favor preencha um número
+
+/* ================================================================================= */
