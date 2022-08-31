@@ -39,3 +39,11 @@ function corFavorita(cor) {
 console.log(corFavorita('azul'));   //  Eu gosto do céu
 
 /* ================================================================================= */
+
+function mostraConsole() {
+    console.log('Oi')
+}
+
+addEventListener('click', mostraConsole);
+
+/* ================================================================================= */

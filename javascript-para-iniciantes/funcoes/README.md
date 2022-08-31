@@ -71,3 +71,23 @@ Ao **executar** uma função, você pode passar **argumentos**.
 *com o function e não executarmos*
 *a mesma, nada que estiver dentro*
 *dela irá acontecer*
+
+## Argumentos podem ser funções
+
+Chamadas de Callback, geralmente são funções que ocorrem após
+algum evento.
+
+```js
+    addEventListener('click', function() {
+        console.log('Clicou');
+    });
+
+    // A função possui dois argumentos
+    // Primeiro é a string 'click'
+    // Segundo é uma função anônima
+```
+
+*Funções anônimas são aquelas em*
+*que o nome da função não é*
+*definido, escritas como*
+*function() {} ou () => {}*
