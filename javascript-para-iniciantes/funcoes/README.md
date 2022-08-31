@@ -130,3 +130,17 @@ funções.
 *Cuidado, retornar diferentes*
 *tipos de dados na mesma função*
 *não é uma boa ideia.*
+
+## Escopo
+
+Variáveis e funções definidas dentro de um bloco **{}**, não são
+visíveis fora dele.
+
+```js
+    function precisoVisitar(paisesVisitado) {
+        var totalPaises = 193;
+        return `Ainda faltam ${totalPaises - paisesVisitados} paises para visitar`;
+    }
+
+    console.log(totalPaises);   //  erro, totalPaises não definido
+```

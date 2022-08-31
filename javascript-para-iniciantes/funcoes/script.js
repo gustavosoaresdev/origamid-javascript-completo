@@ -73,3 +73,24 @@ function terceiraIdade(idade) {
 console.log(terceiraIdade('oi'));   //  Por favor preencha um número
 
 /* ================================================================================= */
+
+function faltaVisitar(paisesVisitados) {
+    var totalPaises = 193;
+    return `Falta visitar ${totalPaises - paisesVisitados} paises`;
+}
+
+console.log(faltaVisitar(20));  //  Falta visitar 173 paises
+
+/* se quiser usar a variável totalPaises de fora da função,
+é bem simples, basta criar a variável de fora da função. */
+
+//  Ex:
+
+var totalPaises = 193;
+function faltaVisitar2(paisesVisitados) {
+    return `Falta visitar ${totalPaises - paisesVisitados} paises`;
+}
+
+console.log(totalPaises);   //  193
+
+/* ================================================================================= */
