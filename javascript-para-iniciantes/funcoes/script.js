@@ -47,3 +47,13 @@ function mostraConsole() {
 addEventListener('click', mostraConsole);
 
 /* ================================================================================= */
+
+function imc2(peso, altura) {
+    const imc = peso / (altura ** 2);
+    console.log(imc);
+}
+
+imc2(20, 1.8);  //  undefined
+console.log(imc2(1000, 1.80));  //  retorna o imc e undefined
+
+/* ================================================================================= */

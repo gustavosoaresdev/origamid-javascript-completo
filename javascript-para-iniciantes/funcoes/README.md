@@ -91,3 +91,19 @@ algum evento.
 *que o nome da função não é*
 *definido, escritas como*
 *function() {} ou () => {}*
+
+## Pode ou não retornar um valor
+
+Quando não de nimos o return, ela irá retornar **undefined**.
+O código interno da função é executado normalmente, independente
+de existir valor de return ou não.
+
+```js
+    function imc(peso, altura) {
+        const imc = peso / (altura ** 2);
+        console.log(imc);
+    }
+
+    imc(80, 1.80);  //  retorna o imc
+    console.log(imc(80, 1.80)); //  retorna o imc e undefined
+```
