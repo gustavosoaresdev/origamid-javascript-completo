@@ -144,3 +144,30 @@ visíveis fora dele.
 
     console.log(totalPaises);   //  erro, totalPaises não definido
 ```
+
+## Escopo Léxico
+
+Funções conseguem acessar variáveis que foram criadas no
+contexto **pai**
+
+```js
+    var profissao = 'Designer';
+
+    function dados() {
+        var nome = 'Gustavo';
+        var idade = 19;
+
+        function outrosDados() {
+            var endereco = 'Rio Grande do Sul';
+            var idade = 20;
+
+            return `${nome}, ${idade},
+                    ${endereco}, ${profissao}`;
+        }
+
+        return outrosDados();
+    }
+
+    dados();    //  Retorna: 'Gustavo, 20, Rio Grande do Sul, Designer'
+    outrosDados();  //  retorna um erro
+```

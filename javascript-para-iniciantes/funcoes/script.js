@@ -94,3 +94,24 @@ function faltaVisitar2(paisesVisitados) {
 console.log(totalPaises);   //  193
 
 /* ================================================================================= */
+
+var profissao = 'Designer';
+
+function dados() {
+    var nome = 'Gustavo';
+    var idade = 19;
+
+    function outrosDados() {
+        var endereco = 'Rio Grande do Sul';
+        var idade = 19;
+
+        return `${nome}, ${idade},
+                ${endereco}, ${profissao}`;
+    }
+
+    return outrosDados();
+}
+
+console.log(dados());   //  Retorna: 'Gustavo, 19, Rio Grande do Sul, Designer'
+
+/* ================================================================================= */
