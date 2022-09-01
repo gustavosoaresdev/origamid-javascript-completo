@@ -96,3 +96,19 @@ Acesse propriedades de um objeto utilizando o ponto **.**
 
     var bg = menu.backgroundColor;  //  '#84E'
 ```
+
+## Dot Notation Set
+
+Substitua o valor de uma propriedade utilizando **.** e o **=** após o
+nome da mesma.
+
+```js
+    var menu = {
+        width: 800,
+        height: 50,
+        backgroundColor: '#84E',
+    }
+
+    menu.backgroundColor = '#000';
+    console.log(menu.backgroundColor);  //  '#000'
+```
