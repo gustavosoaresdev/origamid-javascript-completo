@@ -82,3 +82,17 @@ Um objeto é criado utilizando as chaves **{}**
 
     console.log(typeof carro);  //  'object'
 ```
+
+## Dot Notation Get
+
+Acesse propriedades de um objeto utilizando o ponto **.**
+
+```js
+    var menu = {
+        width: 800,
+        height: 50,
+        backgroundColor: '#84E',
+    }
+
+    var bg = menu.backgroundColor;  //  '#84E'
+```
