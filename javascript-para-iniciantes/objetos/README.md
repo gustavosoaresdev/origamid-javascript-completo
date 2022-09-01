@@ -112,3 +112,19 @@ nome da mesma.
     menu.backgroundColor = '#000';
     console.log(menu.backgroundColor);  //  '#000'
 ```
+
+## Adicionar Propriedades e Métodos
+
+Basta adicionar um novo nome e definir o valor.
+
+```js
+    var menu = {
+        width: 800,
+    }
+
+    menu.height = 50;
+    menu.position = 'fixed';
+    menu.abrirMenu = function() {
+        console.log('Menu aberto!');
+    }
+```
