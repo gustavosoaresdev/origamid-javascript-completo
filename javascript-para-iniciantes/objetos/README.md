@@ -71,3 +71,14 @@ reutilizáveis.
 *JavaScript. Já percebeu que*
 *console é um objeto e log() um*
 *método?*
+
+## Criar um objeto
+
+Um objeto é criado utilizando as chaves **{}**
+
+```js
+    var carro = {};
+    var pessoa = {};
+
+    console.log(typeof carro);  //  'object'
+```
