@@ -39,3 +39,17 @@ propriedades e métodos.
     quadrado.area(5); // 25
     quadrado.perimetro(5); // 20
 ```
+
+Abreviação de **area: function() {}** para **area() {}**, no ES6+
+
+```js
+   var quadrado = {
+        lados: 4,
+        area(lado) {
+            return lado * lado;
+        },
+        perimetro(lado) {
+            return this.lados * lado;
+        },
+    }
+```
