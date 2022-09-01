@@ -53,3 +53,21 @@ Abreviação de **area: function() {}** para **area() {}**, no ES6+
         },
     }
 ```
+
+## Organizar o Código
+
+Objetos servem para organizar o código em pequenas partes
+reutilizáveis.
+
+```js
+    Math.PI; // 3.14
+    Math.random(); // número aleatório
+
+    var pi = Math.PI;
+    console.log(pi); // 3.14
+```
+
+*Math é um objeto nativo de*
+*JavaScript. Já percebeu que*
+*console é um objeto e log() um*
+*método?*
