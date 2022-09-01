@@ -148,3 +148,20 @@ Basta adicionar um novo nome e definir o valor.
 ```
 
 *this irá retornar o próprio objeto*
+
+## Protótipo e Herança
+
+O objeto herda propriedades e métodos do objeto que foi utilizado
+para criar o mesmo.
+
+```js
+    var menu = {
+        width: 800,
+    }
+    
+    menu.hasOwnProperty('width') // true
+    menu.hasOwnProperty('height') // false
+```
+
+*hasOwnProperty é um método de*
+*Object*
