@@ -49,3 +49,21 @@ métodos você quiser...*/
 var bg = menu.backgroundColor;  //  '#000'
 
 /* ================================================================================= */
+
+var height = 120;
+var menu = {
+    width: 800,
+    height: 50,
+    metadeHeight() {
+        return this.height / 2;
+    }
+}
+
+console.log(menu.metadeHeight());   //  25
+
+/* o this é o próprio objeto, seria mesma coisa se eu fizesse isso: */
+return menu.height / 2;
+
+/* se não usar o this, ele pega a variável height que está fora do objeto. */
+
+/* ================================================================================= */
