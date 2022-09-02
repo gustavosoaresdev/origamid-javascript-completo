@@ -29,3 +29,18 @@ e métodos. Por isso são objetos.
 *envolvido em um Objeto*
 *(coerção), tendo acesso assim as*
 *suas propriedades e métodos*
+
+## Funções
+
+```js
+    function areaQuadrado(lado) {
+        return lado * lado;
+    }
+
+    areaQuadrado.toString();
+    //"function areaQuadrado(lado) {
+    //  return lado * lado;
+    //}"
+
+    areaQuadrado.length; // 1
+```
