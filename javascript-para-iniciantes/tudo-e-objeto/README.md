@@ -44,3 +44,24 @@ e métodos. Por isso são objetos.
 
     areaQuadrado.length; // 1
 ```
+
+## Elementos do DOM
+
+```html
+    <a class="btn">Clique</a>
+```
+
+```js
+    var btn = document.querySelector('.btn');
+
+    btn.classList.add('azul') // adiciona a classe azul
+    btn.innerText; // 'Clique'
+    btn.addEventListener('click', function() {
+        console.log('Clicou')
+    })
+```
+
+*Praticamente todos os efeitos*
+*com JS são feitos utilizando*
+*propriedades e métodos de*
+*objetos do DOM.*
