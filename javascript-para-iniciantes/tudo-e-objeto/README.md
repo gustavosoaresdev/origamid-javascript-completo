@@ -65,3 +65,8 @@ e métodos. Por isso são objetos.
 *com JS são feitos utilizando*
 *propriedades e métodos de*
 *objetos do DOM.*
+
+# Objetos revolucionaram a programação
+
+Web API's são métodos e propriedades que permitem a
+interação JavaScript e Browser.
