@@ -15,3 +15,17 @@ e métodos. Por isso são objetos.
 
 *Uma string herda propriedades e*
 *métodos do construtor String()*
+
+## Números
+
+```js
+    var altura = 1.8;
+
+    altura.toString();  //  '1.8'
+    altura.toFixed();   //  '2'
+```
+
+*Por um breve momento o número é*
+*envolvido em um Objeto*
+*(coerção), tendo acesso assim as*
+*suas propriedades e métodos*
