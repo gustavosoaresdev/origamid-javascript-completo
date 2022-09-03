@@ -45,3 +45,17 @@ Fazem algo repetidamente até que uma condição seja atingida.
 
 *O for loop possui 3 partes,*
 *início , condição e incremento*
+
+## While Loop
+
+```js
+    var i = 0;
+    while(1 < 10) {
+        console.log(i);
+        i++;
+    }
+
+    //  retorna de 0 a 9 no console
+```
+
+*o for loop é o mais comum*
