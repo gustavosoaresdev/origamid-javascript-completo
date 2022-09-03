@@ -50,3 +50,24 @@ for (var i = 0; i < videoGames2.length; i++) {
 //  o retorno será: ['Switch', 'PS4']
 
 /* ================================================================================= */
+
+var frutas = ['Banana', 'Maça', 'Pêra', 'Abacaxi', 'Uva'];
+frutas.forEach(function (item, index, array) {
+    console.log(item, index, array);
+});
+
+//  o retorno será:
+
+/*
+    Banana 0 ['Banana', 'Maça', 'Pêra', 'Abacaxi', 'Uva']
+    Maça 1 ['Banana', 'Maça', 'Pêra', 'Abacaxi', 'Uva']
+    Pêra 2 ['Banana', 'Maça', 'Pêra', 'Abacaxi', 'Uva']
+    Abacaxi 3 ['Banana', 'Maça', 'Pêra', 'Abacaxi', 'Uva']
+    Uva 4 ['Banana', 'Maça', 'Pêra', 'Abacaxi', 'Uva']
+*/
+
+/* lembrando que não necessáriamente precisamos usar
+os três argumentos, podemos usar só os que formos precisar...
+o mais comum é o item, e pode botar qualquer nome também */
+
+/* ================================================================================= */

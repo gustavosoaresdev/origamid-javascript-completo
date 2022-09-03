@@ -85,3 +85,22 @@ que você escolheu, utilizando **break**
         }
     }
 ```
+
+## forEach
+
+forEach é um método que executa uma função para cada item da
+Array. É uma forma mais simples de utilizarmos um loop com
+arrays (ou array-like)
+
+```js
+    var videoGames = ['Switch', 'PS4', 'XBox', '3DS'];
+    videoGames.forEach(function(item) {
+        console.log(item);
+    });
+
+    // O argumento item será atribuído dinamicamente
+```
+
+*Podemos passar os seguintes*
+*parâmetros, item , index e*
+*array*
