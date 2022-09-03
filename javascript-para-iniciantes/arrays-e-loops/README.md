@@ -59,3 +59,13 @@ Fazem algo repetidamente até que uma condição seja atingida.
 ```
 
 *o for loop é o mais comum*
+
+## Arrays e Loops
+
+```js
+    var comidas = ['Arroz', 'Feijão', 'Carne', 'Salada'];
+
+    for(var i = 0; i < comidas.length; i++) {
+        console.log(comidas[i]);
+    }
+```
