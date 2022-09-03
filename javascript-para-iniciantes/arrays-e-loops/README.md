@@ -69,3 +69,19 @@ Fazem algo repetidamente até que uma condição seja atingida.
         console.log(comidas[i]);
     }
 ```
+
+## Break
+
+O loop irá parar caso ele encontrar uma palavra
+que você escolheu, utilizando **break**
+
+```js
+    var videoGames = ['Switch', 'PS4', 'XBox', '3DS'];
+
+    for (var i = 0; i < videoGames.length; i++) {
+        console.log(videoGames[i]);
+        if(videoGames[i] === 'PS4') {
+            break;
+        }
+    }
+```

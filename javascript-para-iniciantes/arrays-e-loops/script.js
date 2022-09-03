@@ -37,3 +37,16 @@ for (var i = 0; i < comidas.length; i++) {
 }
 
 /* ================================================================================= */
+
+var videoGames2 = ['Switch', 'PS4', 'XBox', '3DS'];
+
+for (var i = 0; i < videoGames2.length; i++) {
+    console.log(videoGames2[i]);
+    if (videoGames2[i] === 'PS4') {
+        break;
+    }
+}
+
+//  o retorno será: ['Switch', 'PS4']
+
+/* ================================================================================= */
