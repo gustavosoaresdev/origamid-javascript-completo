@@ -71,3 +71,11 @@ os três argumentos, podemos usar só os que formos precisar...
 o mais comum é o item, e pode botar qualquer nome também */
 
 /* ================================================================================= */
+
+var number = 0;
+var max = 50;
+
+for (; number < max;) {
+    console.log(number);
+    number++;
+}

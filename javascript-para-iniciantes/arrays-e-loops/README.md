@@ -104,3 +104,18 @@ arrays (ou array-like)
 *Podemos passar os seguintes*
 *parâmetros, item , index e*
 *array*
+
+## Não se confunda com a sintaxe
+
+```js
+    var numero = 0;
+    var maximo = 50;
+
+    for(;numero < maximo;) {
+        console.log(numero);
+        numero++;
+    }
+```
+
+*Não aconselho escrever da forma*
+*acima, mas funciona normalmente.*
