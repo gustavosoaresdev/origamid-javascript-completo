@@ -16,3 +16,17 @@ guardarmos diferentes valores em uma única variável.
 *utilizando [numero]*
 *lembrando que a array é*
 *base 0*
+
+## Métodos e Propriedades de uma Array
+
+```js
+    var videoGames = ['Switch', 'PS4', 'XBox'];
+    
+    videoGames.pop(); // Remove o último item e retorna ele
+    videoGames.push('3DS'); // Adiciona ao final da array
+    videoGames.length; // 3
+```
+
+*Existem diversos outros métodos,*
+*como map , reduce , forEach e*
+*mais que veremos mais à frente*
