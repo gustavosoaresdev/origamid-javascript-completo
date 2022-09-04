@@ -33,3 +33,20 @@ Servem para explicar o código
     x %= y; // x = x % y (0)
     x **= y; // x = x ** y (9765625)
 ```
+
+## Operador Ternário
+
+Abreviação de condicionais com **if** e **else**
+
+```js
+    var idade = 19;
+    var podeBeber = (idade >= 18) ? 'Pode beber' : 'Não pode beber';
+    console.log(podeBeber) // Pode beber
+
+    // condição ? true : false
+```
+
+*Geralmente utilizado quando*
+*precisamos atribuir um valor*
+*para uma variável, dependendo de*
+*uma condição*
