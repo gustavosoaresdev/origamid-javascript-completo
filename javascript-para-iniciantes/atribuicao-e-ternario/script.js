@@ -36,3 +36,19 @@ console.log(podeBeber3);
 //  o código acima por padrão já retorna um valor booleano.
 
 /* ================================================================================= */
+
+var possuiFaculdade = false;
+
+//  não precisa fazer isso caso for apenas uma linha de código
+if (possuiFaculdade) {
+    console.log('Possui faculdade');
+}
+else {
+    console.log('Não possui faculdade');
+}
+
+//  se for apenas uma linha de código pode fazer assim:
+if (possuiFaculdade)
+    console.log('Possui faculdade');
+else
+    console.log('Não possui faculdade');

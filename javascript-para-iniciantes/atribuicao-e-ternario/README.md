@@ -50,3 +50,25 @@ Abreviação de condicionais com **if** e **else**
 *precisamos atribuir um valor*
 *para uma variável, dependendo de*
 *uma condição*
+
+## if Abreviado
+
+Não é necessário abrir e fechar as chaves **{}** quando retornamos
+apenas uma linha de código
+
+```js
+    var possuiFaculdade = true;
+
+    if(possuiFaculdade) console.log('Possui faculdade');
+    else console.log('Não possui faculdade');
+
+    // OU
+
+    if(possuiFaculdade)
+        console.log('Possui faculdade');
+    else
+        console.log('Não possui faculdade');
+```
+
+*Eu particularmente prefiro a*
+*segunda opção.*
