@@ -89,7 +89,7 @@ Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender
 
 - [X] Arrays e Loops
 
-- [ ] Atribuição e ternário
+- [X] Atribuição e ternário
 
 - [ ] Escopo
 
