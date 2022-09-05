@@ -158,3 +158,20 @@ modificação do valor da variável, evitando bugs no código.
 
 *Variáveis com valores constantes*
 *devem utilizar o const.*
+
+## let
+
+Mantém o escopo no bloco, impede a redeclaração, mas permite a
+modificação do valor da variável.
+
+```js
+    let ano;
+    ano = 2018;
+    ano++;
+    console.log(ano); // 2019
+
+    let ano = 2020; // erro, redeclarou a variável
+```
+
+*Geralmente vamos utilizar o*
+*const.*

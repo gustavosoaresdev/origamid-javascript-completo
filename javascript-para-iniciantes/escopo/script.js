@@ -95,5 +95,3 @@ meusDados.idade = 19;
 
 // mas isso não:
 meusDados = 'Oi'; // ou qualquer outra coisa...
-
-/* ================================================================================= */
