@@ -91,7 +91,7 @@ Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender
 
 - [X] Atribuição e ternário
 
-- [ ] Escopo
+- [X] Escopo
 
 - [ ] O que é o DOM
 
