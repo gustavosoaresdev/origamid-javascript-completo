@@ -123,3 +123,15 @@ variável utilizada irá **vazar** e existir fora do loop.
 
     console.log(i); // 10
 ```
+
+## For Loop com let
+
+Com o **let** evitamos que o número vaze.
+
+```js
+    for(let i = 0; i < 10; i++) {
+        console.log(`Número ${i}`);
+    }
+
+    console.log(i); // i is not defined
+```
