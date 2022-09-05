@@ -81,3 +81,17 @@ utilizando hoisting e o valor ficará como undefined.
 
     console.log(carro); // undefined
 ```
+
+## const e let no lugar de var
+
+A partir de agora vamos utilizar apenas **const** e **let** para
+declarmos variáveis.
+
+```js
+    if(true) {
+        const carro = 'Fusca';
+        console.log(carro); // 'Fusca'
+    }
+
+    console.log(carro); // erro, carro is not defined
+```
