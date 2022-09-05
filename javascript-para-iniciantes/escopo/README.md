@@ -110,3 +110,16 @@ criação de objetos **= {}**
     console.log(carro); // 'Fusca'
     console.log(ano); // erro ano is not defined
 ```
+
+## For Loop com var
+
+Ao utilizar **var** dentro de um **for** loop, que é um bloco, o valor da
+variável utilizada irá **vazar** e existir fora do loop.
+
+```js
+    for(var i = 0; i < 10; i++) {
+        console.log(`Número ${i}`);
+    }
+
+    console.log(i); // 10
+```
