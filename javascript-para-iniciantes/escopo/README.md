@@ -48,7 +48,22 @@ acessadas pelas funções.
         var frase = `Meu carro é um ${carro}`;
         console.log(frase);
     }
-    
+
     mostrarCarro(); // Meu carro é um Fusca
     console.log(carro); // Fusca
+```
+
+## Escopo de bloco
+
+Variáveis criadas com **var** , vazam o bloco. Por isso com a
+introdução do ES6 a melhor forma de declarmos uma variável é
+utilizando **const** e **let** , pois estas respeitam o escopo de bloco.
+
+```js
+    if(true) {
+        var carro = 'Fusca';
+        console.log(carro);
+    }
+
+    console.log(carro); // 'Fusca'
 ```
