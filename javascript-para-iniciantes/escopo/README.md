@@ -67,3 +67,17 @@ utilizando **const** e **let** , pois estas respeitam o escopo de bloco.
 
     console.log(carro); // 'Fusca'
 ```
+
+## var vaza o bloco
+
+Mesmo com a condição falsa, a variável ainda será declarada
+utilizando hoisting e o valor ficará como undefined.
+
+```js
+    if(false) {
+        var carro = 'Fusca';
+        console.log(carro);
+    }
+
+    console.log(carro); // undefined
+```
