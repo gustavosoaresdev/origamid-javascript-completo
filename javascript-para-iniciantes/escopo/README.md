@@ -135,3 +135,26 @@ Com o **let** evitamos que o número vaze.
 
     console.log(i); // i is not defined
 ```
+
+## const
+
+Mantém o escopo no bloco, impede a redeclaração e impede a
+modificação do valor da variável, evitando bugs no código.
+
+```js
+    const mes = 'Dezembro';
+    mes = 'Janeiro'; // erro, tentou modificar o valor
+    const semana; // erro, declarou sem valor
+
+    const data = {
+        dia: 28,
+        mes: 'Dezembro',
+        ano: 2018,
+    }
+
+    data.dia = 29; // Funciona
+    data = 'Janeiro'; // erro
+```
+
+*Variáveis com valores constantes*
+*devem utilizar o const.*

@@ -60,3 +60,40 @@ for (let i2 = 0; i2 < 10; i2++) {
 console.log(i2 * 10); //  500
 
 /* ================================================================================= */
+
+const semana = 'Sexta';
+semana = 'Quinta';
+// const semana = 'Quinta';
+
+console.log(semana); // erro
+
+const data = {
+    ano: 2018,
+    mes: 'Dezembro',
+}
+
+data.ano = 2022;
+console.log(data.ano); // 2022
+
+data = 'Gustavo';
+console.log(data); // erro
+
+/* quando usamos const em um objeto, podemos mudar apenas os valores
+das propriedades ou métodos dele, mas não podemos mudar o objeto pra uma string,
+número etc... */
+
+const meusDados = {
+    nome: 'Sebastian',
+    sobrenome: 'Soares Thomann',
+    idade: 38,
+}
+
+meusDados.nome = 'Gustavo';
+meusDados.idade = 19;
+
+/* isso sim funciona! */
+
+// mas isso não:
+meusDados = 'Oi'; // ou qualquer outra coisa...
+
+/* ================================================================================= */
