@@ -95,3 +95,18 @@ declarmos variáveis.
 
     console.log(carro); // erro, carro is not defined
 ```
+
+## {} cria um bloco
+
+Chaves **{}** criam um escopo de bloco, não confundir com a
+criação de objetos **= {}**
+
+```js
+    {
+        var carro = 'Fusca';
+        const ano = 2018;
+    }
+
+    console.log(carro); // 'Fusca'
+    console.log(ano); // erro ano is not defined
+```
