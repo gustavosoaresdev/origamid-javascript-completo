@@ -39,3 +39,21 @@ através dos seus métodos e propriedades.
 *isso não precisamos chamar ele*
 *na frente dos seus métodos e*
 *propriedades.*
+
+## Node
+
+Toda tag html é representada pelo objeto Element e por isso herda
+os seus métodos e propriedades. Element é um tipo de objeto
+Node.
+
+```js
+    const titulo = document.querySelector('h1');
+    
+    titulo.innerText; // retorna o texto;
+    titulo.classList; // retorna as classes;
+    titulo.id; // retorna o id;
+    titulo.offsetHeight; // retorna a altura do elemento;
+
+    titulo.addEventListener('click', callback);
+    // ativa a função callback ao click no titulo
+```
