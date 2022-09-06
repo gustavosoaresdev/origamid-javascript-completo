@@ -48,7 +48,7 @@ Node.
 
 ```js
     const titulo = document.querySelector('h1');
-    
+
     titulo.innerText; // retorna o texto;
     titulo.classList; // retorna as classes;
     titulo.id; // retorna o id;
@@ -56,4 +56,17 @@ Node.
 
     titulo.addEventListener('click', callback);
     // ativa a função callback ao click no titulo
+```
+
+## Exercício
+
+```js
+    // Retorne o url da página atual utilizando o objeto window
+
+    // Seleciona o primeiro elemento da página que
+    // possua a classe ativo
+
+    // Retorne a linguagem do navegador
+    
+    // Retorne a largura da janela
 ```
