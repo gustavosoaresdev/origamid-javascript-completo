@@ -9,3 +9,8 @@ else
     console.log('Está na página errada');
 
 /* ================================================================================= */
+
+const titulo = document.querySelector('h1');
+titulo.innerText = 'Esse é o novo titulo...';
+
+/* ================================================================================= */

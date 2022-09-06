@@ -21,3 +21,21 @@ conteúdo destes documentos.
 ## DOM
 
 ![Árvore DOM](https://i.imgur.com/lu4PMfw.jpg)
+
+## Window e Document
+
+São os objetos principais do DOM, boa parte da manipulação é feita
+através dos seus métodos e propriedades.
+
+```js
+    window.alert('Isso é um alerta');
+    alert('Isso é um alerta'); // Funciona
+
+    document.querySelector('h1'); // Seleciona o primeiro h1 da página
+    document.body; // Retorna o body
+```
+
+*window é o objeto global, por*
+*isso não precisamos chamar ele*
+*na frente dos seus métodos e*
+*propriedades.*
