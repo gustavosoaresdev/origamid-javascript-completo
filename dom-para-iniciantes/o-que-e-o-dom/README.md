@@ -17,3 +17,7 @@ conteúdo destes documentos.
 *Ao inspecionar elemento com o*
 *Chrome, você está vendo a*
 *representação oficial do DOM.*
+
+## DOM
+
+![Árvore DOM](https://i.imgur.com/lu4PMfw.jpg)
