@@ -56,3 +56,22 @@ o seu seletor CSS.
 *querySelector é o seletor de*
 *elementos mais comum.*
 *É o que mais vamos usar no curso.*
+
+## Seletor Geral Lista
+
+**querySelectorAll** retorna todos os elementos compatíveis
+com o seletor CSS em uma NodeList
+
+```js
+    const gridSection = document.querySelectorAll('.grid-section');
+    const listas = document.querySelectorAll('ul');
+    const titulos = document.querySelectorAll('.titulo');
+    const fotosAnimais = document.querySelectorAll('.animais-lista img');
+
+    // Retorna o segundo elemento
+    console.log(gridSection[1]);
+```
+
+*Diferente do*
+*getElementsByClassName, a lista*
+*aqui é estática*

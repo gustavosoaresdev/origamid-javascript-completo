@@ -22,3 +22,13 @@ console.log(linkInterno);
 /* tem métodos e propriedades que podemos utilizar nos elementos também... */
 
 /* ================================================================================= */
+
+const animaisImg = document.querySelectorAll('.animais img');
+console.log(animaisImg);
+console.log(animaisImg[2]); //  lembrando que é sempre base 0
+
+/* aqui é diferente, ele retorna uma NodeList, que parece uma Array mas não é
+ele também é diferente do HTMLCollection, o NodeList possui alguns métodos e
+propriedades que o HTMLCollection não possui */
+
+/* ================================================================================= */
