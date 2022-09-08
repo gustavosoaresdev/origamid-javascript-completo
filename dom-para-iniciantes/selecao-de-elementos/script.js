@@ -42,3 +42,16 @@ console.log(gridSectionHTML[0]);
 console.log(gridSectionNodeList[0]);
 
 /* ================================================================================= */
+
+gridSectionNodeList.forEach(function (item, index) {
+    console.log(item);
+});
+
+const arrayGrid = Array.from(gridSectionHTML);
+console.log(arrayGrid);
+
+/* gridSectionHTML é uma array agora, contendo métodos e propriedades de uma array... */
+
+arrayGrid.forEach(function (item) {
+    console.log(item);
+});
