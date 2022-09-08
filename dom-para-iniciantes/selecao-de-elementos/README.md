@@ -75,3 +75,19 @@ com o seletor CSS em uma NodeList
 *Diferente do*
 *getElementsByClassName, a lista*
 *aqui é estática*
+
+## HTMLCollection vs NodeList
+
+A diferença está nos métodos e propriedades de ambas. Além
+disso a NodeList retornada com querySelectorAll é estática.
+
+```js
+    const titulo = document.querySelector('.titulo');
+    const gridSectionHTML = document.getElementsByClassName('grid-section');
+    const gridSectionNode = document.querySelectorAll('.grid-section');
+
+    titulo.classList.add('grid-section');
+    
+    console.log(gridSectionHTML); // 4 itens
+    console.log(gridSectionNode); // 3 itens
+```

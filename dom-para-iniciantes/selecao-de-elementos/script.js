@@ -32,3 +32,13 @@ ele também é diferente do HTMLCollection, o NodeList possui alguns métodos e
 propriedades que o HTMLCollection não possui */
 
 /* ================================================================================= */
+
+const gridSectionHTML = document.getElementsByClassName('grid-section');
+const gridSectionNodeList = document.querySelectorAll('.grid-section');
+
+primeiraUl.classList.add('grid-section');   //  só pra testar...
+
+console.log(gridSectionHTML[0]);
+console.log(gridSectionNodeList[0]);
+
+/* ================================================================================= */
