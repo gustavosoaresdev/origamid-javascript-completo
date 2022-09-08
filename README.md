@@ -97,7 +97,7 @@ Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender
 
 - [X] HTML e CSS do Projeto
 
-- [ ] Seleção de elementos
+- [X] Seleção de elementos
 
 - [ ] Foreach e Arrow function
 
