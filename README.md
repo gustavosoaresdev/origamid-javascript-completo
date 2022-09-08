@@ -95,7 +95,7 @@ Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender
 
 - [X] O que é o DOM
 
-- [ ] HTML e CSS do Projeto
+- [X] HTML e CSS do Projeto
 
 - [ ] Seleção de elementos
 
