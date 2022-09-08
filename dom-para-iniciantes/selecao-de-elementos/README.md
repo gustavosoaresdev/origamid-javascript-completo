@@ -36,3 +36,23 @@ adicionados, ela será automaticamente atualizada.
 
 *getElementsByClassName - pegar elementos pela classe*
 *getElementsByTagName - pegar elementos pela tag*
+
+## Seletor Geral Único
+
+**querySelector** retorna o primeiro elemento que combinar com
+o seu seletor CSS.
+
+```js
+    const animais = document.querySelector('.animais');
+    const contato = document.querySelector('#contato');
+    const ultimoItem = document.querySelector('.animais-lista li:last-child');
+    const linkCSS = document.querySelector('[href^="https://"]');
+    const primeiroUl = document.querySelector('ul');
+
+    // Busca dentro do Ul apenas
+    const navItem = primeiroUl.querySelector('li');
+```
+
+*querySelector é o seletor de*
+*elementos mais comum.*
+*É o que mais vamos usar no curso.*
