@@ -82,3 +82,21 @@ os argumentos.
 ```
 
 *É melhor usar os parênteses.*
+
+## Return
+
+É possível omitir as chaves **{}** para uma função que retorna 
+apenas uma linha.
+
+```js
+    const imgs = document.querySelectorAll('img');
+
+    imgs.forEach(item =>
+        console.log(item)
+    );
+
+    imgs.forEach(item => console.log(item));
+```
+
+*Não é permitido fechar a linha*
+*com ;*
