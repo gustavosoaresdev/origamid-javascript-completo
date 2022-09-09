@@ -27,7 +27,7 @@ imgs.forEach(img => console.log(img));
 // se não colocar as chaves {}, não pode por ponto e virgula(;) no final.
 
 // ex:
-imgs.forEach(img => console.log(img);); // vai apresentar um erro...
+// imgs.forEach(img => console.log(img);); // vai apresentar um erro...
 
 /* mais uma coisa, quando usamos apenas uma linha de código
 conforme o exemplo acima, não precisamos colocar o return antes. */
