@@ -22,8 +22,8 @@ titulosArray.forEach(function (titulo, index, array) {
 
 const imgs = document.querySelectorAll('img');
 
-imgs.forEach((img, index, array) => {
-    console.log(img, index, array);
+imgs.forEach(img => {
+    console.log(img);
 });
 
 /* ================================================================================= */
