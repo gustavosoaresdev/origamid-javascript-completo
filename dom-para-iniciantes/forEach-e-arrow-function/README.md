@@ -39,8 +39,22 @@ array.
 ```js
     const titulos = document.getElementsByClassName('titulo');
     const titulosArray = Array.from(titulos);
-    
+
     titulosArray.forEach(function(item){
+        console.log(item);
+    });
+```
+
+## Arrow Function
+
+Sintaxe curta em relação a **function expression**. Basta
+remover a palavra chave function e adicionar a fat arrow **=>** após
+os argumentos.
+
+```js
+    const imgs = document.querySelectorAll('img');
+
+    imgs.forEach((item) => {
         console.log(item);
     });
 ```
