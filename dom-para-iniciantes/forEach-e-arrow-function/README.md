@@ -13,3 +13,19 @@ método forEach.
         console.log(item);
     });
 ```
+
+## Parâmetros do forEach
+
+O primeiro parâmetro é o callback, ou seja, a função que será
+ativada a cada item. Essa função pode receber três parâmetros:
+valorAtual, index e array;
+
+```js
+    const imgs = document.querySelectorAll('img');
+
+    imgs.forEach(function(valorAtual, index, array){
+        console.log(item); // o item atual no loop
+        console.log(index); // o número do index
+        console.log(array); // a Array completa
+    });
+```
