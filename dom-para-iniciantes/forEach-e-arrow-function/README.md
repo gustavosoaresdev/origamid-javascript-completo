@@ -29,3 +29,18 @@ valorAtual, index e array;
         console.log(array); // a Array completa
     });
 ```
+
+## forEach e Array
+
+forEach é um método de Array, alguns objetos array-like possuem
+este método. Caso não possua, o ideal é transformá-los em uma
+array.
+
+```js
+    const titulos = document.getElementsByClassName('titulo');
+    const titulosArray = Array.from(titulos);
+    
+    titulosArray.forEach(function(item){
+        console.log(item);
+    });
+```
