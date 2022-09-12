@@ -1,0 +1,28 @@
+const menu = document.querySelector('.menu');
+
+menu.classList.add('ativo');
+menu.classList.remove('azul');
+
+if (menu.classList.contains('azul')) {
+    menu.classList.add('possui-azul');
+}
+else {
+    menu.classList.add('nao-possui-azul');
+}
+
+menu.className = 'ativo teste azul';
+
+// adicionar classes novas sem remover as anteriores:
+menu.className = menu.className + ' vermelho';
+
+// ou:
+menu.className += ' amarelo';
+
+/* tem que da espaço antes de adicionar uma nova classe,
+conforme o exemplo acima. */
+
+console.log(menu.className);
+
+// console.log(menu.classList);
+
+/* ================================================================================= */
