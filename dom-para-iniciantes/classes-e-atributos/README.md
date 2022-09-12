@@ -45,3 +45,21 @@ selecionado
 ```
 
 *É muito comum métodos de get e set;*
+
+## Read Only vs Writable
+
+Existem propriedades que não permitem a mudança de seus
+valores, essas são consideradas Read Only, ou seja, apenas leitura.
+
+```js
+    const animais = document.querySelector('.animais');
+
+    animais.className; // string com o nome das classes
+    animais.className = 'azul'; // substitui completamente a string
+    animais.className += ' vermelho'; // adiciona vermelho à string
+    animais.attributes = 'class="ativo"'; // não funciona, read-only
+```
+
+*Lembre-se que podemos modificar*
+*o valor de uma propriedade*
+*objeto.propriedade = ''*

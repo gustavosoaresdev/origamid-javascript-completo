@@ -43,3 +43,14 @@ console.log(possuiAlt); // true
 console.log(srcImg, altImg);
 
 /* ================================================================================= */
+
+const carro = {
+    portas: 4,
+    andar(km) {
+        console.log(`Carro andou ${km} km/h`);
+    }
+}
+
+console.log(carro.andar(70));
+
+// propriedades e métodos...
