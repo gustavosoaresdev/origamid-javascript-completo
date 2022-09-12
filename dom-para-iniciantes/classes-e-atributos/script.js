@@ -26,3 +26,8 @@ console.log(menu.className);
 // console.log(menu.classList);
 
 /* ================================================================================= */
+
+const animais = document.querySelector('.animais');
+console.log(animais.attributes['data-texto']);
+
+/* ================================================================================= */
