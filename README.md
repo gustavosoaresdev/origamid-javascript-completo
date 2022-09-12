@@ -101,7 +101,7 @@ Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender
 
 - [X] Foreach e Arrow function
 
-- [ ] Classes e atributos
+- [X] Classes e atributos
 
 - [ ] Dimensões e distâncias
 
