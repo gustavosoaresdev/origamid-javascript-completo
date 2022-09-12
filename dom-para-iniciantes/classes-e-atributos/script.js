@@ -31,3 +31,15 @@ const animais = document.querySelector('.animais');
 console.log(animais.attributes['data-texto']);
 
 /* ================================================================================= */
+
+const img = document.querySelector('img');
+const srcImg = img.getAttribute('src');
+const altImg = img.getAttribute('alt');
+
+img.setAttribute('alt', 'É uma raposa');
+const possuiAlt = img.hasAttribute('alt');
+
+console.log(possuiAlt); // true
+console.log(srcImg, altImg);
+
+/* ================================================================================= */
