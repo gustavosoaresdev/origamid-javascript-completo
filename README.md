@@ -103,7 +103,7 @@ Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender
 
 - [X] Classes e atributos
 
-- [ ] Dimensões e distâncias
+- [X] Dimensões e distâncias
 
 - [ ] Eventos
 
