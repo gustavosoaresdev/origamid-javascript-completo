@@ -39,3 +39,12 @@ console.log(
 );
 
 /* ================================================================================= */
+
+const small = window.matchMedia('(max-width: 600px)').matches;
+
+if (small) {
+    console.log('Usúario mobile');
+}
+else {
+    console.log('Usúario desktop');
+}
