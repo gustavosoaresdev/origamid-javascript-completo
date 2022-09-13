@@ -74,3 +74,11 @@ browser
         console.log('Tela maior que 600px')
     }
 ```
+
+## Dica
+
+* Selecione o elemento no inspetor (DOM)
+
+* Abra o console e digite $0 para selecionar o mesmo
+
+* Os elementos selecionados anteriormente são $1, $2 ...
