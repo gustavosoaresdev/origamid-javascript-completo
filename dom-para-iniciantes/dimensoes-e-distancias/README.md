@@ -3,6 +3,7 @@
 ## Height e Width
 
 Estas são propriedades e métodos dos objetos **Element** e
+
 **HTMLElement** , a maioria delas são Read Only
 
 ```js
@@ -14,6 +15,7 @@ Estas são propriedades e métodos dos objetos **Element** e
 ```
 
 *Mesma coisa para o Width,*
+
 *clientWidth...*
 
 ## offsetTop e offsetLeft
