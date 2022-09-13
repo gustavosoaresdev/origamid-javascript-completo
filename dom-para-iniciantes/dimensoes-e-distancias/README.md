@@ -23,8 +23,22 @@ Estas são propriedades e métodos dos objetos **Element** e
 
     // Distância entre o topo do elemento e o topo da página
     section.offsetTop;
-    
+
     // Distância entre o canto esquerdo do elemento
     // e o canto esquerdo da página
     section.offsetLeft;
+```
+
+## getBoundingClientRect()
+
+Método que retorna um objeto com valores de width, height,
+distâncias do elemento e mais.
+
+```js
+    const section = document.querySelector('.animais');
+    const rect = section.getBoundingClientRect();
+    
+    rect.height; // height do elemento
+    rect.width; // width do elemento
+    rect.top; // distância entre o topo do elemento e o scroll
 ```
