@@ -25,3 +25,17 @@ rect.top;
 rect.left;
 
 /* ================================================================================= */
+
+if (rect.top < 0) {
+    console.log('Passou do elemento');
+}
+
+console.log(
+    window.innerWidth,
+    window.outerWidth,
+    window.innerHeight,
+    window.outerHeight,
+    window.pageYOffset,
+);
+
+/* ================================================================================= */
