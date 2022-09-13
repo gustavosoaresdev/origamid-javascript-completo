@@ -2,8 +2,7 @@
 
 ## Height e Width
 
-Estas são propriedades e métodos dos objetos **Element** e
-
+Estas são propriedades e métodos dos objetos **Element** e <br>
 **HTMLElement** , a maioria delas são Read Only
 
 ```js
@@ -14,8 +13,7 @@ Estas são propriedades e métodos dos objetos **Element** e
     section.scrollHeight; // height total, mesmo dentro de scroll
 ```
 
-*Mesma coisa para o Width,*
-
+*Mesma coisa para o Width,* <br>
 *clientWidth...*
 
 ## offsetTop e offsetLeft
