@@ -13,7 +13,7 @@
 
 ## Variáveis
 
-Responsáveis por guardar dados na memória.
+Responsáveis por guardar dados na memória. <br>
 Inicia com a palavra **var**, **let** ou **const**
 
 ```js
@@ -44,7 +44,7 @@ Palavra chave **var** seguida do nome, sinal de igual e o valor.
 
 ## Vírgula
 
-Utilize a vírgula para criar mais de uma variável, sem repetir a
+Utilize a vírgula para criar mais de uma variável, sem repetir a <br>
 palavra chave **var**
 
 ```js
@@ -99,7 +99,7 @@ Erro ao tentar utilizar uma variável que não foi declarada.
 
 ## Hoisting
 
-São movidas para cima do código, porém o valor atribuido não é
+São movidas para cima do código, porém o valor atribuido não é <br>
 movido.
 
 ```js
@@ -114,8 +114,8 @@ movido.
 
 ## Mudar o valor atribuído
 
-É possível mudar os valores atribuídos a variáveis declaradas com
-**var** e **let**. Poré não é possível modificar valores das
+É possível mudar os valores atribuídos a variáveis declaradas com <br>
+**var** e **let**. Poré não é possível modificar valores das <br>
 declaradas com **const**
 
 ```js
@@ -132,7 +132,7 @@ declaradas com **const**
 
 ## Exercício
 
-Dica rápida, frases (string) devem ser colocadas entre aspas
+Dica rápida, frases (string) devem ser colocadas entre aspas <br>
 simples('') ou duplas("") e números não levam aspas.
 
 ```js
