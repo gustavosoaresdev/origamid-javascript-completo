@@ -110,3 +110,26 @@ que addEventListener foi adicionado.
 
 *Geralmente igual ao* <br>
 *event.currentTarget*
+
+## Diferentes Eventos
+
+Existem diversos eventos como **click**, **scroll**, **resize**, <br>
+**keydown**, **keyup**, **mouseenter** e mais. Eventos podem ser <br>
+adicionados a diferentes elementos, como o **window** e <br>
+**document** também.
+
+```js
+    const h1 = document.querySelector('h1');
+
+    function callback(event) {
+        console.log(event.type, event);
+    }
+
+    h1.addEventListener('click', callback);
+    h1.addEventListener('mouseenter', callback);
+    window.addEventListener('scroll', callback);
+    window.addEventListener('resize', callback);
+    window.addEventListener('keydown', callback);
+```
+
+*https://developer.mozilla.org/en-US/docs/Web/Events*
