@@ -38,3 +38,21 @@ função anônima
         console.log('Clicou');
     })
 ```
+
+## Event
+
+O primeiro parâmetro do callback é referente ao evento que <br>
+ocorreu.
+
+```js
+    const img = document.querySelector('img');
+
+    function callback(event) {
+        console.log(event);
+    }
+
+    img.addEventListener('click', callback);
+```
+
+*Geralmente utilizam **e** de **event*** <br>
+*como nome do parâmetro*
