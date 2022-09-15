@@ -58,7 +58,8 @@ Criação do plugin de slide.
 Sim. Foco no entendimento completo da linguagem e principais padrões de uso.
 
 #### Vai direto ao ponto?
-Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender o ponto. Eu rodo o ponto, volto o ponto e demonstro o ponto.
+Não. O objetivo do curso não é ir direto ao ponto, e sim fazer você entender o ponto. <br>
+Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 ## Professor
 
