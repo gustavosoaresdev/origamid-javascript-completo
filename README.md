@@ -106,7 +106,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Dimensões e distâncias
 
-- [ ] Eventos
+- [X] Eventos
 
 - [ ] Transversing e manipulação
 
