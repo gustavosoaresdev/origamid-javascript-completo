@@ -1,9 +1,9 @@
 const img = document.querySelector('img');
 
-img.addEventListener('click', () => {
+function callback() {
     console.log('Clicou');
-});
+}
 
-console.log(img);
+img.addEventListener('click', callback);
 
 /* ================================================================================= */

@@ -15,3 +15,26 @@ que será ativada assim que certo **evento** ocorrer neste elemento.
 ```
 
 *O terceiro parâmetro é opcional.*
+
+## Callback
+
+É boa prática separar a função de callback do addEventListener, ou <br>
+seja, declarar uma função ao invés de passar diretamente uma <br>
+função anônima
+
+```js
+    const img = document.querySelector('img');
+    function callback() {
+        console.log('Clicou');
+    }
+
+    img.addEventListener('click', callback); // 🚀
+    img.addEventListener('click', callback()); // undefined
+    img.addEventListener('click', function() {
+        console.log('Clicou');
+    })
+
+    img.addEventListener('click', () => {
+        console.log('Clicou');
+    })
+```
