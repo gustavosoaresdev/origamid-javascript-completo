@@ -21,6 +21,10 @@ dd {
     background: red;
 }
 
+html.fontSize {
+    font-size: 1.4em;
+}
+
 img {
     display: block;
     max-width: 100%;
