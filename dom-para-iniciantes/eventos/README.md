@@ -67,9 +67,25 @@ ocorreu.
         const target = event.target; // onde o clique ocorreu
         const type = event.type; // tipo de evento
         const path = event.path;
-        
+
         console.log(currentTarget, target, type, path);
     }
 
     animaisLista.addEventListener('click', executarCallback);
+```
+
+## event.preventDefault()
+
+Previne o comportamento padrão do evento no browser. No caso <br>
+de um link externo, por exemplo, irá previnir que o link seja ativado.
+
+```js
+    const linkExterno = document.querySelector('a[href^="http"]');
+
+    function clickNoLink(event) {
+        event.preventDefault();
+        console.log(event.currentTarget.href);
+    }
+
+    linkExterno.addEventListener('click', clickNoLink);
 ```
