@@ -13,6 +13,14 @@ dd {
     padding: 0;
 }
 
+.blue {
+    background: blue;
+}
+
+.red {
+    background: red;
+}
+
 img {
     display: block;
     max-width: 100%;

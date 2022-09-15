@@ -41,13 +41,29 @@ function handleEvent(event) {
     console.log(event.type, event);
 }
 
-h1.addEventListener('click', handleEvent);
-h1.addEventListener('mouseenter', handleEvent);
-h1.addEventListener('mousemove', handleEvent);
+// h1.addEventListener('click', handleEvent);
+// h1.addEventListener('mouseenter', handleEvent);
+// h1.addEventListener('mousemove', handleEvent);
 
-window.addEventListener('scroll', handleEvent);
-window.addEventListener('resize', handleEvent);
-window.addEventListener('keydown', handleEvent);
-window.addEventListener('keyup', handleEvent);
+// window.addEventListener('scroll', handleEvent);
+// window.addEventListener('resize', handleEvent);
+// window.addEventListener('keydown', handleEvent);
+// window.addEventListener('keyup', handleEvent);
+
+/* ================================================================================= */
+
+function handleKeyboard(event) {
+    if (event.key === 'b') {
+        document.body.classList.toggle('blue');
+        document.body.classList.remove('red');
+    }
+
+    else if (event.key === 'r') {
+        document.body.classList.toggle('red');
+        document.body.classList.remove('blue');
+    }
+}
+
+window.addEventListener('keydown', handleKeyboard);
 
 /* ================================================================================= */

@@ -133,3 +133,19 @@ adicionados a diferentes elementos, como o **window** e <br>
 ```
 
 *https://developer.mozilla.org/en-US/docs/Web/Events*
+
+## Keyboard
+
+Você pode adicionar atalhos para facilitar a navegação no seu site, <br>
+através de eventos do **keyboard**.
+
+```js
+    function handleKeyboard(event) {
+        if(event.key === 'a')
+            document.body.classList.toggle('azul'); 
+        else if(event.key === 'v')
+            document.body.classList.toggle('vermelho');
+    }
+
+    window.addEventListener('keydown', handleKeyboard);
+```
