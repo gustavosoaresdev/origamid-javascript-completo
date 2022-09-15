@@ -56,3 +56,20 @@ ocorreu.
 
 *Geralmente utilizam **e** de **event*** <br>
 *como nome do parâmetro*
+
+## Propriedades do Event
+
+```js
+    const animaisLista = document.querySelector('.animais-lista');
+
+    function executarCallback(event) {
+        const currentTarget = event.currentTarget; // this
+        const target = event.target; // onde o clique ocorreu
+        const type = event.type; // tipo de evento
+        const path = event.path;
+        
+        console.log(currentTarget, target, type, path);
+    }
+
+    animaisLista.addEventListener('click', executarCallback);
+```
