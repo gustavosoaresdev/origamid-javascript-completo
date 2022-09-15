@@ -89,3 +89,24 @@ de um link externo, por exemplo, irá previnir que o link seja ativado.
 
     linkExterno.addEventListener('click', clickNoLink);
 ```
+
+## this
+
+A palavra chave **this** é uma palavra especial de JavaScript, que <br>
+pode fazer referência a diferentes objetos dependendo do <br>
+contexto. No caso de eventos, ela fará referência ao elemento em <br>
+que addEventListener foi adicionado.
+
+```js
+    const img = document.querySelector('img');
+
+    function callback(event) {
+        console.log(this); // retorna a imagem
+        console.log(this.getAttribute('src'));
+    }
+
+    img.addEventListener('click', callback);
+```
+
+*Geralmente igual ao* <br>
+*event.currentTarget*
