@@ -18,7 +18,7 @@ function callbackLista(event) {
     console.log(event.type);
 }
 
-animaisLista.addEventListener('click', callbackLista);
+// animaisLista.addEventListener('click', callbackLista);
 
 /* ================================================================================= */
 
@@ -67,3 +67,13 @@ function handleKeyboard(event) {
 window.addEventListener('keydown', handleKeyboard);
 
 /* ================================================================================= */
+
+const imgs = document.querySelectorAll('img');
+
+function handleImg(event) {
+    console.log(event.target, event.target.getAttribute('src'));
+}
+
+imgs.forEach((img) => {
+    img.addEventListener('click', handleImg);
+})

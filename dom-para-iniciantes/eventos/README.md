@@ -149,3 +149,22 @@ através de eventos do **keyboard**.
 
     window.addEventListener('keydown', handleKeyboard);
 ```
+
+## forEach e Eventos
+
+O método **addEventListener** é adicionado à um único <br>
+elemento, então é necessário um loop entre elementos de uma <br>
+lista, para adicionarmos à cada um deles.
+
+```js
+    const imgs = document.querySelectorAll('img');
+
+    function imgSrc(event) {
+        const src = event.currentTarget.getAttribute('src');
+        console.log(src);
+    }
+
+    imgs.forEach((img) => {
+        img.addEventListener('click', imgSrc);
+    });
+```
