@@ -71,3 +71,18 @@ comentário, quebra de linha e mais.
     contato.removeChild(titulo); // remove titulo de contato
     contato.replaceChild(lista, titulo); // substitui titulo por lista
 ```
+
+## Novos Elementos
+
+Podemos criar novos elementos com o método
+**createElement()**
+
+```js
+    const animais = document.querySelector('.animais');
+
+    const novoH1 = document.createElement('h1');
+    novoH1.innerText = 'Novo Título';
+    novoH1.classList.add('titulo');
+
+    animais.appendChild(novoH1);
+```

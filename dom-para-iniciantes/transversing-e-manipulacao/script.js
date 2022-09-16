@@ -31,7 +31,15 @@ const animais = document.querySelector('.animais'),
 
 // animais.appendChild(titulo);
 // contato.insertBefore(animais, mapa);
-contato.removeChild(titulo);
-contato.replaceChild(mapa, titulo);
+// contato.removeChild(titulo);
+// contato.replaceChild(mapa, titulo);
+
+/* ================================================================================= */
+
+const novoH1 = document.createElement('h1');
+novoH1.innerText = 'Novo titulo';
+novoH1.classList.add('titulo');
+
+mapa.appendChild(novoH1);
 
 /* ================================================================================= */
