@@ -32,7 +32,27 @@ Como navegar pelo DOM, utilizando suas propriedades e métodos.
     lista.children; // HTMLCollection com os filhos
     lista.children[0]; // primeiro filho
     lista.children[--lista.children.length]; // último filho
-    
+
     lista.querySelectorAll('li'); // todas as LI's
     lista.querySelector('li:last-child'); // último filho
 ```
+
+## Element vs Node
+
+Element's represetam um elemento html, ou seja, uma tag. Node <br>
+representa um nó, e pode ser um elemento (Element), texto, <br>
+comentário, quebra de linha e mais.
+
+```js
+    const lista = document.querySelector('.animais-lista');
+
+    lista.previousElementSibling; // elemento acima
+    lista.previousSibling; // node acima
+
+    lista.firstChild; // primeiro node child
+    lista.childNodes; // todos os node child
+```
+
+*Geralmente estamos atrás de um* <br>
+*elemento e não de qualquer node* <br>
+*em si.*
