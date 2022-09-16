@@ -106,3 +106,15 @@ elemento baseado no anterior, é necessário utilizar o método <br>
 
 **true** *sinaliza para incluir os* <br>
 *filhos*
+
+## Exercício
+
+```js
+    // Duplique o menu e adicione ele em copy
+
+    // Selecione o primeiro DT da dl de Faq
+
+    // Selecione o DD referente ao primeiro DT
+    
+    // Substitua o conteúdo html de .faq pelo de .animais
+```
