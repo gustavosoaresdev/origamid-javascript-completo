@@ -74,7 +74,7 @@ comentário, quebra de linha e mais.
 
 ## Novos Elementos
 
-Podemos criar novos elementos com o método
+Podemos criar novos elementos com o método <br>
 **createElement()**
 
 ```js
@@ -86,3 +86,23 @@ Podemos criar novos elementos com o método
 
     animais.appendChild(novoH1);
 ```
+
+## Clonar Elementos
+
+Todo elemento selecionado é único. Para criarmos um novo <br>
+elemento baseado no anterior, é necessário utilizar o método <br>
+**cloneNode()**
+
+```js
+    const titulo = document.querySelector('h1');
+    const titulo2 = document.querySelector('h1');
+    const novoTitulo = titulo;
+    // titulo, titulo2 e novoTitulo são iguais
+
+    const cloneTitulo = titulo.cloneNode(true);
+    const contato = document.querySelector('.contato');
+    contato.appendChild(cloneTitulo);
+```
+
+**true** *sinaliza para incluir os* <br>
+*filhos*

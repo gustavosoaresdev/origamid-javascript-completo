@@ -1,4 +1,4 @@
-const h1 = document.querySelector('h1');
+// const h1 = document.querySelector('h1');
 const animaisDescricao = document.querySelector('.animais-descricao');
 
 // console.log(h1.innerHTML);
@@ -43,3 +43,13 @@ novoH1.classList.add('titulo');
 mapa.appendChild(novoH1);
 
 /* ================================================================================= */
+
+const h1 = document.querySelector('h1'),
+    faq = document.querySelector('.faq');
+
+const cloneH1 = h1.cloneNode(true);
+cloneH1.classList.add('blue');
+
+faq.appendChild(cloneH1);
+
+/* modifica apenas o clone, e não o principal. */
