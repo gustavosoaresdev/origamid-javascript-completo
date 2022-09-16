@@ -108,7 +108,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Eventos
 
-- [ ] Transversing e manipulação
+- [X] Transversing e manipulação
 
 - [ ] Navegação por tabs
 
