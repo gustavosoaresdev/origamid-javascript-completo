@@ -23,3 +23,15 @@ console.log(animaisLista.childNodes);
 incluindo espaços e comentários. */
 
 /* ================================================================================= */
+
+const animais = document.querySelector('.animais'),
+    contato = document.querySelector('.contato'),
+    titulo = contato.querySelector('.titulo'),
+    mapa = document.querySelector('.mapa');
+
+// animais.appendChild(titulo);
+// contato.insertBefore(animais, mapa);
+contato.removeChild(titulo);
+contato.replaceChild(mapa, titulo);
+
+/* ================================================================================= */
