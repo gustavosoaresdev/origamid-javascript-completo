@@ -78,3 +78,21 @@ Animação simples com css, sai de display none para display block.
         }
     }
 ```
+
+## Assim que carregar a página
+
+Adicionar a classe ativo ao primeiro elemento e adicionar a classe <br>
+js ao html. Assim identificamos se o JavaScript está habilitado ou não.
+
+```html
+    <!-- No head do browser -->
+    <script>document.documentElement.className += ' js'</script>
+```
+
+```js
+    // Verificar se existe elemento em tabContent e tabMenu
+    if(tabContent.length && tabMenu.length) {
+        tabContent[0].classList.add('ativo');
+        ...
+    }
+```
