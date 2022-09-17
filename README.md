@@ -110,7 +110,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Transversing e manipulação
 
-- [ ] Navegação por tabs
+- [X] Navegação por tabs
 
 - [ ] Accordion List
 
