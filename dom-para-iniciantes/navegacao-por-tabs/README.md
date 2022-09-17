@@ -23,3 +23,18 @@ um conteúdo relacionado ao mesmo.
     const tabMenu = document.querySelectorAll('.js-tabmenu li');
     const tabContent = document.querySelectorAll('.js-tabcontent section');
 ```
+
+## Função Callback
+
+Recebe index como parâmetro para ativar a tab. Sempre que ativar, <br>
+remove a classe ativo de todos os outros elementos.
+
+```js
+    function activeTab(index) {
+        tabContent.forEach((content) => {
+            content.classList.remove('ativo');
+        });
+
+        tabContent[index].classList.add('ativo');
+    }
+```
