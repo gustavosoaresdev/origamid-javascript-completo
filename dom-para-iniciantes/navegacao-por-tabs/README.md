@@ -38,3 +38,16 @@ remove a classe ativo de todos os outros elementos.
         tabContent[index].classList.add('ativo');
     }
 ```
+
+## Adicionar o Evento
+
+Neste caso precisamos passar antes a fução anônima no callback, <br>
+para podermos passar o index como argumento de activeTab
+
+```js
+    tabMenu.forEach((itemMenu, index) => {
+        itemMenu.addEventListener('click', () => {
+            activeTab(index);
+        });
+    });
+```
