@@ -51,3 +51,30 @@ para podermos passar o index como argumento de activeTab
         });
     });
 ```
+
+## Animação com CSS
+
+Animação simples com css, sai de display none para display block.
+
+```css
+    .js .js-tabcontent section {
+        display: none;
+    }
+
+    .js-tabcontent section.ativo {
+        display: block !important;
+        animation: show .5s forwards;
+    }
+
+    @keyframes show {
+        from {
+            opacity: 0;
+            transform: translate3d(-30px, 0, 0);
+        }
+
+        to {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+```
