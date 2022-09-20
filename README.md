@@ -112,7 +112,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Navegação por tabs
 
-- [ ] Accordion List
+- [X] Accordion List
 
 - [ ] Scroll suave nos links internos
 
