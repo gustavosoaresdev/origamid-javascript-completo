@@ -22,3 +22,5 @@ function initTabNav() {
 }
 
 initTabNav();
+
+const accordionList = document.querySelectorAll('.js-accordion dt');
