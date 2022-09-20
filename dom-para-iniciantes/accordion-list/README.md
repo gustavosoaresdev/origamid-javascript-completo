@@ -33,3 +33,40 @@ mostrando o conteudo.
         item.addEventListener('click', activeAccordion);
     })
 ```
+
+## Animação com CSS
+
+Animação simples com css, sai de display none para display block, <br>
+com uma flecha indo de baixo para cima ao clicar na **DT**.
+
+```css
+    .js .js-accordion dd {
+        display: none;
+    }
+
+    .js-accordion dt::after {
+        content: '\2BC6';
+        margin-left: 10px;
+    }
+
+    .js-accordion dt.ativo::after {
+        content: '\2BC5';
+    }
+
+    .js-accordion dd.ativo {
+        display: block;
+        animation: slideDown .5s forwards;
+    }
+
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            max-height: 0;
+        }
+
+        to {
+            opacity: 1;
+            max-height: 300px;
+        }
+    }
+```
