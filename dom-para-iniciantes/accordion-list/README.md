@@ -20,3 +20,16 @@ mostrando o conteudo.
 ```js
     const accordionList = document.querySelectorAll('.js-accordion dt');
 ```
+
+## Adicionar classe **ativo** a cada DT e DD ao click
+
+```js
+    function activeAccordion() {
+        this.classList.toggle('ativo');
+        this.nextElementSibling.classList.toggle('ativo');
+    }
+
+    accordionList.forEach((item) => {
+        item.addEventListener('click', activeAccordion);
+    })
+```
