@@ -14,3 +14,9 @@ mostrando o conteudo.
         ...
     </dl>
 ```
+
+## Selecionar cada DT
+
+```js
+    const accordionList = document.querySelectorAll('.js-accordion dt');
+```
