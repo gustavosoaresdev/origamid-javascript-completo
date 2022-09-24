@@ -65,6 +65,6 @@ Com o método **window.scrollTo()** e **Element.scrollIntoView()**
     }
 ```
 
-*Caso você queira ver melhor:* <br>
+*Caso você queira saber mais:* <br>
 [Window.ScrollTo()](https://developer.mozilla.org/pt-BR/docs/Web/API/Window/scrollTo) <br>
 [Element.scrollIntoView()](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/scrollIntoView)
