@@ -51,6 +51,10 @@ function scrollToSection(event) {
 
     const href = event.currentTarget.getAttribute('href');
     const section = document.querySelector(href);
+    section.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+    })
 }
 
 linksInternos.forEach((linkInterno) => {
