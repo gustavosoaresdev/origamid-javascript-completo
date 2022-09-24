@@ -12,3 +12,9 @@ ele clicou.
         ...
     </nav>
 ```
+
+## Selecionar os Links Internos
+
+```js
+    const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
+```
