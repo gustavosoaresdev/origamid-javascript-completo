@@ -26,3 +26,14 @@ ele clicou.
         item.addEventListener('click', scrollToSection);
     })
 ```
+
+## Chamar section especifica pela ID ao click de cada Link Interno
+
+```js
+    function scrollToSection(event) {
+        event.preventDefault();
+
+        const href = event.currentTarget.getAttribute('href');
+        const section = document.querySelector(href);
+    }
+```

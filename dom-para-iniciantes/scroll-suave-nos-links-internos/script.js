@@ -48,7 +48,6 @@ const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 
 function scrollToSection(event) {
     event.preventDefault();
-    console.log('Está funcionando?!');
 }
 
 linksInternos.forEach((linkInterno) => {
