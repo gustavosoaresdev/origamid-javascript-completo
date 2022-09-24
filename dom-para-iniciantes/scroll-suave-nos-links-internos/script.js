@@ -43,3 +43,5 @@ function initAccordionList() {
 }
 
 initAccordionList();
+
+const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
