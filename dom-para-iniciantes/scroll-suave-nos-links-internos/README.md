@@ -7,7 +7,7 @@ dos Links **Internos** do site, rolar suavemente até o link que <br>
 ele clicou.
 
 ```html
-    <!-- Primeiro, adicionar a classe js-menu a nav -->
+    <!-- Primeiro, adicionar a classe js-menu ao nav -->
     <nav class="menu js-menu">
         ...
     </nav>
