@@ -114,7 +114,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Accordion List
 
-- [ ] Scroll suave nos links internos
+- [X] Scroll suave nos links internos
 
 - [ ] Animação ao scroll
 
