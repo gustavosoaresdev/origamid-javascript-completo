@@ -18,3 +18,11 @@ ele clicou.
 ```js
     const linksInternos = document.querySelectorAll('.js-menu a[href^="#"]');
 ```
+
+## Adicionar evento a cada Link Interno
+
+```js
+    linksInternos.forEach((item) => {
+        item.addEventListener('click', scrollToSection);
+    })
+```
