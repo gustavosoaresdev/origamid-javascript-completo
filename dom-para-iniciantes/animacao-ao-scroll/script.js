@@ -71,7 +71,7 @@ initScrollSuave();
 const sections = document.querySelectorAll('.js-scroll');
 
 function animaScroll() {
-    console.log('Está funcionando?!');
+
 }
 
 window.addEventListener('scroll', animaScroll);

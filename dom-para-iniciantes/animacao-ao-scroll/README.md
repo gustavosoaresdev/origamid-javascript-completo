@@ -36,3 +36,25 @@ Lembrando que o evento de **scroll** é no **window**.
 
     window.addEventListener('scroll', animaScroll);
 ```
+
+## Verificar cada elemento (section) em relação ao topo
+
+Ao verificar se cada elemento (section) for menor <br>
+do que 0 em relação ao topo, adicionar a classe **ativo** <br>
+a section.
+
+```js
+    function animaScroll() {
+        sections.forEach((item) => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if(sectionTop < 0) {
+                item.classList.add('ativo');
+            }
+        })
+    }
+```
+
+*Primeiro, tem que saber* <br>
+*que distância que cada* <br>
+*elemento (section) está* <br>
+*do topo.*
