@@ -24,3 +24,15 @@ com que não fica uma coisa muito seca...
 ```js
     const sections = document.querySelectorAll('.js-scroll');
 ```
+
+## Adicionar evento Scroll
+
+Lembrando que o evento de **scroll** é no **window**.
+
+```js
+    function animaScroll() {
+        // código...
+    }
+
+    window.addEventListener('scroll', animaScroll);
+```
