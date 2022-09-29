@@ -18,3 +18,9 @@ com que não fica uma coisa muito seca...
         ...
     <section>
 ```
+
+## Selecionar todas as sections que possui a classe (js-scroll)
+
+```js
+    const sections = document.querySelectorAll('.js-scroll');
+```
