@@ -116,7 +116,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Scroll suave nos links internos
 
-- [ ] Animação ao scroll
+- [X] Animação ao scroll
 
 - [ ] Constructor Function
 
