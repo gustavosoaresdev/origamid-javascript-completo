@@ -1,0 +1,20 @@
+# Animação ao Scroll
+
+## Adicionar classes para manipulação
+
+A ideia da animação ao scroll, é quando o usuário rolar para baixo, <br>
+fazer com que as **sections** apareça lentamente. Assim fazendo <br>
+com que não fica uma coisa muito seca...
+
+```html
+    <!-- Primeiro, adicionar a classe js-scroll a todas as sections -->
+    <section class="grid-section animais js-scroll" id="animais">
+        ...
+    <section>
+    <section class="grid-section faq js-scroll" id="faq">
+        ...
+    <section>
+    <section class="grid-section contato js-scroll" id="contato">
+        ...
+    <section>
+```
