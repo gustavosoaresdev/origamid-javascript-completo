@@ -46,7 +46,7 @@ a section.
 ```js
     function animaScroll() {
         sections.forEach((item) => {
-            const sectionTop = section.getBoundingClientRect().top;
+            const sectionTop = item.getBoundingClientRect().top;
             if(sectionTop < 0) {
                 item.classList.add('ativo');
             }
