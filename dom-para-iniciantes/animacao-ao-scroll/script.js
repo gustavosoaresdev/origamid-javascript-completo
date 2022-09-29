@@ -67,3 +67,5 @@ function initScrollSuave() {
 }
 
 initScrollSuave();
+
+const sections = document.querySelectorAll('.js-scroll');
