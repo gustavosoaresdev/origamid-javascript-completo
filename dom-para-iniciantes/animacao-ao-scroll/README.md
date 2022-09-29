@@ -58,3 +58,18 @@ a section.
 *que distância que cada* <br>
 *elemento (section) está* <br>
 *do topo.*
+
+## Animação com CSS
+
+```css
+    .js .js-scroll {
+        opacity: 0;
+        transform: translate3d(-30px, 0, 0);
+    }
+
+    .js .js-scroll.ativo {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+        transition: .3s;
+    }
+```
