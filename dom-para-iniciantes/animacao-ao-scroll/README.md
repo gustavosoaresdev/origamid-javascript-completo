@@ -73,3 +73,18 @@ a section.
         transition: .3s;
     }
 ```
+
+## Fazer com que a animação só ocorra quando o usuário ultrapassar 0.6 do tamanho da tela dele
+
+```js
+    const windowMetade = window.innerHeight * 0.6;
+
+    function animaScroll() {
+        sections.forEach((item) => {
+            const sectionTop = item.getBoundingClientRect().top - windowMetade;
+            if (sectionTop < 0) {
+                item.classList.add('ativo');
+            }
+        })
+    }   
+```
