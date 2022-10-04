@@ -48,3 +48,31 @@ sempre que chamamos a mesma.
 
 *Usar Pascal Case, ou seja,* <br>
 *começar com letra maiúscula.*
+
+## new Keyword
+
+A palavra chave **new** é responsável por criar um novo objeto <br>
+baseado na função que passarmos a frente dela.
+
+```js
+    const honda = new Carro();
+
+    // 1º Cria um novo objeto
+    honda = {};
+
+    // 2º Define o protótipo
+    honda.prototype = Carro.prototype;
+
+    // 3º Aponta a variável this para o objeto
+    this = honda;
+
+    // 4º Executa a função, substituindo this pelo objeto
+    honda.marca = 'Marca';
+    honda.preco = 0;
+
+    // 5º Retorna o novo objeto
+    return honda = {
+        marca: 'Marca',
+        preco: 0,
+    }
+```
