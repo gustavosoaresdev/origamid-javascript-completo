@@ -118,7 +118,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Animação ao scroll
 
-- [ ] Constructor Function
+- [X] Constructor Functions
 
 - [ ] Prototype
 
