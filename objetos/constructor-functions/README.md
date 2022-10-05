@@ -91,3 +91,24 @@ criação do objeto.
     const honda = new Carro('Honda', 3000);
     const fiat = new Carro('Fiat', 4000);
 ```
+
+## this Keyword
+
+O **this** faz referência ao próprio objeto construído com a <br>
+Constructor Function.
+
+```js
+    function Carro(marca, precoInicial) {
+        const taxa = 1.2;
+        const precoFinal = precoInicial * taxa;
+        this.marca = marca;
+        this.preco = precoFinal;
+
+        console.log(this);
+    }
+
+    const honda = new Carro('Honda', 2000);
+```
+
+*Variáveis dentro da Constructor* <br>
+*estão "protegidas".*
