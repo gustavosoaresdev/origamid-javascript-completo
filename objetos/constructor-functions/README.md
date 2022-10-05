@@ -112,3 +112,24 @@ Constructor Function.
 
 *Variáveis dentro da Constructor* <br>
 *estão "protegidas".*
+
+## Exemplo Real
+
+Quando mudamos a propriedade seletor, o objeto Dom irá passar a <br>
+selecionar o novo seletor em seus métodos.
+
+```js
+    const Dom = {
+        seletor: 'li',
+        element() {
+            return document.querySelector(this.seletor);
+        },
+        ativo() {
+            this.element().classList.add('ativo');
+        },
+    }
+
+    Dom.ativo(); // adiciona ativo ao li
+    Dom.seletor = 'ul';
+    Dom.ativo(); // adiciona ativo ao ul
+```
