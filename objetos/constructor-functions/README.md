@@ -76,3 +76,18 @@ baseado na função que passarmos a frente dela.
         preco: 0,
     }
 ```
+
+## Parâmetros e Argumentos
+
+Podemos passar argumentos que serão utilizados no momento da <br>
+criação do objeto.
+
+```js
+    function Carro(marca, preco) {
+        this.marca = marca;
+        this.preco = preco;
+    }
+
+    const honda = new Carro('Honda', 3000);
+    const fiat = new Carro('Fiat', 4000);
+```
