@@ -151,8 +151,24 @@ outro objeto criado com a mesma Constructor.
     const lista = new Dom();
     lista.seletor = 'ul';
     lista.ativo();
-    
+
     const lastLi = new Dom();
     lastLi.seletor = 'li:last-child';
     lastLi.ativo();
+```
+
+## Lembre-se de usar parâmetros
+
+```js
+    function Dom(seletor) {
+        const element = document.querySelector(seletor);
+        this.ativo = function(classe) {
+            element.classList.add(classe);
+        };
+    }
+
+    const lista = new Dom('ul');
+    const lastLi = new Dom('li:last-child');
+    lista.ativo('ativo');
+    lastLi.ativo('ativo');
 ```

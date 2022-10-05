@@ -8,19 +8,17 @@
 //     }
 // }
 
-function Dom() {
-    this.seletor = 'li';
+function Dom(seletor) {
     this.element = function () {
-        return document.querySelector(this.seletor);
+        return document.querySelector(seletor);
     }
-    this.ativar = function () {
-        this.element().classList.add('ativo');
+    this.ativar = function (classe) {
+        this.element().classList.add(classe);
     }
 }
 
-const li = new Dom();
-li.ativar();
+const li = new Dom('li');
+li.ativar('ativoLI');
 
-const ul = new Dom();
-ul.seletor = 'ul';
-ul.ativar();
+const ul = new Dom('ul');
+ul.ativar('ativoUL');
