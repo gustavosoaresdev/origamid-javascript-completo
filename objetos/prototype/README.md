@@ -63,3 +63,17 @@ busca, não devemos falar com **__proto__** diretamente.
 
 *Nunca vamos acessar o* <br>
 *protótipo assim*
+
+## Herança de Protótipo
+
+O objeto possui acesso aos métodos e propriedades do protótipo <br>
+do construtor responsável por criar este objeto. O objeto abaixo <br>
+possui acesso a métodos que nunca definimos, mas são herdados <br>
+do protótipo de Object.
+
+```js
+    Object.prototype;
+    gustavo.toString();
+    gustavo.isPrototypeOf();
+    gustavo.valueOf();
+```
