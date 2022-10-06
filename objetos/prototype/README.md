@@ -15,3 +15,19 @@ quando a mesma é criada.
     console.log(Pessoa.prototype); // retorna o objeto
     console.log(gustavo.prototype); // undefined
 ```
+
+## funcao.prototype
+
+É possível adicionar novas propriedades e métodos ao objeto <br>
+prototype.
+
+```js
+    Pessoa.prototype.andar = function() {
+        return this.nome + ' andou';
+    }
+    Pessoa.prototype.nadar = function() {
+        return this.nome + ' nadou';
+    }
+
+    console.log(Pessoa.prototype); // retorna o objeto
+```
