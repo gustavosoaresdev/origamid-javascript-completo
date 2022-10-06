@@ -46,3 +46,20 @@ prototype é uma propriedade de funções apenas.
     gustavo.andar();
     gustavo.nadar();
 ```
+
+## proto
+
+O novo objeto acessa os métodos e propriedades do protótipo <br>
+através da propriedade **__proto__**. É papel da engine fazer essa <br>
+busca, não devemos falar com **__proto__** diretamente.
+
+```js
+    // Acessam o mesmo método
+    // mas __proto__ não terá
+    // acesso ao this.nome
+    gustavo.andar();
+    gustavo.__proto__.andar();
+```
+
+*Nunca vamos acessar o* <br>
+*protótipo assim*
