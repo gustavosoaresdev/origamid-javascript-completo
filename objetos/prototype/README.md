@@ -31,3 +31,18 @@ prototype.
 
     console.log(Pessoa.prototype); // retorna o objeto
 ```
+
+## Acesso ao Protótipo
+
+O objeto criado utilizando o construtor, possui acesso aos métodos <br>
+e propriedades do protótipo deste construtor. Lembrando, <br>
+prototype é uma propriedade de funções apenas.
+
+```js
+    const gustavo = new Pessoa('Gustavo', 20);
+
+    gustavo.nome;
+    gustavo.idade;
+    gustavo.andar();
+    gustavo.nadar();
+```
