@@ -108,3 +108,20 @@ funções do protótipo do construtor Array.
 ```
 
 *Existe o método Array.from()*
+
+## Método direto do Objeto vs Método do Protótipo
+
+Nos objetos nativos existem métodos linkados diretamente ao <br>
+Objeto e outros linkados ao protótipo.
+
+```js
+    Array.prototype.slice.call(lista);
+    Array.from(lista);
+
+    // Retorna uma lista com os métodos / propriedades
+    Object.getOwnPropertyNames(Array);
+    Object.getOwnPropertyNames(Array.prototype);
+```
+
+*__dado.constructor.name__, retorna* <br>
+*o nome do construtor;*

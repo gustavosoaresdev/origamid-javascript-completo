@@ -38,4 +38,7 @@ console.log(cidade.toUpperCase());
 const listaAnimais = ['Cachorro', 'Gato', 'Cavalo'];
 
 const lista = document.querySelectorAll('li');
-const listaArray = Array.prototype.slice.call(lista);
+const listaArray1 = Array.prototype.slice.call(lista);
+const listaArray2 = Array.from(lista);
+
+console.log(Object.getOwnPropertyNames(Pessoa.prototype));
