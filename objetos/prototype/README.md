@@ -132,3 +132,28 @@ Objeto e outros linkados ao protótipo.
     [1,2,3].slice(); // existe
     [1,2,3].from(); // não existe
 ```
+
+## Entenda o Que está Sendo Retornado
+
+Os métodos e propriedades acessado com o **.** são referentes ao <br>
+tipo de dados que é retornado antes desse **.**
+
+```js
+    const Carro = {
+        marca: 'Ford',
+        preco: 2000,
+        acelerar() {
+            return true;
+        }
+    }
+
+    Carro // Object
+    Carro.marca // String
+    Carro.preco // Number
+    Carro.acelerar // Function
+    Carro.acelerar() // Boolean
+    Carro.marca.charAt // Function
+    Carro.marca.charAt(0) // String
+```
+
+*Verifique o nome do construtor*

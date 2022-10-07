@@ -42,3 +42,29 @@ const listaArray1 = Array.prototype.slice.call(lista);
 const listaArray2 = Array.from(lista);
 
 console.log(Object.getOwnPropertyNames(Pessoa.prototype));
+
+/* ================================================================================= */
+
+const carro = {
+    marca: 'Ford',
+    preco: 2000,
+    andar() {
+        return true;
+    }
+}
+
+/* carro.marca não é um objeto, é uma string. não importa o que vem antes
+do (.) o que importa, é o que retorna por último! então você sempre terá
+propriedades e métodos daquilo que retornar por último. se carro.marca
+retornou uma string, então você terá propriedades e métodos de uma string,
+e por ai vai... */
+
+/* um exemplo, carro.andar() é uma função, quer dizer que ela possui
+propriedades e métodos de uma função? NÂO! porquê o que está RETORNANDO
+dentro dela, é um valor booleano! quando abrimos parênteses em uma função,
+estamos executando ela, e ela vai retornar o que tem dentro dela, agora,
+se não abrimos os parênteses ai sim ela terá propriedades e métodos de
+uma função. */
+
+/* NÂO IMPORTA O QUE A PROPRIEDADE OU MÉTODO SEJA, O QUE IMPORTA É O QUE
+VAI RETORNAR DELA! SEMPRE!!! */
