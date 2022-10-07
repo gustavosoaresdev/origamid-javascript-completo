@@ -125,3 +125,10 @@ Objeto e outros linkados ao protótipo.
 
 *__dado.constructor.name__, retorna* <br>
 *o nome do construtor;*
+
+## Apenas os Métodos do Protótipo são Herdados
+
+```js
+    [1,2,3].slice(); // existe
+    [1,2,3].from(); // não existe
+```
