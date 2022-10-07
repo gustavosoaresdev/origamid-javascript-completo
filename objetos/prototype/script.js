@@ -27,3 +27,8 @@ da função, basta você usar assim: */
 // nomeDaFuncao.prototype.metodo();
 
 /* ================================================================================= */
+
+const pais = 'Brasil';
+const cidade = new String('RS');
+
+console.log(cidade.toUpperCase());

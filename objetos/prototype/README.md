@@ -77,3 +77,20 @@ do protótipo de Object.
     gustavo.isPrototypeOf();
     gustavo.valueOf();
 ```
+
+## Construtores Nativos
+
+Objetos, Funções, Números, Strings e outros tipos de dados são <br>
+criados utilizando construtores. Esses construtores possuem um <br>
+protótipo com propriedades e métodos, que poderão ser <br>
+acessadas pelo tipo de dado.
+
+```js
+    const pais = 'Brasil';
+    const cidade = new String('RS');
+
+    pais.charAt(0); // B
+    cidade.charAt(0); // R
+
+    String.prototype;
+```
