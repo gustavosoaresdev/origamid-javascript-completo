@@ -120,7 +120,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Constructor Functions
 
-- [ ] Prototype
+- [X] Prototype
 
 - [ ] Native, host e user
 
