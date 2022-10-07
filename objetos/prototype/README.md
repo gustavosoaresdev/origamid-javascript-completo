@@ -94,3 +94,17 @@ acessadas pelo tipo de dado.
 
     String.prototype;
 ```
+
+## É possível acessar a função do protótipo
+
+É comum, principalmente em códigos mais antigos, o uso direto de <br>
+funções do protótipo do construtor Array.
+
+```js
+    const lista = document.querySelectorAll('li');
+
+    // Transforma em uma array
+    const listaArray = Array.prototype.slice.call(lista);
+```
+
+*Existe o método Array.from()*

@@ -32,3 +32,10 @@ const pais = 'Brasil';
 const cidade = new String('RS');
 
 console.log(cidade.toUpperCase());
+
+/* ================================================================================= */
+
+const listaAnimais = ['Cachorro', 'Gato', 'Cavalo'];
+
+const lista = document.querySelectorAll('li');
+const listaArray = Array.prototype.slice.call(lista);
