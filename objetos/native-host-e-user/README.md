@@ -26,3 +26,15 @@ são diferentes, já que não estamos em um ambiente do browser.
     HTMLCollection
     Element
 ```
+
+## User
+
+Objetos do user, são os objetos definidos pelo seu aplicativo. Ou <br>
+seja, qualquer objeto que você criar ou que importar de alguma <br>
+biblioteca externa.
+
+```js
+    const Pessoa = {
+        nome: 'Gustavo';
+    }
+```
