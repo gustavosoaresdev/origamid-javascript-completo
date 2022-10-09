@@ -68,3 +68,16 @@ ES6, existe uma tendência anual de atualizações. ECMAScript 2015, 2016, <br>
 - ### Engine
 Existem diversas engines que implementam o ECMAScript como V8, <br>
 SpiderMonkey, Chakra, JavaScriptCore e mais.
+
+## Bibliotecas
+
+Bibliotecas como jQuery foram criadas para resolver o problema de <br>
+inconsistências entre browsers e adicionar funcionalidades que <br>
+não existiam nativamente. A padronização dos browsers e a <br>
+implementação de soluções nativas, torna as mesmas obsoletas.
+
+```js
+    $('a').addClass('ativo');
+    $('a').hide();
+    $('a').show();
+```
