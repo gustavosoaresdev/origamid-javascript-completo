@@ -53,6 +53,8 @@ podem ser implementados.
 Por exemplo, browsers que não implementaram o ECMAScript 2015 (ES6), <br>
 não possuem o método find de Array.
 
+<hr>
+
 ## Versões de JavaScript
 
 - ### ECMA
