@@ -38,3 +38,17 @@ biblioteca externa.
         nome: 'Gustavo';
     }
 ```
+
+## Diferentes versões
+
+### Browsers diferentes
+Apesar de tentarem ao máximo manter um padrão, browsers diferentes <br>
+possuem objetos com propriedades e métodos diferentes.
+
+### Versões de browsers
+Sempre que o browser é atualizado, novos objetos, métodos e propriedades <br>
+podem ser implementados.
+
+### Host e Native Objects
+Por exemplo, browsers que não implementaram o ECMAScript 2015 (ES6), <br>
+não possuem o método find de Array.
