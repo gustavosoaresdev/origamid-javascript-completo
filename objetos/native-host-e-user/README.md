@@ -52,3 +52,19 @@ podem ser implementados.
 - ### Host e Native Objects
 Por exemplo, browsers que não implementaram o ECMAScript 2015 (ES6), <br>
 não possuem o método find de Array.
+
+## Versões de JavaScript
+
+- ### ECMA
+Organização responsável por definir padrões para tecnologias. ECMAScript é <br>
+o padrão de JavaScript.
+
+- ### ECMAScript 2015 ou ES6
+ES é uma abreviação de ECMAScript, ES6 é a sexta versão do ECMAScript, <br>
+que foi lançada em 2015. Por isso ECMAScript 2015 é igual a ES6. A partir da <br>
+ES6, existe uma tendência anual de atualizações. ECMAScript 2015, 2016, <br>
+2017, 2018 e Next.
+
+- ### Engine
+Existem diversas engines que implementam o ECMAScript como V8, <br>
+SpiderMonkey, Chakra, JavaScriptCore e mais.
