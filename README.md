@@ -122,7 +122,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Prototype
 
-- [ ] Native, host e user
+- [X] Native, host e user
 
 - [ ] String
 
