@@ -81,3 +81,14 @@ implementação de soluções nativas, torna as mesmas obsoletas.
     $('a').hide();
     $('a').show();
 ```
+
+## Verificar se existe
+
+O typeof retorna o tipo de dado. Caso esse dado não exista ou não <br>
+tenha sido definido, ele irá retornar undefined. Ou seja, quando não <br>
+for undefined quer dizer que existe.
+
+```js
+    if (typeof Array.from !== "undefined")
+    if (typeof NodeList !== "undefined");
+```
