@@ -93,12 +93,14 @@ for undefined quer dizer que existe.
     if (typeof NodeList !== "undefined");
 ```
 
-<div align="center">
-    <h1>API</h1>
-    <p>
-        Application Programming Interface, é uma interface de software criada <br>
-        para a interação com outros softwares. Ou seja, toda interação que <br>
-        fazemos com o browser utilizando Objetos, Métodos e Propriedades, <br>
-        estamos na verdade interagindo com a API do browser.
-    </p>
-</div>
+```html
+    <div align="center">
+        <h1>API</h1>
+        <p>
+            Application Programming Interface, é uma interface de software criada <br>
+            para a interação com outros softwares. Ou seja, toda interação que <br>
+            fazemos com o browser utilizando Objetos, Métodos e Propriedades, <br>
+            estamos na verdade interagindo com a API do browser.
+        </p>
+    </div>
+```
