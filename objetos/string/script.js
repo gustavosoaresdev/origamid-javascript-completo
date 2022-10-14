@@ -7,10 +7,20 @@ console.log(comida.length); // 5
 
 /* OBS: espaços também conta! */
 
-const frase = 'A melhor comida';
+// const frase = 'A melhor comida';
 
-console.log(frase.length); // 15
-console.log(frase[frase.length - 1]); // a
-console.log(frase.charAt(frase.length - 1)); // a
+// console.log(frase.length); // 15
+// console.log(frase[frase.length - 1]); // a
+// console.log(frase.charAt(frase.length - 1)); // a
+
+/* ================================================================================= */
+
+const frase = 'A melhor linguagem é ';
+const linguagem = 'JavaScript';
+
+const fraseFinal = frase + linguagem;
+// OU
+const fraseFinal2 = frase.concat(linguagem, '!! ', 'Pode concatenar quantas quiser...');
+console.log(fraseFinal2);
 
 /* ================================================================================= */

@@ -33,8 +33,19 @@ Retorna o caracter de acordo com o index de (n).
 
 ```js
     const linguagem = 'JavaScript';
-    
+
     linguagem.charAt(0); // J
     linguagem.charAt(2); // v
     linguagem.charAt(linguagem.length - 1); // t
+```
+
+## str.concat(str2, str3, ...)
+
+Concatena as strings e retorna o resultado.
+
+```js
+   const frase = 'A melhor linguagem é ';
+   const linguagem = 'JavaScript';
+
+   const fraseCompleta = frase.concat(linguagem, '!!');
 ```
