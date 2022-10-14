@@ -30,5 +30,11 @@ const listaFrutas = 'Melancia, Banana, Laranja';
 
 console.log(fruta.includes(listaFrutas)); // false
 console.log(listaFrutas.includes(fruta)); // true
+console.log(fruta.startsWith('Ba')); // true
+console.log(fruta.startsWith('ba')); // false
+console.log(fruta.endsWith('nas')); // false
+console.log(fruta.endsWith('na')); // true
+
+/* Lembrando que é (case sensitive). */
 
 /* ================================================================================= */

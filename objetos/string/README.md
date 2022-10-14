@@ -58,7 +58,20 @@ case sensitive.
 ```js
     const fruta = 'Banana';
     const listaFrutas = 'Melancia, Banana, Laranja';
-    
+
     listaFrutas.includes(fruta); // true
     fruta.includes(listaFrutas); // false
+```
+
+## str.startsWith(search) e str.endsWith(search)
+
+str.startsWith(search) começa com...
+str.endsWith(search) termina com...
+
+```js
+    const fruta = 'Banana';
+    
+    fruta.endsWith('nana'); // true
+    fruta.startsWith('Ba'); // true
+    fruta.startsWith('na'); // false
 ```
