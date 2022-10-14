@@ -88,8 +88,22 @@ Corta a string de acordo com os valores de start e end.
     transacao1.slice(0, 3); // Dep
     transacao2.slice(0, 3); // Dep
     transacao3.slice(0, 3); // Tax
-    
+
     transacao1.slice(12); // cliente
     transacao1.slice(-4); // ente
     transacao1.slice(3, 6); // ósi
+```
+
+## str.substring(start, end)
+
+Corta a string de acordo com os valores de start e end. Não <br>
+funcionar com valores negativos como o slice.
+
+```js
+    const linguagem = 'JavaScript';
+    
+    linguagem.substring(3,5); // aS
+    linguagem.substring(0,4); // Java
+    linguagem.substring(4); // Script
+    linguagem.substring(-3); // JavaScript
 ```
