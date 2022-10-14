@@ -49,3 +49,16 @@ Concatena as strings e retorna o resultado.
 
    const fraseCompleta = frase.concat(linguagem, '!!');
 ```
+
+## str.includes(search, position)
+
+Procura pela string exata dentro de outra string. A procura é <br>
+case sensitive.
+
+```js
+    const fruta = 'Banana';
+    const listaFrutas = 'Melancia, Banana, Laranja';
+    
+    listaFrutas.includes(fruta); // true
+    fruta.includes(listaFrutas); // false
+```

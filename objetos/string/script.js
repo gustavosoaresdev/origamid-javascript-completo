@@ -24,3 +24,11 @@ const fraseFinal2 = frase.concat(linguagem, '!! ', 'Pode concatenar quantas quis
 console.log(fraseFinal2);
 
 /* ================================================================================= */
+
+const fruta = 'Banana';
+const listaFrutas = 'Melancia, Banana, Laranja';
+
+console.log(fruta.includes(listaFrutas)); // false
+console.log(listaFrutas.includes(fruta)); // true
+
+/* ================================================================================= */
