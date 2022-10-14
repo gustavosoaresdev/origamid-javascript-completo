@@ -63,3 +63,8 @@ ele retorna os últimos 5 caracteres. */
 console.log(transacao3.slice(-5)); // misas
 
 /* ================================================================================= */
+
+console.log(fruta.indexOf('n')); // 2
+console.log(fruta.lastIndexOf('n')); // 4
+
+/* ================================================================================= */

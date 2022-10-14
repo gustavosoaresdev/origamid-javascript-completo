@@ -101,9 +101,22 @@ funcionar com valores negativos como o slice.
 
 ```js
     const linguagem = 'JavaScript';
-    
+
     linguagem.substring(3,5); // aS
     linguagem.substring(0,4); // Java
     linguagem.substring(4); // Script
     linguagem.substring(-3); // JavaScript
+```
+
+## str.indexOf(search) e str.lastIndexOf(search)
+
+Retorna o index da string, assim que achar o primeiro resultado, ele <br>
+já retorna. No caso do lastIndexOf ele retorna o último resultado.
+
+```js
+    const instrumento = 'Guitarra';
+
+    instrumento.indexOf('r'); // 5
+    instrumento.lastIndexOf('r'); // 6
+    instrumento.indexOf('ta'); // 3
 ```
