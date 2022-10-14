@@ -8,7 +8,9 @@ console.log(comida.length); // 5
 /* OBS: espaços também conta! */
 
 const frase = 'A melhor comida';
+
 console.log(frase.length); // 15
 console.log(frase[frase.length - 1]); // a
+console.log(frase.charAt(frase.length - 1)); // a
 
 /* ================================================================================= */

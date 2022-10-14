@@ -26,3 +26,15 @@ Propriedade com o total de caracteres da string.
     frase[0]; // A
     frase[frase.length - 1]; // a
 ```
+
+## str.charAt(n)
+
+Retorna o caracter de acordo com o index de (n).
+
+```js
+    const linguagem = 'JavaScript';
+    
+    linguagem.charAt(0); // J
+    linguagem.charAt(2); // v
+    linguagem.charAt(linguagem.length - 1); // t
+```
