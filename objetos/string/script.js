@@ -38,3 +38,28 @@ console.log(fruta.endsWith('na')); // true
 /* Lembrando que é (case sensitive). */
 
 /* ================================================================================= */
+
+const transacao1 = 'Depósito de cliente';
+const transacao2 = 'Depósito de fornecedor';
+const transacao3 = 'Taxa de camisas';
+
+console.log(transacao1.slice(0, 3)); // Dep
+
+/* Se passar apenas um valor inteiro, ele corta a quantidade de
+caracteres que você passou. */
+
+// Ex:
+console.log(transacao1.slice(10)); // e cliente
+
+/* Se passar (-) e tal valor, ele corta apartir do final. */
+
+// Ex:
+console.log(transacao3.slice(0, -2)); // Taxa de camis
+
+/* Agora, se você passar apenas um valor inteiro, por exemplo (-5),
+ele retorna os últimos 5 caracteres. */
+
+// Ex:
+console.log(transacao3.slice(-5)); // misas
+
+/* ================================================================================= */
