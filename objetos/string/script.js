@@ -68,3 +68,17 @@ console.log(fruta.indexOf('n')); // 2
 console.log(fruta.lastIndexOf('n')); // 4
 
 /* ================================================================================= */
+
+const preco = 'R$ 99,00';
+console.log(preco.padStart(20, '-')); // ------------R$ 99,00
+
+/* O exemplo acima não vai ser "20 traços", ele vai preencher
+até chegar em 20 caracteres, quer dizer que o valor (R$ 99,00)
+vai contar caracter também! */
+
+const listaPrecos = ['R$ 99', 'R$ 199', 'R$ 12000'];
+listaPrecos.forEach((preco) => {
+    console.log(preco.padStart(10, '-'));
+})
+
+/* ================================================================================= */

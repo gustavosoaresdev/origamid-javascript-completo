@@ -120,3 +120,20 @@ já retorna. No caso do lastIndexOf ele retorna o último resultado.
     instrumento.lastIndexOf('r'); // 6
     instrumento.indexOf('ta'); // 3
 ```
+
+## str.padStart(n, str) e str.padEnd(n, str)
+
+Aumenta o tamanho da string para o valor de n. Ou seja, uma string <br>
+com 8 caracteres, se passarmos n = 10, ela passará a ter 10 <br>
+caracteres. O preenchimento é feito com espaços, caso não seja <br>
+declarado o segundo argumento.
+
+```js
+    const listaPrecos = ['R$ 99', 'R$ 199', 'R$ 12000'];
+    listaPrecos.forEach((preco) => {
+        console.log(preco.padStart(10, '.'));
+    })
+
+    listaPrecos[0].padStart(10, '.'); // .....R$ 99
+    listaPrecos[0].padEnd(10, '.'); // R$ 99.....
+```
