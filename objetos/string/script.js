@@ -121,3 +121,8 @@ console.log(sexo1.toLowerCase() === 'feminino');
 console.log(sexo1.toUpperCase() === 'FEMININO');
 
 /* ================================================================================= */
+
+const inputNome = ' Gustavo    ';
+console.log(inputNome.trim()); // 'Gustavo'
+console.log(inputNome.trimStart()); // 'Gustavo    '
+console.log(inputNome.trimEnd()); // ' Gustavo'

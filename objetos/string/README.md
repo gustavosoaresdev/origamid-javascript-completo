@@ -194,3 +194,14 @@ verificarmos input de usuários.
     (sexo2.toLowerCase() === 'feminino'); // true
     (sexo3.toLowerCase() === 'feminino'); // true
 ```
+
+## str.trim(), str.trimStart(), str.trimEnd()
+
+Remove espaço em branco do início ou final de uma string.
+
+```js
+    const valor = '  R$ 23.00   ';
+    valor.trim(); // 'R$ 23.00'
+    valor.trimStart(); // 'R$ 23.00   '
+    valor.trimEnd(); // '  R$ 23.00'
+```
