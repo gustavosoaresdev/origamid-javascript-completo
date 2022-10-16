@@ -179,3 +179,18 @@ array.
 ```
 
 *join é um método de Array*
+
+## str.toLowerCase() e str.toUpperCase()
+
+Retorna a string em letras maiúsculas ou minúsculas. Bom para <br>
+verificarmos input de usuários.
+
+```js
+    const sexo1 = 'Feminino';
+    const sexo2 = 'feminino';
+    const sexo3 = 'FEMININO';
+
+    (sexo1.toLowerCase() === 'feminino'); // true
+    (sexo2.toLowerCase() === 'feminino'); // true
+    (sexo3.toLowerCase() === 'feminino'); // true
+```

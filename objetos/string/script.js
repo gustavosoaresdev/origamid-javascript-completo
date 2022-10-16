@@ -112,3 +112,12 @@ const frutasArray = ['Banana', 'Melancia', 'Laranja'];
 console.log(frutasArray.join(', ')); // Banana, Melancia, Laranja
 
 /* ================================================================================= */
+
+const sexo1 = 'Feminino';
+const sexo2 = 'feminino';
+const sexo3 = 'FEMININO';
+
+console.log(sexo1.toLowerCase() === 'feminino');
+console.log(sexo1.toUpperCase() === 'FEMININO');
+
+/* ================================================================================= */
