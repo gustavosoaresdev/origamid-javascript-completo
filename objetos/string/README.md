@@ -146,3 +146,20 @@ Repete a string (n) vezes.
     const frase = 'Ta';
     frase.repeat(5); // TaTaTaTaTa
 ```
+
+## str.replace(regexp|substr, newstr|function)
+
+Troca parte da string por outra. Podemos utilizar uma regular <br>
+expression ou um valor direto. Se usarmos um valor direto ele irá <br>
+trocar apenas o primeiro valor que encontrar.
+
+```js
+    let listaItens = 'Camisas Bonés Calças Bermudas Vestidos Saias';
+    listaItens = listaItens.replace(/[ ]+/g, ', ');
+
+    let preco = 'R$ 1200,43';
+    preco = preco.replace(',', '.'); // 'R$ 1200.43'
+```
+
+*Veremos mais sobre Regular* <br>
+*Expression*

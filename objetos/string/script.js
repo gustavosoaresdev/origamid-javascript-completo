@@ -82,3 +82,11 @@ listaPrecos.forEach((preco) => {
 })
 
 /* ================================================================================= */
+
+let listaItens = 'Camisas Bonés Calças Bermudas Vestidos Saias';
+listaItens = listaItens.replace(/[ ]+/g, ', ');
+listaItens = listaItens.replace('Bonés', 'Chapéus');
+
+console.log(listaItens); // Camisas, Chapéus, Calças, Bermudas, Vestidos, Saias
+
+/* ================================================================================= */
