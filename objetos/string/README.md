@@ -163,3 +163,19 @@ trocar apenas o primeiro valor que encontrar.
 
 *Veremos mais sobre Regular* <br>
 *Expression*
+
+## str.split(padrao)
+
+Divide a string de acordo com o padrão passado e retorna uma <br>
+array.
+
+```js
+    const listaItens = 'Camisas Bonés Calças Bermudas Vestidos Saias';
+    const arrayItens = listaItens.split(' ');
+
+    const htmlText = '<div>O melhor item</div><div>A melhor lista</div>';
+    const htmlArray = htmlText.split('div');
+    const htmlNovo = htmlArray.join('section');
+```
+
+*join é um método de Array*

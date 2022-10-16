@@ -90,3 +90,25 @@ listaItens = listaItens.replace('Bonés', 'Chapéus');
 console.log(listaItens); // Camisas, Chapéus, Calças, Bermudas, Vestidos, Saias
 
 /* ================================================================================= */
+
+const arrayLista = listaItens.split(', ');
+console.log(arrayLista);
+// ['Camisas', 'Chapéus', 'Calças', 'Bermudas', 'Vestidos', 'Saias']
+
+const htmlText = '<div>O melhor item</div><div>A melhor lista</div>';
+const htmlArray = htmlText.split('div');
+const novoHtml = htmlArray.join('section');
+
+console.log(htmlText);
+// <div>O melhor item</div><div>A melhor lista</div>
+
+console.log(htmlArray);
+// ['<', '>O melhor item</', '><', '>A melhor lista</', '>']
+
+console.log(novoHtml);
+// <section>O melhor item</section><section>A melhor lista</section>
+
+const frutasArray = ['Banana', 'Melancia', 'Laranja'];
+console.log(frutasArray.join(', ')); // Banana, Melancia, Laranja
+
+/* ================================================================================= */
