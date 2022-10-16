@@ -137,3 +137,12 @@ declarado o segundo argumento.
     listaPrecos[0].padStart(10, '.'); // .....R$ 99
     listaPrecos[0].padEnd(10, '.'); // R$ 99.....
 ```
+
+## str.repeat(n)
+
+Repete a string (n) vezes.
+
+```js
+    const frase = 'Ta';
+    frase.repeat(5); // TaTaTaTaTa
+```
