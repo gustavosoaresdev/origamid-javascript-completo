@@ -124,7 +124,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Native, host e user
 
-- [ ] String
+- [X] String
 
 - [ ] Number e Math
 
