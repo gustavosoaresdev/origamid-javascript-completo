@@ -95,5 +95,4 @@ expressões matemáticas comuns.
     Math.LN10 // 2.303
 ```
 
-*https://developer.mozilla.org/en-US* <br>
-*/docs/Web/JavaScript/Reference/Global_Objects/Math*
+*https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math*
