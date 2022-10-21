@@ -55,7 +55,17 @@ argumento.
 
     const carro = 1000.455;
     carro.toFixed(2) // 1000.46
-    
+
     const preco2 = 1499.49;
     preco2.toFixed() // 1499
+```
+
+## n.toString(radix)
+
+Transforma o número em uma string com base no Radix. Use o 10 <br>
+para o sistema decimal.
+
+```js
+    const preco = 2.99;
+    preco.toString(10); // '2.99'
 ```
