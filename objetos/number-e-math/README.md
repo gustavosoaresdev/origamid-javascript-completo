@@ -83,3 +83,17 @@ Formata o número de acordo com a língua e opções passadas.
         'pt-BR', {style: 'currency', currency: 'BRL'}
     ); // R$ 59,49
 ```
+
+## Math
+
+É um Objeto nativo que possui propriedades e métodos de <br>
+expressões matemáticas comuns.
+
+```js
+    Math.PI // 3.14159
+    Math.E // 2.718
+    Math.LN10 // 2.303
+```
+
+*https://developer.mozilla.org/en-US* <br>
+*/docs/Web/JavaScript/Reference/Global_Objects/Math*

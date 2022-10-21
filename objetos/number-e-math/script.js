@@ -41,3 +41,14 @@ valor = valor.toLocaleString(
 console.log(valor); // $59.49
 
 /* ================================================================================= */
+
+console.log(Math); // Diversas propriedades e métodos...
+
+console.log(Math.PI); // Mesma coisa que isso:
+const matematica = {
+    PI: 3.14,
+}
+
+// E assim vai...
+
+/* ================================================================================= */
