@@ -69,3 +69,17 @@ para o sistema decimal.
     const preco = 2.99;
     preco.toString(10); // '2.99'
 ```
+
+## n.toLocaleString(lang, options);
+
+Formata o número de acordo com a língua e opções passadas.
+
+```js
+    const preco = 59.49;
+    preco.toLocaleString(
+        'en-US', {style: 'currency', currency: 'USD'}
+    ); // $59.49
+    preco.toLocaleString(
+        'pt-BR', {style: 'currency', currency: 'BRL'}
+    ); // R$ 59,49
+```

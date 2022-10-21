@@ -32,3 +32,12 @@ exemplo acima, você terá que passar entre (parênteses). */
 // Mas, dificilmente vamos usar dessa forma...
 
 /* ================================================================================= */
+
+let valor = 59.49;
+valor = valor.toLocaleString(
+    'en-US', { style: 'currency', currency: 'USD' }
+);
+
+console.log(valor); // $59.49
+
+/* ================================================================================= */
