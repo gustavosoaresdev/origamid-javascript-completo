@@ -43,3 +43,19 @@ também um segundo parâmetro que é o Radix, 10 é para decimal.
 
 *Float possui decimal, Integer* <br>
 *não.*
+
+## n.toFixed(decimais)
+
+Arredonda o número com base no total de casas decimais do <br>
+argumento.
+
+```js
+    const preco = 2.99;
+    preco.toFixed(); // 3
+
+    const carro = 1000.455;
+    carro.toFixed(2) // 1000.46
+    
+    const preco2 = 1499.49;
+    preco2.toFixed() // 1499
+```

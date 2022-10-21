@@ -17,3 +17,18 @@ console.log(parseInt(23.49)); // 23
 a única diferença é que o parseInt() retorna o número inteiro. */
 
 /* ================================================================================= */
+
+const preco = 10.3232;
+
+console.log(preco.toFixed()); // '10'
+console.log(+preco.toFixed()); // 10
+
+console.log((20.25).toFixed()); // '20'
+console.log(+(20.25).toFixed()); // 20
+
+/* Caso você passe um número não estando em uma variável, conforme o
+exemplo acima, você terá que passar entre (parênteses). */
+
+// Mas, dificilmente vamos usar dessa forma...
+
+/* ================================================================================= */
