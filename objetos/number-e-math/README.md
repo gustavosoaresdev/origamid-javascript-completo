@@ -113,3 +113,21 @@ integral mais próximo.
     Math.round(4.8334); // 5
     Math.round(4.3); // 4
 ```
+
+## Math.max(), Math.min() e Math.random();
+
+**max()** retorna o maior número de uma lista de argumentos, **min()** o <br>
+menor número e **random()** um número aleatório entre 0 e 1.
+
+```js
+    Math.max(5,3,10,42,2); // 42
+    Math.min(5,3,10,42,2); // 2
+    
+    Math.random(); // 0.XXX
+    Math.floor(Math.random() * 100); // entre 0 e 100
+    Math.floor(Math.random() * 500); // entre 0 e 500
+
+    // Número random entre 72 e 32
+    Math.floor(Math.random() * (72 - 32 + 1)) + 32;
+    Math.floor(Math.random() * (max - min + 1)) + min;
+```

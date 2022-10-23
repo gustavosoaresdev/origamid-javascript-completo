@@ -52,3 +52,6 @@ const matematica = {
 // E assim vai...
 
 /* ================================================================================= */
+
+const aleatorio = Math.floor(Math.random() * (40 - 20 + 1)) + 20;
+console.log(aleatorio); // Número aleatório entre 20 e 40
