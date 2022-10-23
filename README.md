@@ -126,7 +126,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] String
 
-- [ ] Number e Math
+- [X] Number e Math
 
 - [ ] Array
 
