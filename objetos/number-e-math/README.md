@@ -96,3 +96,20 @@ expressões matemáticas comuns.
 ```
 
 *https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math*
+
+## Math.abs(), Math.ceil(), Math.floor() e Math.round()
+
+**abs()** retorna o valor absoluto, ou seja, transforma negativo em <br>
+positivo. **ceil()** arredonda para cima, retornando sempre uma <br>
+integral e **floor** para baixo. **round()** arredonda para o número <br>
+integral mais próximo.
+
+```js
+    Math.abs(-5.5); // 5.5
+    Math.ceil(4.8334); // 5
+    Math.ceil(4.3); // 5
+    Math.floor(4.8334); // 4
+    Math.floor(4.3); // 4
+    Math.round(4.8334); // 5
+    Math.round(4.3); // 4
+```
