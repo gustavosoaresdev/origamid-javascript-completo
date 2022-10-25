@@ -62,7 +62,20 @@ booleano.
 ```js
     let li = document.querySelectorAll('li'); // NodeList
     Array.isArray(li); // false
-    
+
     li = Array.from(li); // Array
     Array.isArray(li); // true
+```
+
+## Array.of(), Array() e new Array()
+
+A palavra chave **new** não é necessária para utilizar o
+construtor Array.
+
+```js
+    Array.of(10); // [10]
+    Array.of(1,2,3,4); // [1,2,3,4]
+    new Array(5); // [,,,,]
+    Array(5); // [,,,,]
+    Array(1,2,3,4); // [1,2,3,4]
 ```
