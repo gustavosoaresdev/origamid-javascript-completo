@@ -31,3 +31,12 @@ const teste = [function nomeCompleto(nome, sobrenome) {
 teste[0](teste[1].nome, teste[1].sobrenome);
 
 /* ================================================================================= */
+
+const carros = new Array('Ford', 'Fiat', 'Honda');
+carros[2] = 'Ferrari';
+carros[3] = 'Mustang';
+/* Como não possui o quarto item, ele adiciona ao final da array... */
+
+console.log(carros); // ['Ford', 'Fiat', 'Ferrari', 'Mustang']
+
+/* ================================================================================= */
