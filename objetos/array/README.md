@@ -34,3 +34,22 @@ construtor Array.
 
 *Os valores das array's não são* <br>
 *estáticos*
+
+## Array.from()
+
+Array.from() é um método utilizado para transformar array-like <br>
+objects, em uma array.
+
+```js
+    let li = document.querySelectorAll('li'); // NodeList
+    li = Array.from(li); // Array
+
+    const carros = {
+        0: 'Fiat',
+        1: 'Honda',
+        2: 'Ford',
+        length: 4,
+    }
+
+    const carrosArray = Array.from(carros);
+```

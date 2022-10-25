@@ -40,3 +40,39 @@ carros[3] = 'Mustang';
 console.log(carros); // ['Ford', 'Fiat', 'Ferrari', 'Mustang']
 
 /* ================================================================================= */
+
+const li = document.querySelectorAll('li');
+const arrayLi = Array.from(li);
+
+console.log(li); // NodeList
+console.log(arrayLi); // Array
+
+// Isto retorna uma array vazia:
+// ====================================
+const obj = {
+    0: 'Gustavo',
+    1: 'Soares Thomann',
+    2: 20,
+}
+
+const arrayObj = Array.from(obj);
+console.log(arrayObj);
+// ====================================
+
+
+// Isto retorna uma array com itens:
+// ====================================
+const obj2 = {
+    0: 'Gustavo',
+    1: 'Soares Thomann',
+    2: 20,
+    length: 3,
+}
+
+const arrayObj2 = Array.from(obj2);
+console.log(arrayObj2);
+// ====================================
+
+/* Tem que ter o length para retornar os itens... */
+
+/* ================================================================================= */
