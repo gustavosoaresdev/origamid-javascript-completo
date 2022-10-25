@@ -53,3 +53,16 @@ objects, em uma array.
 
     const carrosArray = Array.from(carros);
 ```
+
+## Array.isArray()
+
+Verifica se o valor passado é uma array e retorna um valor <br>
+booleano.
+
+```js
+    let li = document.querySelectorAll('li'); // NodeList
+    Array.isArray(li); // false
+    
+    li = Array.from(li); // Array
+    Array.isArray(li); // true
+```
