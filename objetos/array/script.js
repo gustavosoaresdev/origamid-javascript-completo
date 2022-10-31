@@ -109,4 +109,15 @@ const novaArray = carros.push('Parati', 'Gol');
 console.log(novaArray); // Retorna o total de itens da array
 console.log(carros); // ['Kia', 'Ferrari', 'Ford', 'Fiat', 'VW', 'Parati', 'Gol']
 
+console.log(carros.pop()); // Gol
+console.log(carros); // ['Kia', 'Ferrari', 'Ford', 'Fiat', 'VW', 'Parati']
+
+/* Ele modifica a array original, como vocês podem ver, ele
+removeu o 'Gol'... */
+
+console.log(carros.shift()); // Kia
+console.log(carros); // ['Ferrari', 'Ford', 'Fiat', 'VW', 'Parati']
+
+/* Removeu o 'Kia'... */
+
 /* ================================================================================= */

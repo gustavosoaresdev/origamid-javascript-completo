@@ -120,7 +120,22 @@ array e retorna o length da mesma.
     const carros = ['Ford', 'Fiat', 'VW'];
     carros.unshift('Honda', 'Kia'); // 5
     carros; // ['Honda', 'Kia', 'Ford', 'Fiat', 'VW'];
-    
+
     carros.push('Ferrari'); // 6
     carros; // ['Honda', 'Kia', 'Ford', 'Fiat', 'VW', 'Ferrari'];
+```
+
+## [].shift() e [].pop()
+
+**[].shift()** remove o primeiro elemento da array e retorna o <br>
+mesmo. **[].pop()** remove o último elemento da array e retorna <br>
+o mesmo.
+
+```js
+    const carros = ['Ford', 'Fiat', 'VW', 'Honda'];
+    const primeiroCarro = carros.shift(); // 'Ford'
+    carros; // ['Fiat', 'VW', 'Honda'];
+
+    const ultimoCarro = carros.pop(); // 'Honda'
+    carros; // ['Fiat', 'VW'];
 ```
