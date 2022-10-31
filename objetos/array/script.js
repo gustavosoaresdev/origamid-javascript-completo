@@ -32,12 +32,13 @@ teste[0](teste[1].nome, teste[1].sobrenome);
 
 /* ================================================================================= */
 
-const carros = new Array('Ford', 'Fiat', 'Honda');
-carros[2] = 'Ferrari';
-carros[3] = 'Mustang';
+// const carros = new Array('Ford', 'Fiat', 'Honda');
+// carros[2] = 'Ferrari';
+// carros[3] = 'Mustang';
+
 /* Como não possui o quarto item, ele adiciona ao final da array... */
 
-console.log(carros); // ['Ford', 'Fiat', 'Ferrari', 'Mustang']
+// console.log(carros); // ['Ford', 'Fiat', 'Ferrari', 'Mustang']
 
 /* ================================================================================= */
 
@@ -97,5 +98,15 @@ console.log(idades); // [1, 12, 21, 32, 33, 43, 8]
 
 /* sort() organiza a array por ordem alfabética,
 porém não funciona muito bem com números. */
+
+/* ================================================================================= */
+
+const carros = ['Ford', 'Fiat', 'VW'];
+carros.unshift('Kia', 'Ferrari');
+
+const novaArray = carros.push('Parati', 'Gol');
+
+console.log(novaArray); // Retorna o total de itens da array
+console.log(carros); // ['Kia', 'Ferrari', 'Ford', 'Fiat', 'VW', 'Parati', 'Gol']
 
 /* ================================================================================= */

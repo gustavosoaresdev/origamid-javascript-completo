@@ -104,8 +104,23 @@ unicode.
     const instrumentos = ['Guitarra', 'Baixo', 'Violão'];
     instrumentos.sort();
     instrumentos; // ['Baixo', 'Guitarra', Violão]
-    
+
     const idades = [32,21,33,43,1,12,8];
     idades.sort();
     idades; // [1, 12, 21, 32, 33, 43, 8]
+```
+
+## [].unshift() e [].push()
+
+**[].unshift()** adiciona elementos ao início da array e retorna o <br>
+length da mesma. **[].push()** adiciona elementos ao final da <br>
+array e retorna o length da mesma.
+
+```js
+    const carros = ['Ford', 'Fiat', 'VW'];
+    carros.unshift('Honda', 'Kia'); // 5
+    carros; // ['Honda', 'Kia', 'Ford', 'Fiat', 'VW'];
+    
+    carros.push('Ferrari'); // 6
+    carros; // ['Honda', 'Kia', 'Ford', 'Fiat', 'VW', 'Ferrari'];
 ```
