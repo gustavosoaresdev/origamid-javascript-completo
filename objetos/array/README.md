@@ -79,3 +79,16 @@ construtor Array.
     Array(5); // [,,,,]
     Array(1,2,3,4); // [1,2,3,4]
 ```
+
+## Propriedades e Métodos do Prototype
+
+**[].length** retorna o tamanho da array.
+
+```js
+    const frutas = ['Banana', 'Pêra', ['Uva Roxa', 'Uva Verde']];
+    frutas.length; // 3
+    
+    frutas[0].length; // 6
+    frutas[1].length; // 5
+    frutas[2].length; // 2
+```

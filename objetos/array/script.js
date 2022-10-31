@@ -76,3 +76,12 @@ console.log(arrayObj2);
 /* Tem que ter o length para retornar os itens... */
 
 /* ================================================================================= */
+
+const frutas = ['Banana', 'Pêra', ['Uva Roxa', 'Uva Verde']];
+console.log(frutas.length); // 3
+console.log(frutas[frutas.length - 1].length); // 2
+
+// OU
+console.log(frutas[2].length); // 2
+
+/* ================================================================================= */
