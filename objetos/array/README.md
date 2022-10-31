@@ -139,3 +139,12 @@ o mesmo.
     const ultimoCarro = carros.pop(); // 'Honda'
     carros; // ['Fiat', 'VW'];
 ```
+
+## [].reverse()
+
+**[].reverse()** inverte os itens da array e retorna a nova array.
+
+```js
+    const carros = ['Ford', 'Fiat', 'VW', 'Honda'];
+    carros.reverse(); // ['Honda', 'VW', 'Fiat', 'Ford'];
+```

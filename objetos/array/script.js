@@ -120,4 +120,11 @@ console.log(carros); // ['Ferrari', 'Ford', 'Fiat', 'VW', 'Parati']
 
 /* Removeu o 'Kia'... */
 
+console.log(carros.reverse()); // ['Parati', 'VW', 'Fiat', 'Ford', 'Ferrari']
+
+/* O método reverse() também modifica a array original. */
+
+// Demonstração:
+console.log(carros); // ['Parati', 'VW', 'Fiat', 'Ford', 'Ferrari']
+
 /* ================================================================================= */
