@@ -87,8 +87,25 @@ construtor Array.
 ```js
     const frutas = ['Banana', 'Pêra', ['Uva Roxa', 'Uva Verde']];
     frutas.length; // 3
-    
+
     frutas[0].length; // 6
     frutas[1].length; // 5
     frutas[2].length; // 2
+```
+
+## Métodos Modificadores [].sort()
+
+Os próximos métodos que vamos falar sobre, são métodos <br>
+modificadores (mutator methods). Além de retornarem um valor, <br>
+eles modificam a array original. **[].sort()** organiza a pelo <br>
+unicode.
+
+```js
+    const instrumentos = ['Guitarra', 'Baixo', 'Violão'];
+    instrumentos.sort();
+    instrumentos; // ['Baixo', 'Guitarra', Violão]
+    
+    const idades = [32,21,33,43,1,12,8];
+    idades.sort();
+    idades; // [1, 12, 21, 32, 33, 43, 8]
 ```

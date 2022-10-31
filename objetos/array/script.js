@@ -1,4 +1,4 @@
-const instrumentos = ['Guitarra', 'Baixo', 'Violão'];
+// const instrumentos = ['Guitarra', 'Baixo', 'Violão'];
 const precos = [49, 99, 69, 89];
 
 const dados = [new String('Tipo 1'), ['Carro', 'Portas', { cor: 'Azul', preco: 2000 }],
@@ -83,5 +83,19 @@ console.log(frutas[frutas.length - 1].length); // 2
 
 // OU
 console.log(frutas[2].length); // 2
+
+/* ================================================================================= */
+
+const instrumentos = ['Guitarra', 'Baixo', 'Violão'];
+instrumentos.sort();
+
+const idades = [32, 21, 33, 43, 1, 12, 8];
+idades.sort();
+
+console.log(instrumentos); // ['Baixo', 'Guitarra', 'Violão']
+console.log(idades); // [1, 12, 21, 32, 33, 43, 8]
+
+/* sort() organiza a array por ordem alfabética,
+porém não funciona muito bem com números. */
 
 /* ================================================================================= */
