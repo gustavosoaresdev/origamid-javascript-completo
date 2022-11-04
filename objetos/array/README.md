@@ -210,3 +210,20 @@ array com o valor passado.
     const maisTransportes = [].concat(transporte1, transporte2, 'Van');
     // ['Barco', 'Aviao', 'Carro', 'Moto', 'Van'];
 ```
+
+## [].includes(), [].indexOf() e [].lastIndexOf()
+
+**[].includes(valor)** verifica se a array possui o valor e retorna <br>
+true ou false. **[].indexOf(valor)** verifica se a array possui o <br>
+valor e retorna o index do primeiro valor na array. Já o <br>
+**[].lastIndexOf(valor)** retorna o index do último.
+
+```js
+    const linguagens = ['html', 'css', 'js', 'php', 'python', 'js'];
+    
+    linguagens.includes('css'); // true
+    linguagens.includes('ruby'); // false
+    linguagens.indexOf('python'); // 4
+    linguagens.indexOf('js'); // 2
+    linguagens.lastIndexOf('js'); // 5
+```
