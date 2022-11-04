@@ -127,4 +127,10 @@ console.log(carros.reverse()); // ['Parati', 'VW', 'Fiat', 'Ford', 'Ferrari']
 // Demonstração:
 console.log(carros); // ['Parati', 'VW', 'Fiat', 'Ford', 'Ferrari']
 
+console.log(''); // Só uma quebra de linha no console para visualizar melhor
+
+console.log(carros); // ['Parati', 'VW', 'Fiat', 'Ford', 'Ferrari']
+console.log(carros.splice(2, 0, 'Fusca')); // []
+console.log(carros); // ['Parati', 'VW', 'Fusca', 'Fiat', 'Ford', 'Ferrari']
+
 /* ================================================================================= */
