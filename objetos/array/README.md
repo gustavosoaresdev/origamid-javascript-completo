@@ -190,7 +190,23 @@ valor, do início até o fim.
 
     ['Item1', 'Item2', 'Item3', 'Item4'].fill('Banana', 2);
     // ['Item1', 'Item2', 'Banana', 'Banana']
-    
+
     ['Item1', 'Item2', 'Item3', 'Item4'].fill('Banana', 1, 3);
     // ['Item1', 'Banana', 'Banana', 'Item4']
+```
+
+## Métodos de Acesso [].concat()
+
+Os métodos abaixo não modificam a array original, apenas <br>
+retornam uma array modificada. **[].concat()** irá concatenar a <br>
+array com o valor passado.
+
+```js
+    const transporte1 = ['Barco', 'Aviao'];
+    const transporte2 = ['Carro', 'Moto'];
+    const transportes = transporte1.concat(transporte2);
+    // ['Barco', 'Aviao', 'Carro', 'Moto'];
+
+    const maisTransportes = [].concat(transporte1, transporte2, 'Van');
+    // ['Barco', 'Aviao', 'Carro', 'Moto', 'Van'];
 ```

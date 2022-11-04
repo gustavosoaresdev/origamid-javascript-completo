@@ -140,3 +140,11 @@ console.log(['Item1', 'Item2', 'Item3', 'Item4', 'Item5'].copyWithin(2, 0, 4));
 
 console.log(['Item1', 'Item2', 'Item3', 'Item4'].fill('Banana', 0, 2));
 // ['Banana', 'Banana', 'Item3', 'Item4']
+
+/* ================================================================================= */
+
+const transporte1 = ['Barco', 'Aviao'];
+const transporte2 = ['Carro', 'Moto'];
+
+/* Apartir de agora alguns testes de códigos serão testados no
+console do navegador, portanto não tera muitos códigos aqui. */
