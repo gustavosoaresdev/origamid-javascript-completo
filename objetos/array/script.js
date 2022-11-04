@@ -151,12 +151,21 @@ console do navegador, portanto não tera muitos códigos aqui. */
 
 /* ================================================================================= */
 
-const linguagens = ['html', 'css', 'js', 'php', 'python', 'js'];
+// const linguagens = ['html', 'css', 'js', 'php', 'python', 'js'];
 
 /* Se passar um valor que não existe na array com o método
 indexOf() ele retorna -1 */
 
 // Exemplo abaixo:
-linguagens.indexOf('ruby'); // -1
+// linguagens.indexOf('ruby'); // -1
 
 /* Outros testes foram testados no console do navegador... */
+
+/* ================================================================================= */
+
+const linguagens = ['html', 'css', 'js', 'php', 'python'];
+console.log(linguagens.join(', ')); // html, css, js, php, python
+
+let htmlString = '<h2>Título Principal</h2>';
+htmlString = htmlString.split('h2');
+htmlString = htmlString.join('h1');

@@ -220,10 +220,27 @@ valor e retorna o index do primeiro valor na array. Já o <br>
 
 ```js
     const linguagens = ['html', 'css', 'js', 'php', 'python', 'js'];
-    
+
     linguagens.includes('css'); // true
     linguagens.includes('ruby'); // false
     linguagens.indexOf('python'); // 4
     linguagens.indexOf('js'); // 2
     linguagens.lastIndexOf('js'); // 5
+```
+
+## [].join()
+
+**[].join(separador)** junta todos os valores da array e retorna <br>
+uma string com eles. Se você passar um valor como parâmetro, <br>
+este será utilizado durante a junção de cada item da array.
+
+```js
+    const linguagens = ['html', 'css', 'js', 'php', 'python'];
+    linguagens.join(); // 'html,css,js,php,python'
+    linguagens.join(' '); // 'html css js php python'
+    linguagens.join('-_-'); // 'html-_-css-_-js-_-php-_-python'
+
+    let htmlString = '<h2>Título Principal</h2>';
+    htmlString = htmlString.split('h2'); // ['<', '>Título Principal</', '>']
+    htmlString = htmlString.join('h1'); // <h1>Título Principal</h1>
 ```
