@@ -244,3 +244,16 @@ este será utilizado durante a junção de cada item da array.
     htmlString = htmlString.split('h2'); // ['<', '>Título Principal</', '>']
     htmlString = htmlString.join('h1'); // <h1>Título Principal</h1>
 ```
+
+## [].slice()
+
+**[].slice(inicio, final)** retorna os itens da array <br>
+começando pelo início e indo até o valor de final.
+
+```js
+    const linguagens = ['html', 'css', 'js', 'php', 'python'];
+    linguagens.slice(3); // ['php', 'python']
+    linguagens.slice(1, 4); // ['css', 'js', 'php']
+    
+    const cloneLinguagens = linguagens.slice();
+```

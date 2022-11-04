@@ -163,9 +163,27 @@ indexOf() ele retorna -1 */
 
 /* ================================================================================= */
 
-const linguagens = ['html', 'css', 'js', 'php', 'python'];
-console.log(linguagens.join(', ')); // html, css, js, php, python
+// const linguagens = ['html', 'css', 'js', 'php', 'python'];
+// console.log(linguagens.join(', ')); // html, css, js, php, python
 
 let htmlString = '<h2>Título Principal</h2>';
 htmlString = htmlString.split('h2');
 htmlString = htmlString.join('h1');
+
+/* ================================================================================= */
+
+const linguagens = ['html', 'css', 'js', 'php', 'python'];
+console.log(linguagens.slice(2, 3));
+
+const cloneLinguagens = linguagens;
+
+/* Desse modo acima eu não estou clonando a variável (linguagens),
+na verdade, é uma referência a variável (linguagens). Portanto se
+eu modificar a variável (cloneLinguagens) irá modificar a variável
+(linguagens) também. */
+
+// Por favor, não me julguem por dizer tanto a palavra (variável) kkkkkkkkkk
+
+/* Se eu quiser clonar, basta usar o slice() mas é claro que
+existe outros métodos para clonar, mas é só para demonstrar que
+é muito comúm usar o slice para clonar... */
