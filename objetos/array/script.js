@@ -134,3 +134,6 @@ console.log(carros.splice(2, 0, 'Fusca')); // []
 console.log(carros); // ['Parati', 'VW', 'Fusca', 'Fiat', 'Ford', 'Ferrari']
 
 /* ================================================================================= */
+
+console.log(['Item1', 'Item2', 'Item3', 'Item4', 'Item5'].copyWithin(2, 0, 4));
+// ['Item1', 'Item2', 'Item1', 'Item2', 'Item3']

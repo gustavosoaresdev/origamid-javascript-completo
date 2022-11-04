@@ -159,7 +159,22 @@ que for passada no segundo parâmetro (retorna esses itens).
     const carros = ['Ford', 'Fiat', 'VW', 'Honda'];
     carros.splice(1, 0, 'Kia', 'Mustang'); // []
     carros; // ['Ford', 'Kia', 'Mustang', 'Fiat', 'VW', 'Honda']
-    
+
     carros.splice(3, 2, 'Ferrari'); // ['Fiat', 'VW']
     carros; // ['Ford', 'Kia', 'Mustang', 'Ferrari', 'Honda']
+```
+
+## [].copyWithin()
+
+**[].copyWithin(alvo, inicio, final)** a partir do alvo, ele <br>
+irá copiar a array começando do inicio até o final e vai preencher a <br>
+mesma com essa cópia. Caso omita os valores de início e final, ele <br>
+irá utilizar como inicio o 0 e final o valor total da array.
+
+```js
+    ['Item1', 'Item2', 'Item3', 'Item4'].copyWithin(2, 0, 3);
+    // ['Item1', 'Item2', 'Item1', 'Item2']
+
+    ['Item1', 'Item2', 'Item3', 'Item4'].copyWithin(-1);
+    // ['Item1', 'Item2', 'Item3', 'Item1']
 ```
