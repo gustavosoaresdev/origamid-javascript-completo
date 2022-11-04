@@ -178,3 +178,19 @@ irá utilizar como inicio o 0 e final o valor total da array.
     ['Item1', 'Item2', 'Item3', 'Item4'].copyWithin(-1);
     // ['Item1', 'Item2', 'Item3', 'Item1']
 ```
+
+## [].fill()
+
+**[].fill(valor, inicio, final)** preenche a array com o <br>
+valor, do início até o fim.
+
+```js
+    ['Item1', 'Item2', 'Item3', 'Item4'].fill('Banana');
+    // ['Banana', 'Banana', 'Banana', 'Banana']
+
+    ['Item1', 'Item2', 'Item3', 'Item4'].fill('Banana', 2);
+    // ['Item1', 'Item2', 'Banana', 'Banana']
+    
+    ['Item1', 'Item2', 'Item3', 'Item4'].fill('Banana', 1, 3);
+    // ['Item1', 'Banana', 'Banana', 'Item4']
+```

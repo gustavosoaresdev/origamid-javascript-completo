@@ -137,3 +137,6 @@ console.log(carros); // ['Parati', 'VW', 'Fusca', 'Fiat', 'Ford', 'Ferrari']
 
 console.log(['Item1', 'Item2', 'Item3', 'Item4', 'Item5'].copyWithin(2, 0, 4));
 // ['Item1', 'Item2', 'Item1', 'Item2', 'Item3']
+
+console.log(['Item1', 'Item2', 'Item3', 'Item4'].fill('Banana', 0, 2));
+// ['Banana', 'Banana', 'Item3', 'Item4']
