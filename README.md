@@ -128,7 +128,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Number e Math
 
-- [ ] Array
+- [X] Array
 
 - [ ] Array iteração
 
