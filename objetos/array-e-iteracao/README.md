@@ -22,3 +22,16 @@ três argumentos, (itemAtual, valorDoIndex, arrayOriginal).
 
 *O método sempre retorna* <br>
 *undefined*
+
+## Arrow Function
+
+```js
+    const li = document.querySelectorAll('li');
+
+    li.forEach(i => i.classList.add('ativo'));
+
+    // o código acima, é a mesma coisa que isso:
+    li.forEach(function(item) {
+        item.classList.add('ativo');
+    });
+```

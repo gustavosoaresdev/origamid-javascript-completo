@@ -49,3 +49,25 @@ console.log('Array Original:', carros); // ['TESTE', 'TESTE', 'TESTE']
 forEach, os itens da array original também foram modificados... */
 
 /* ================================================================================= */
+
+const li = document.querySelectorAll('li');
+
+li.forEach((item) => item.classList.add('ativo'));
+
+/* Eu particularmente prefiro usar os parênteses conforme acima.
+Mas isso vai de gosto de cada pessoa... */
+
+// Poderia ser assim também:
+li.forEach(item => item.classList.add('ativo'));
+
+// Ou assim:
+li.forEach((item) => { item.classList.add('ativo') });
+
+// Ou até mesmo do jeito mais "básico" que tem;
+li.forEach((item) => {
+    item.classList.add('ativo');
+});
+
+// E assim vai... depende de cada gosto pessoal
+
+/* ================================================================================= */
