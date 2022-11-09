@@ -35,3 +35,20 @@ três argumentos, (itemAtual, valorDoIndex, arrayOriginal).
         item.classList.add('ativo');
     });
 ```
+
+## Modificar a Array Original
+
+O terceiro argumento do callback (array) é uma referência <br>
+direta e se modificado irá também modificar a array original.
+
+```js
+    const carros = ['Ford', 'Fiat', 'Honda'];
+    carros.forEach((item, index, array) => {
+        array[index] = 'Carro ' + item;
+    });
+
+    carros; // ['Carro Ford', 'Carro Fiat', 'Carro Honda']
+```
+
+*É melhor utilizarmos o map para* <br>
+*isso*
