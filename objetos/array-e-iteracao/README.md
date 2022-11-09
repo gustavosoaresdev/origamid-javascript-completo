@@ -52,3 +52,20 @@ direta e se modificado irá também modificar a array original.
 
 *É melhor utilizarmos o map para* <br>
 *isso*
+
+## [].map()
+
+**[].map(callback(itemAtual, index, array))** funciona da <br>
+mesma forma que o forEach(), porém ao invés de retornar <br>
+undefined, retorna uma nova array com valores atualizados de <br>
+acordo com o return de cada iteração.
+
+```js
+    const carros = ['Ford', 'Fiat', 'Honda'];
+    const newCarros = carros.map((item) => {
+        return 'Carro ' + item;
+    });
+    
+    carros; // ['Ford', 'Fiat', 'Honda']
+    newCarros; // ['Carro Ford', 'Carro Fiat', 'Carro Honda'];
+```
