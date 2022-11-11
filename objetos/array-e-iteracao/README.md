@@ -81,6 +81,18 @@ return, será undefined.
     const newCarros = carros.map((item) => {
         const novoValor = 'Carro ' + item;
     });
-    
+
     newCarros; // [undefined, undefined, undefined];
+```
+
+## Arrow Function e [].map()
+
+Uma Arrow Function de linha única e sem chaves, irá retornar o <br>
+valor após a fat arrow **=>**.
+
+```js
+    const numeros = [2, 4, 6, 8, 10, 12, 14];
+    const numerosX3 = numeros.map(n => n * 3);
+
+    numerosX3; // [6, 12, 18, 24, 30, 36, 42];
 ```
