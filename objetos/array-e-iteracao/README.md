@@ -69,3 +69,18 @@ acordo com o return de cada iteração.
     carros; // ['Ford', 'Fiat', 'Honda']
     newCarros; // ['Carro Ford', 'Carro Fiat', 'Carro Honda'];
 ```
+
+## Valor Retornado
+
+Se não retornarmos nenhum valor durante a iteração utilizando <br>
+map, o valor retornado como de qualquer função que não possui o <br>
+return, será undefined.
+
+```js
+    const carros = ['Ford', 'Fiat', 'Honda'];
+    const newCarros = carros.map((item) => {
+        const novoValor = 'Carro ' + item;
+    });
+    
+    newCarros; // [undefined, undefined, undefined];
+```
