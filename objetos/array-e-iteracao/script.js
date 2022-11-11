@@ -130,4 +130,44 @@ console.log(numerosX2); // [4, 8, 10, 12, 156]
 
 /* Isso vai depender do que você quer fazer com os itens... */
 
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const aulas = [
+    {
+        nome: 'HTML 1',
+        min: 15,
+    },
+    {
+        nome: 'HTML 2',
+        min: 10,
+    },
+    {
+        nome: 'CSS 1',
+        min: 20,
+    },
+    {
+        nome: 'JS 1',
+        min: 25,
+    },
+]
+
+// Vou fazer um calculo de minutos totais, usando apenas
+// map() e forEach();
+
+let soma = 0;
+const tempoAulas = aulas.map(tempo => tempo.min);
+tempoAulas.forEach(tempoTotal => soma += tempoTotal);
+
+console.log(`Tempo total de aulas: ${soma} Min.`);
+// Tempo total de aulas: 70 Min.
+
+function nomeAulas(aula) {
+    return aula.nome;
+}
+
+const arrayNomeAulas = aulas.map(nomeAulas);
+console.log(arrayNomeAulas); // ['HTML 1', 'HTML 2', 'CSS 1', 'JS 1']
+
 /* ================================================================================= */

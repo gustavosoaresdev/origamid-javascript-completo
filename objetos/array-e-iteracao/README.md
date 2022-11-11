@@ -110,3 +110,35 @@ estes valores.
 
     numerosX3; // [6, 12, 18, 24, 30, 36, 42];
 ```
+
+## [].map() com Objetos
+
+Map pode ser muito útil para interagirmos com uma array de <br>
+objetos, onde desejamos isolar um valor único de cada objeto.
+
+```js
+    const aulas = [
+        {
+            nome: 'HTML 1',
+            min: 15,
+        },
+        {
+            nome: 'HTML 2',
+            min: 10,
+        },
+        {
+            nome: 'CSS 1',
+            min: 20,
+        },
+        {
+            nome: 'JS 1',
+            min: 25,
+        },
+    ]
+
+    // [15, 10, 20, 25];
+
+    const puxarNomes = aula => aula.nome;
+    const nomesAulas = aulas.map(puxarNomes);
+    // ['HTML 1', 'HTML 2', 'CSS 1', 'JS 1']
+```
