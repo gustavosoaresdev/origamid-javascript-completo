@@ -170,4 +170,17 @@ function nomeAulas(aula) {
 const arrayNomeAulas = aulas.map(nomeAulas);
 console.log(arrayNomeAulas); // ['HTML 1', 'HTML 2', 'CSS 1', 'JS 1']
 
+console.log('') // Apenas uma quebra de linha...
+
 /* ================================================================================= */
+
+const aulas2 = [10, 25, 30];
+const reduceAulas = aulas2.reduce((acumulador, itemAtual) => {
+    return acumulador + itemAtual;
+}, 0);
+
+console.log(reduceAulas); // 65
+
+/* Se caso eu não usar um valor inícial para o acumulador, o valor
+inícial de acumulador será o primeiro item da array. Que nesse caso
+é 10. */
