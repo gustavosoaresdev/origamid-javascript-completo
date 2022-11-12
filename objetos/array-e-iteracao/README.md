@@ -162,3 +162,29 @@ anterior.
     const total2 = aulas.reduce((acc, cur) => acc + cur, 100);
     total2; // 165
 ```
+
+## Reduce passo a passo 1
+
+O primeiro parâmetro do callback é o valor do segundo argumento <br>
+passado no reduce(callback, inicial) durante a primeira iteração. <br>
+Nas iterações seguintes este valor passa a ser o retornado pela <br>
+anterior.
+
+```js
+    const aulas = [10, 25, 30];
+    
+    // 1
+    aulas.reduce((0, 10) => {
+        return 0 + 10;
+    }, 0); // retorna 10
+
+    // 2
+    aulas.reduce((10, 25) => {
+        return 10 + 25;
+    }, 0); // retorna 35
+
+    // 3
+    aulas.reduce((35, 30) => {
+        return 35 + 30;
+    }, 0); // retorna 65
+```
