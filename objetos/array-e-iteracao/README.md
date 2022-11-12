@@ -172,7 +172,7 @@ anterior.
 
 ```js
     const aulas = [10, 25, 30];
-    
+
     // 1
     aulas.reduce((0, 10) => {
         return 0 + 10;
@@ -187,4 +187,24 @@ anterior.
     aulas.reduce((35, 30) => {
         return 35 + 30;
     }, 0); // retorna 65
+```
+
+## Reduce passo a passo 2
+
+Se não definirmos o valor inicial do acumulador, ele irá **pular** a <br>
+primeira iteração e começara a partir da segunda. Neste caso o <br>
+valor do acumulador será o valor do item da primeira iteração.
+
+```js
+    const aulas = [10, 25, 30];
+
+    // 1
+    aulas.reduce((10, 25) => {
+        return 10 + 25;
+    }) // retorna 35
+    
+    // 2
+    aulas.reduce((35, 30) => {
+        return 35 + 30;
+    }) // retorna 65
 ```
