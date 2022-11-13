@@ -338,3 +338,20 @@ retornar false.
     const numeros = [6, 43, 22, 88, 101, 29];
     const maiorQue3 = numeros.every(x => x > 3); // true 
 ```
+
+## [].find() e [].findIndex()
+
+**[].find()**, retorna o valor atual da primeira iteração que <br>
+retornar um valor truthy. Já o **[].findIndex()**, ao invés de <br>
+retornar o valor, retorna o index deste valor na array.
+
+```js
+    const frutas = ['Banana', 'Pêra', 'Uva', 'Maçã'];
+    
+    const buscaUva = frutas.findIndex((fruta) => {
+        return fruta === 'Uva';
+    }); // 2
+
+    const numeros = [6, 43, 22, 88, 101, 29];
+    const buscaMaior45 = numeros.find(x => x > 45); // 88
+```

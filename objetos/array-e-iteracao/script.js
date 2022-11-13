@@ -280,3 +280,36 @@ console.log(maior_ou_igual_a_18); // false
 /* Neste exemplo acima, eu estou verificando se todas as "idades"
 são maiores ou igual a 18. Neste caso o retorno será falso, porque
 a uma idade na array que não é maior e nem igual a 18, (6) */
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const frutas3 = ['Banana', 'Pêra', 'Uva', 'Melancia', 'Maça'];
+const indexMelancia = frutas3.findIndex(i => i === 'Melancia');
+
+console.log('Index:', indexMelancia); // 3
+
+// Meu objetivo aqui é encontrar e retornar a primeira pessoa
+// que tiver a idade maior ou igual a 18;
+const pessoas = [
+    {
+        nome: 'Gabriel',
+        idade: 16,
+    },
+    {
+        nome: 'Gustavo',
+        idade: 20,
+    },
+    {
+        nome: 'Marcio',
+        idade: 30,
+    },
+    {
+        nome: 'Jéssica',
+        idade: 26,
+    },
+]
+
+const encontrar = pessoas.find(pessoa => pessoa.idade >= 18);
+console.log(encontrar); // {nome: 'Gustavo', idade: 20}
