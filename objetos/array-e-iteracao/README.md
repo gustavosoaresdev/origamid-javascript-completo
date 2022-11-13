@@ -283,3 +283,19 @@ Passo a passo do método reduce criando um Objeto.
 *isso é apenas o que o* <br>
 *reduce() faz por trás* <br>
 *dos panos.*
+
+## [].reduceRight()
+
+Existe também o método **[].reduceRight()**, a diferença é que <br>
+este começa a iterar da direita para a esquerda, enquanto o reduce() <br>
+itera da esquerda para a direita.
+
+```js
+    const frutas = ['Banana', 'Pêra', 'Uva'];
+
+    const frutasRight = frutas.reduceRight((acc, fruta) => acc + ' ' + fruta);
+    const frutasLeft = frutas.reduce((acc, fruta) => acc + ' ' + fruta);
+    
+    frutasRight; // Uva Pêra Banana
+    frutasLeft; // Banana Pêra Uva
+```
