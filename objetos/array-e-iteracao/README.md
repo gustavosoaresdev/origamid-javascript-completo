@@ -397,3 +397,81 @@ durante a sua iteração retornaram um valor truthy.
         return aula.min > 15;
     }); // [{nome: 'CSS 1', min: 20}, {nome: 'JS 1', min: 25}]
 ```
+
+## Exercícios
+
+#### HTML
+
+Copie e cole no seu HTML
+
+```html
+    <section class="curso">
+        <h1>Web Design Completo</h1>
+        <p>
+            Este curso é para quem deseja entrar ou já está no mercado
+            de criação de websites.
+        </p>
+
+        <span class="aulas">80</span>
+        <span class="horas">22</span>
+    </section>
+
+    <section class="curso">
+        <h1>WordPress Como CMS</h1>
+        <p>
+            No curso de WordPress Como CMS, você aprende do zero como
+            pegar qualquer site em HTML e torná-lo totalmente gerenciável
+            com a plataforma do WordPress.
+        </p>
+
+        <span class="aulas">46</span>
+        <span class="horas">9</span>
+    </section>
+
+    <section class="curso">
+        <h1>UI Design Avançado</h1>
+        <p>Este é um curso avançado de User Interface Design.</p>
+        <span class="aulas">55</span>
+        <span class="horas">15</span>
+    </section>
+```
+
+#### JS
+
+```js
+    // Selecione cada curso e retorne uma array
+    // com objetos contendo o título, descricao,
+    // aulas e horas de cada curso
+
+    // Retorne uma lista com os
+    // números maiores que 100
+    const numeros = [3, 44, 333, 23, 122, 322, 33];
+
+    // Verifique se Baixo faz parte
+    // da lista de instrumentos e retorne true
+    const instrumentos = ['Guitarra', 'Baixo', 'Bateria', 'Teclado'];
+
+    // Retorne o valor total das compras
+    const compras = [
+        {
+            item: 'Banana',
+            preco: 'R$ 4,99',
+        },
+        {
+            item: 'Ovo',
+            preco: 'R$ 2,99',
+        },
+        {
+            item: 'Carne',
+            preco: 'R$ 25,49',
+        },
+        {
+            item: 'Refrigerante',
+            preco: 'R$ 5,35',
+        },
+        {
+            item: 'Queijo',
+            preco: 'R$ 10,60',
+        },
+    ]
+```
