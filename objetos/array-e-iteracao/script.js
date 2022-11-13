@@ -313,3 +313,20 @@ const pessoas = [
 
 const encontrar = pessoas.find(pessoa => pessoa.idade >= 18);
 console.log(encontrar); // {nome: 'Gustavo', idade: 20}
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const frutas4 = ['Banana', undefined, null, '', 'Uva', 0, 'Maçã'];
+const arrayFrutas = frutas4.filter((item) => {
+    // console.log(item);
+    return item;
+})
+
+console.log(arrayFrutas);
+
+// Vou fazer um filtro com a array lá de cima (pessoas), quero
+// pegar somente as pessoas que tiverem a idade maior ou igual a 18;
+const filtroPessoas = pessoas.filter(pessoa => pessoa.idade >= 18);
+console.log(filtroPessoas); // [{…}, {…}, {…}]

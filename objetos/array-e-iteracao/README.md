@@ -347,11 +347,26 @@ retornar o valor, retorna o index deste valor na array.
 
 ```js
     const frutas = ['Banana', 'Pêra', 'Uva', 'Maçã'];
-    
+
     const buscaUva = frutas.findIndex((fruta) => {
         return fruta === 'Uva';
     }); // 2
 
     const numeros = [6, 43, 22, 88, 101, 29];
     const buscaMaior45 = numeros.find(x => x > 45); // 88
+```
+
+## [].filter()
+
+**[].filter()**, retorna uma array com a lista de valores que <br>
+durante a sua iteração retornaram um valor truthy.
+
+```js
+    const frutas = ['Banana', undefined, null, '', 'Uva', 0, 'Maçã'];
+    const arrayLimpa = frutas.filter((fruta) => {
+        return fruta;
+    }); // ['Banana', 'Uva', 'Maçã']
+
+    const numeros = [6, 43, 22, 88, 101, 29];
+    const buscaMaior45 = numeros.filter(x => x > 45); // [88, 101]
 ```
