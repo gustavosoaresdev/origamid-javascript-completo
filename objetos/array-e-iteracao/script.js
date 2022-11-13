@@ -242,3 +242,16 @@ const listaAulas = aulas3.reduce((acumulador, atual, index) => {
 }, {})
 
 console.log(listaAulas); // {0: 'HTML 1', 1: 'HTML 2', 2: 'CSS 1', 3: 'JS 1'}
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const frutas = ['Banana', 'Pêra', 'Uvas'];
+
+const temUva = frutas.some((item) => {
+    // console.log(item);
+    return item === 'Uva';
+})
+
+console.log(temUva); // false

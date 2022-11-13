@@ -295,7 +295,27 @@ itera da esquerda para a direita.
 
     const frutasRight = frutas.reduceRight((acc, fruta) => acc + ' ' + fruta);
     const frutasLeft = frutas.reduce((acc, fruta) => acc + ' ' + fruta);
-    
+
     frutasRight; // Uva Pêra Banana
     frutasLeft; // Banana Pêra Uva
+```
+
+## [].some()
+
+**[].some()**, se pelo menos um return da iteração for truthy, ele <br>
+retorna true.
+
+```js
+    const frutas = ['Banana', 'Pêra', 'Uva'];
+    
+    const temUva = frutas.some((fruta) => {
+        return fruta === 'Uva';
+    }); // true
+
+    function maiorQue100(numero) {
+        return numero > 100;
+    }
+
+    const numeros = [0, 43, 22, 88, 101, 2];
+    const temMaior = numeros.some(maiorQue100); // true
 ```
