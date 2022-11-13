@@ -255,3 +255,28 @@ const temUva = frutas.some((item) => {
 })
 
 console.log(temUva); // false
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const frutas2 = ['Banana', 'Pêra', 'Uva', 'Melancia', {}, 'Maça'];
+
+const every = frutas2.every((fruta) => {
+    return fruta;
+})
+
+console.log(every); // true
+
+/* A diferença entre o some() e o every(), é que enquanto o some()
+está procurando apenas um valor verdadeiro pra retornar verdadeiro,
+o every() está procurando apenas um valor falso pra retornar falso. */
+
+const idades = [6, 43, 22, 88, 101, 29];
+const maior_ou_igual_a_18 = idades.every(n => n >= 18);
+
+console.log(maior_ou_igual_a_18); // false
+
+/* Neste exemplo acima, eu estou verificando se todas as "idades"
+são maiores ou igual a 18. Neste caso o retorno será falso, porque
+a uma idade na array que não é maior e nem igual a 18, (6) */

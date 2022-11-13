@@ -307,7 +307,7 @@ retorna true.
 
 ```js
     const frutas = ['Banana', 'Pêra', 'Uva'];
-    
+
     const temUva = frutas.some((fruta) => {
         return fruta === 'Uva';
     }); // true
@@ -318,4 +318,23 @@ retorna true.
 
     const numeros = [0, 43, 22, 88, 101, 2];
     const temMaior = numeros.some(maiorQue100); // true
+```
+
+## [].every()
+
+**[].every()**, se todos os returns das iterações forem truthy, o <br>
+método irá retornar true. Se pelo menos um for falsy, ele irá <br>
+retornar false.
+
+```js
+    const frutas = ['Banana', 'Pêra', 'Uva', ''];
+
+    // False pois pelo menos uma fruta
+    // está vazia '', o que é um valor falsy
+    const arraysCheias = frutas.every((fruta) => {
+        return fruta; // false
+    });
+
+    const numeros = [6, 43, 22, 88, 101, 29];
+    const maiorQue3 = numeros.every(x => x > 3); // true 
 ```
