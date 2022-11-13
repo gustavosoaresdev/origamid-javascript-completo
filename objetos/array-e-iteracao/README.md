@@ -208,3 +208,15 @@ valor do acumulador será o valor do item da primeira iteração.
         return 35 + 30;
     }) // retorna 65
 ```
+
+## Maior valor com [].reduce()
+
+```js
+    const numeros = [10, 25, 60, 5, 35, 10];
+
+    const maiorValor = numeros.reduce((anterior, atual) => {
+        return anterior > atual ? anterior : atual;
+    });
+
+    maiorValor; // 60
+```

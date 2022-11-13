@@ -184,3 +184,33 @@ console.log(reduceAulas); // 65
 /* Se caso eu não usar um valor inícial para o acumulador, o valor
 inícial de acumulador será o primeiro item da array. Que nesse caso
 é 10. */
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const numeros2 = [10, 25, 30, 3, 54, 33, 22];
+
+const maiorNumero = numeros2.reduce((anterior, atual) => {
+    if (anterior > atual)
+        return anterior;
+    else
+        return atual;
+})
+
+console.log(maiorNumero); // 54
+
+// Lembrando que o argumento (anterior) é o (acumulador).
+
+/* O reduce() não é apenas para calcular valores, pode ser usado para
+outras coisas também. Neste exemplo acima, eu estou usando o reduce()
+para retornar o maior número de uma array com números... */
+
+// Eu poderia também usar o operador ternário;
+const maiorNumero2 = numeros2.reduce((anterior, atual) => {
+    return anterior > atual ? anterior : atual;
+})
+
+console.log(maiorNumero2); // 54
+
+/* ================================================================================= */
