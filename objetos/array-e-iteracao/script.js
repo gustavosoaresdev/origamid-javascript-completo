@@ -213,4 +213,32 @@ const maiorNumero2 = numeros2.reduce((anterior, atual) => {
 
 console.log(maiorNumero2); // 54
 
+console.log('') // Apenas uma quebra de linha...
+
 /* ================================================================================= */
+
+const aulas3 = [
+    {
+        nome: 'HTML 1',
+        min: 15,
+    },
+    {
+        nome: 'HTML 2',
+        min: 10,
+    },
+    {
+        nome: 'CSS 1',
+        min: 20,
+    },
+    {
+        nome: 'JS 1',
+        min: 25,
+    },
+]
+
+const listaAulas = aulas3.reduce((acumulador, atual, index) => {
+    acumulador[index] = atual.nome;
+    return acumulador;
+}, {})
+
+console.log(listaAulas); // {0: 'HTML 1', 1: 'HTML 2', 2: 'CSS 1', 3: 'JS 1'}

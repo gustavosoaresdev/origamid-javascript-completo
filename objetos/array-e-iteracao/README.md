@@ -220,3 +220,31 @@ valor do acumulador será o valor do item da primeira iteração.
 
     maiorValor; // 60
 ```
+
+## Podemos retornar outros valores
+
+```js
+    const aulas = [
+        {
+            nome: 'HTML 1',
+            min: 15,
+        },
+        {
+            nome: 'HTML 2',
+            min: 10,
+        },
+        {
+            nome: 'CSS 1',
+            min: 20,
+        },
+        {
+            nome: 'JS 1',
+            min: 25,
+        },
+    ]
+
+    const listaAulas = aulas.reduce((acumulador, atual, index) => {
+        acumulador[index] = atual.nome;
+        return acumulador;
+    }, {})
+```
