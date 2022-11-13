@@ -330,3 +330,29 @@ console.log(arrayFrutas);
 // pegar somente as pessoas que tiverem a idade maior ou igual a 18;
 const filtroPessoas = pessoas.filter(pessoa => pessoa.idade >= 18);
 console.log(filtroPessoas); // [{…}, {…}, {…}]
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const aulas4 = [
+    {
+        nome: 'HTML 1',
+        min: 15,
+    },
+    {
+        nome: 'HTML 2',
+        min: 10,
+    },
+    {
+        nome: 'CSS 1',
+        min: 20,
+    },
+    {
+        nome: 'JS 1',
+        min: 25,
+    },
+]
+
+const maioresQue15 = aulas4.filter(aula => aula.min > 15);
+console.log(maioresQue15);
