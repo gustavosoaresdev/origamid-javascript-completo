@@ -22,7 +22,28 @@ as suas propriedades e métodos.
     function somar(n1, n2) {
         return n1 + n2;
     }
-    
+
     somar.length; // 2
     somar.name; // 'somar'
+```
+
+## function.call()
+
+**function.call(this, arg1, arg2, ...)** executa a função, <br>
+sendo possível passarmos uma nova referência ao **this** da <br>
+mesma.
+
+```js
+    const carro = {
+        marca: 'Ford',
+        ano: 2018
+    }
+
+    function descricaoCarro() {
+        console.log(this.marca + ' ' + this.ano);
+    }
+
+    descricaoCarro(); // undefined undefined
+    descricaoCarro.call(); // undefined undefined
+    descricaoCarro.call(carro); // Ford 2018
 ```

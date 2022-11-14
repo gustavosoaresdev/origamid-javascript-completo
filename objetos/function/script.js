@@ -34,3 +34,42 @@ métodos e propriedades de uma (String). */
 
 
 // Lembrando mais uma vez, o que importa, é sempre o que retorna!!!
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+function darOi(nome, idade) {
+    console.log('Oi para você', nome, idade);
+}
+
+darOi.call(null, 'Gustavo', 20); // Oi para você Gustavo 20
+
+function descricaoCarro() {
+    console.log(this); // O this nesse caso, é o objeto Window
+    console.log(this.marca + ' ' + this.ano);
+}
+
+descricaoCarro(); // undefined undefined
+
+// É errado fazer isso, mas é só um teste;
+window.marca = 'Ford';
+window.ano = 2022;
+
+function descricaoCarro2(kmh) {
+    console.log(`${this.marca} de ano ${this.ano} percorreu ${kmh}km/h`);
+}
+
+descricaoCarro2(100);
+// Ford de ano 2022 percorreu 100km/h
+
+descricaoCarro2.call({ marca: 'Fiat', ano: 1234 }, 120);
+// Fiat de ano 1234 percorreu 120km/h
+
+// Geramente vamos usar o call assim;
+const objetoQualquer = {
+    marca: 'Ferrari',
+    ano: 2018
+}
+
+descricaoCarro2.call(objetoQualquer, 300); // Ferrari de ano 2018 percorreu 300km/h
