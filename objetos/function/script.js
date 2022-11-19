@@ -125,3 +125,22 @@ Dom.prototype.ativo.call(li, 'AtivoLi');
 /* Quando substituirmos algum objeto com o call, o objeto que vai substituir
 tem que ser parecido com o objeto original, conforme o exemplo acima. Isso
 é essencial. */
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const frutas2 = ['Uva', 'Maçã', 'Banana'];
+
+// Isso aqui
+Array.prototype.pop.call(frutas2);
+
+// É a mesma coisa que isso aqui;
+frutas2.pop();
+
+Array.prototype.mostrarThis = function () {
+    console.log(this);
+}
+
+/* OBS: Não é uma boa prática usarmos o Construtor Nativo para criar
+métodos, isso é apenas uma demonstração. */

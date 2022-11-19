@@ -104,3 +104,21 @@ interagir de forma correta com o novo this.
 
     Dom.prototype.ativo.call(novoSeletor, 'ativar');
 ```
+
+## Array's e Call
+
+É comum utilizarmos o **call()** nas funções do protótipo do <br>
+construtor Array. Assim podemos estender todos os métodos de <br>
+Array à objetos que se parecem com uma Array (array-like).
+
+```js
+    Array.prototype.mostreThis = function() {
+        console.log(this);
+    }
+
+    const frutas = ['Uva', 'Maçã', 'Banana'];
+    frutas.mostreThis(); // ['Uva', 'Maçã', 'Banana']
+    
+    Array.prototype.pop.call(frutas); // Remove Banana
+    frutas.pop(); // Mesma coisa que a função acima
+```
