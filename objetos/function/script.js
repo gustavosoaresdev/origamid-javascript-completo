@@ -88,3 +88,29 @@ frutas.forEach.call(carros, (item) => {
 /* Não importa o que vem antes do forEach() ou de qualquer outro método
 que você use, o que importa é o this que você passa dentro do call.
 Que nesse caso é o (carros). É apartir do this que vai contar! */
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+function Dom(seletor) {
+    this.element = document.querySelector(seletor);
+}
+
+Dom.prototype.ativo = function (classe) {
+    console.log(this); // {element: li}
+    this.element.classList.add(classe);
+}
+
+const li = {
+    element: document.querySelector('li')
+}
+
+const ul = new Dom('ul');
+ul.ativo.call(li, 'ativo');
+
+console.log(ul); // Add a classe (ativo) ao primeiro li da página
+
+/* Quando substituirmos algum objeto com o call, o objeto que vai substituir
+tem que ser parecido com o objeto original, conforme o exemplo acima. Isso
+é essencial. */

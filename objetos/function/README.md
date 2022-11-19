@@ -56,7 +56,7 @@ referência do método ao this, utilizando o **call()**.
 
 ```js
     const carros = ['Ford', 'Fiat', 'VW'];
-    
+
     carros.forEach((item) => {
         console.log(item);
     }); // Log de cada Carro
@@ -70,4 +70,23 @@ referência do método ao this, utilizando o **call()**.
     carros.forEach.call(frutas, (item) => {
         console.log(item);
     }); // Log de cada Fruta
+```
+
+## Exemplo Real
+
+O objeto atribuído a **lista** será o substituído pelo primeiro <br>
+argumento de **call()**
+
+```js
+    function Dom(seletor) {
+        this.element = document.querySelector(seletor);
+    };
+
+    Dom.prototype.ativo = function(classe) {
+        this.element.classList.add(classe);
+    };
+
+    const lista = new Dom('ul');
+    lista.ativo('ativar');
+    console.log(lista);
 ```
