@@ -73,3 +73,18 @@ const objetoQualquer = {
 }
 
 descricaoCarro2.call(objetoQualquer, 300); // Ferrari de ano 2018 percorreu 300km/h
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const carros = ['Ford', 'Fiat', 'VW'];
+const frutas = ['Banana', 'Uva', 'Pêra'];
+
+frutas.forEach.call(carros, (item) => {
+    console.log(item);
+})
+
+/* Não importa o que vem antes do forEach() ou de qualquer outro método
+que você use, o que importa é o this que você passa dentro do call.
+Que nesse caso é o (carros). É apartir do this que vai contar! */

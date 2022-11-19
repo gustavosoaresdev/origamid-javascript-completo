@@ -47,3 +47,27 @@ mesma.
     descricaoCarro.call(); // undefined undefined
     descricaoCarro.call(carro); // Ford 2018
 ```
+
+## This
+
+O valor de this faz referência ao objeto criado durante a <br>
+construção do objeto (Constructor Function). Podemos trocar a <br>
+referência do método ao this, utilizando o **call()**.
+
+```js
+    const carros = ['Ford', 'Fiat', 'VW'];
+    
+    carros.forEach((item) => {
+        console.log(item);
+    }); // Log de cada Carro
+
+    carros.forEach.call(carros, (item) => {
+        console.log(item);
+    }); // Log de cada Carro
+
+    const frutas = ['Banana', 'Pêra', 'Uva'];
+
+    carros.forEach.call(frutas, (item) => {
+        console.log(item);
+    }); // Log de cada Fruta
+```
