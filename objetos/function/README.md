@@ -118,7 +118,23 @@ Array à objetos que se parecem com uma Array (array-like).
 
     const frutas = ['Uva', 'Maçã', 'Banana'];
     frutas.mostreThis(); // ['Uva', 'Maçã', 'Banana']
-    
+
     Array.prototype.pop.call(frutas); // Remove Banana
     frutas.pop(); // Mesma coisa que a função acima
+```
+
+## Array-like
+
+HTMLCollection, NodeList e demais objetos do Dom, são parecidos <br>
+com uma array. Por isso conseguimos utilizar os mesmos na <br>
+substituição do this em call.
+
+```js
+    const li = document.querySelectorAll('li');
+
+    const filtro = Array.prototype.filter.call(li, function(item) {
+        return item.classList.contains('ativo');
+    });
+    
+    filtro; // Retorna os itens que possuem ativo
 ```

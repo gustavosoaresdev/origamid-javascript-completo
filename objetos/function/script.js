@@ -111,7 +111,7 @@ const li = {
     element: document.querySelector('li')
 }
 
-Dom.prototype.ativo.call(li, 'AtivoLi');
+// Dom.prototype.ativo.call(li, 'AtivoLi');
 
 // É bem comúm esse tipo de código!
 
@@ -144,3 +144,33 @@ Array.prototype.mostrarThis = function () {
 
 /* OBS: Não é uma boa prática usarmos o Construtor Nativo para criar
 métodos, isso é apenas uma demonstração. */
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const arrayLike = {
+    0: 'Item 1',
+    1: 'Item 2',
+    2: 'Item 3',
+    length: 3
+}
+
+const li2 = document.querySelectorAll('li');
+
+const filtro = Array.prototype.filter.call(li2, (item) => {
+    return item.classList.contains('ativo');
+})
+
+console.log(filtro); // [li.ativo, li.ativo]
+
+/* Usamos dessa forma acima quando não é uma Array de verdade. Mas podemos
+fazer dessa forma abaixo que também da certo; */
+
+const arrayLi = Array.from(li2);
+
+const filtro2 = arrayLi.filter((item) => {
+    return item.classList.contains('ativo');
+})
+
+console.log(filtro2); // [li.ativo, li.ativo]
