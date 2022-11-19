@@ -90,3 +90,17 @@ argumento de **call()**
     lista.ativo('ativar');
     console.log(lista);
 ```
+
+## O objeto deve ser parecido
+
+O novo valor de this deve ser semelhante a estrutura do valor do <br>
+this original do método. Caso contrário o método não conseguirá <br>
+interagir de forma correta com o novo this.
+
+```js
+    const novoSeletor = {
+        element: document.querySelector('li')
+    }
+
+    Dom.prototype.ativo.call(novoSeletor, 'ativar');
+```

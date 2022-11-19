@@ -102,14 +102,25 @@ Dom.prototype.ativo = function (classe) {
     this.element.classList.add(classe);
 }
 
+/* Lembrando aqui, que quando quisermos passar uma classe ao elemento, não
+vamos fazer da maneira anterior, aquilo foi só uma demonstração de como que
+funciona. */
+
+// Podemos fazer assim para adicionar uma classe;
 const li = {
     element: document.querySelector('li')
 }
 
-const ul = new Dom('ul');
-ul.ativo.call(li, 'ativo');
+Dom.prototype.ativo.call(li, 'AtivoLi');
 
-console.log(ul); // Add a classe (ativo) ao primeiro li da página
+// É bem comúm esse tipo de código!
+
+
+
+// const ul = new Dom('ul');
+// ul.ativo.call(li, 'ativo');
+
+// console.log(ul); // Add a classe (ativo) ao primeiro li da página
 
 /* Quando substituirmos algum objeto com o call, o objeto que vai substituir
 tem que ser parecido com o objeto original, conforme o exemplo acima. Isso
