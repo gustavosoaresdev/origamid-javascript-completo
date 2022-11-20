@@ -169,3 +169,19 @@ A única diferença é a array como segundo argumento.
     const filtro1 = Array.prototype.filter.call(li, itemPossuiAtivo);
     const filtro2 = Array.prototype.filter.apply(li, [itemPossuiAtivo]);
 ```
+
+## function.bind()
+
+Diferente de call e apply, **bind(this, arg1, arg2, ...)** não <br>
+irá executar a função mas sim retornar a mesma com o novo <br>
+contexto de this.
+
+```js
+    const li = document.querySelectorAll('li');
+    
+    const filtrarLi = Array.prototype.filter.bind(li, function(item) {
+        return item.classList.contains('ativo');
+    });
+
+    filtrarLi();
+```

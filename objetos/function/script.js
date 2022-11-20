@@ -189,3 +189,10 @@ console.log(numeroMaximoComApply); // 542
 
 /* Math.max() não aceita uma array de números, mas se usarmos o apply()
 conforme o exemplo acima, ele vai funcionar. */
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const $ = document.querySelectorAll.bind(document);
+console.log($('li')); // NodeList(4) [li, li.ativo, li.ativo, li]
