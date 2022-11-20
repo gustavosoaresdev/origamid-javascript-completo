@@ -174,3 +174,18 @@ const filtro2 = arrayLi.filter((item) => {
 })
 
 console.log(filtro2); // [li.ativo, li.ativo]
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const numeros = [2, 24, 54, 232, 542, 242];
+
+const numeroMaximoSemApply = Math.max(numeros);
+const numeroMaximoComApply = Math.max.apply(null, numeros);
+
+console.log(numeroMaximoSemApply); // NaN
+console.log(numeroMaximoComApply); // 542
+
+/* Math.max() não aceita uma array de números, mas se usarmos o apply()
+conforme o exemplo acima, ele vai funcionar. */
