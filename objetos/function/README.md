@@ -154,3 +154,18 @@ através de uma array.
     // de this, caso a função não utilize
     // o objeto principal para funcionar
 ```
+
+## Apply vs Call
+
+A única diferença é a array como segundo argumento.
+
+```js
+    const li = document.querySelectorAll('li');
+
+    function itemPossuiAtivo(item) {
+        return item.classList.contains('ativo');
+    }
+
+    const filtro1 = Array.prototype.filter.call(li, itemPossuiAtivo);
+    const filtro2 = Array.prototype.filter.apply(li, [itemPossuiAtivo]);
+```
