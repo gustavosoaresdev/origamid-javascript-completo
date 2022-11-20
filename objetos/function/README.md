@@ -178,10 +178,35 @@ contexto de this.
 
 ```js
     const li = document.querySelectorAll('li');
-    
+
     const filtrarLi = Array.prototype.filter.bind(li, function(item) {
         return item.classList.contains('ativo');
     });
 
     filtrarLi();
+```
+
+## Argumentos e Bind
+
+Não precisamos passar todos os argumentos no momento do bind, <br>
+podemos passar os mesmos na nova função no momento da <br>
+execução da mesma.
+
+```js
+    const carro = {
+        marca: 'Ford',
+        ano: 2018,
+        acelerar: function(aceleracao, tempo) {
+            return `${this.marca} acelerou ${aceleracao} em ${tempo}`;
+        }
+    }
+
+    carro.acelerar(100, 20); // Ford acelerou 100 em 20
+
+    const honda = {
+        marca: 'Honda',
+    };
+
+    const acelerarHonda = carro.acelerar.bind(honda);
+    acelerarHonda(200, 10); // Honda acelerou 200 em 10
 ```

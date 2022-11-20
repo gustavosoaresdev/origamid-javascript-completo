@@ -196,3 +196,27 @@ console.log('') // Apenas uma quebra de linha...
 
 const $ = document.querySelectorAll.bind(document);
 console.log($('li')); // NodeList(4) [li, li.ativo, li.ativo, li]
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const carro = {
+    marca: 'Ford',
+    ano: 2018,
+    acelerar: function (aceleracao, tempo) {
+        return `${this.marca} acelerou ${aceleracao}km/h em ${tempo} segundos`;
+    }
+}
+
+const honda = {
+    marca: 'Honda'
+}
+
+// op1
+const acelerarHonda = carro.acelerar.bind(honda);
+console.log(acelerarHonda(120, 30)); // Honda acelerou 120km/h em 30 segundos
+
+// op2
+const acelerarHonda2 = carro.acelerar.bind(honda, 300, 50);
+console.log(acelerarHonda2()); // Honda acelerou 300km/h em 50 segundos
