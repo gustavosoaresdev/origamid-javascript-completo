@@ -210,3 +210,18 @@ execução da mesma.
     const acelerarHonda = carro.acelerar.bind(honda);
     acelerarHonda(200, 10); // Honda acelerou 200 em 10
 ```
+
+## Argumentos Comuns
+
+Podemos passar argumentos padrões para uma função e retornar <br>
+uma nova função.
+
+```js
+    function imc(altura, peso) {
+        return peso / (altura * altura);
+    }
+    
+    const imc180 = imc.bind(null, 1.80);
+    imc(1.80, 70); // 21.6
+    imc180(70); // 21.6
+```
