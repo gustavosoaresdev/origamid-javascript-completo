@@ -225,3 +225,50 @@ uma nova função.
     imc(1.80, 70); // 21.6
     imc180(70); // 21.6
 ```
+
+## Exercícios
+
+#### HTML
+
+Copie e cole no seu HTML
+
+```html
+    <section>
+        <p>
+            Lobo-cinzento (nome científico:Canis lupus) é uma espécie
+            de mamífero canídeo do gênero Canis. É um sobrevivente da Era
+            do Gelo, originário do Pleistoceno Superior, cerca de 300 mil
+            anos atrás. É o maior membro remanescente selvagem da família
+            canidae.
+        </p>
+        <p>
+            Os lobos-cinzentos são tipicamente predadores ápice nos
+            ecossistemas que ocupam. Embora não sejam tão adaptáveis à
+            presença humana como geralmente ocorre com as demais.
+        </p>
+        <p>
+            O peso e tamanho dos lobos variam muito em todo o mundo,
+            tendendo a aumentar proporcionalmente com a latitude.
+        </p>
+        <p>
+            Os lobos são capazes de percorrer longas distâncias com
+            uma velocidade média de 10 quilômetros por hora e são
+            conhecidos por.
+        </p>
+    </section>
+```
+
+#### JS
+
+```js
+    // Retorne a soma total de caracteres dos
+    // parágrafos acima utilizando reduce
+
+    // Crie uma função que retorne novos elementos
+    // html, com os seguintes parâmetros
+    // tag, classe e conteudo.
+
+    // Crie uma nova função utilizando a anterior como base
+    // essa nova função deverá sempre criar h1 com a classe
+    // titulo. Porém o parâmetro conteudo continuará dinâmico
+```
