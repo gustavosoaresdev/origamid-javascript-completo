@@ -132,7 +132,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Array e Iteração
 
-- [ ] Function
+- [X] Function
 
 - [ ] Object
 
