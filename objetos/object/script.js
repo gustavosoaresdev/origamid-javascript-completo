@@ -34,3 +34,28 @@ console.log(honda.acelerar()); // Honda acelerou
 
 const ferrari = Object.create(carro).init('Ferrari');
 console.log(ferrari.acelerar()); // Ferrari acelerou
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const funcaoAutomovel = {
+    acelerar() {
+        return 'acelerou';
+    },
+    buzinar() {
+        return 'buzinou';
+    },
+}
+
+const moto = {
+    rodas: 2,
+    capacete: true,
+}
+
+Object.assign(moto, funcaoAutomovel);
+
+/* Os métodos e propriedades não vão pro protótipo do objeto, elas
+vão direto para o objeto mesmo. Se existir uma propriedade com o
+mesmo nome apartir do segundo argumento, ela vai substituir o valor
+da atual (alvo). */
