@@ -16,3 +16,27 @@ propriedades e métodos do seu prototype.
         idade: 20,
     })
 ```
+
+## Métodos de Object
+
+**Object.create(obj, defineProperties)** retorna um novo <br>
+objeto que terá como protótipo o objeto do primeiro argumento.
+
+```js
+    const carro = {
+        rodas: 4,
+        init(marca) {
+            this.marca = marca;
+            return this;
+        },
+        acelerar() {
+            return `${this.marca} acelerou as ${this.rodas} rodas`;
+        },
+        buzinar() {
+            return this.marca + ' buzinou';
+        }
+    }
+
+    const honda = Object.create(carro);
+    honda.init('Honda').acelerar();
+```
