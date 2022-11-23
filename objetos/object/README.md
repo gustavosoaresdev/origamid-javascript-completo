@@ -100,3 +100,28 @@ serem definidas as características dessas propriedades.
 *Existe também o* <br>
 *Object.defineProperty,* <br>
 *para uma propriedade única.*
+
+## get e set
+
+É possível definirmos diferentes comportamentos para get e set de <br>
+uma propriedade. Lembrando que ao acionarmos uma propriedade <br>
+**obj.propriedade**, a função get é ativada e ao setarmos <br>
+**obj.propriedade = 'Valor'** a função de set é ativada.
+
+```js
+    const moto = {}
+    Object.defineProperties(moto, {
+        velocidade: {
+            get() {
+                return this._velocidade;
+            },
+            set(valor) {
+                this._velocidade = 'Velocidade ' + valor;
+            }
+        },
+    })
+    
+    moto.velocidade = 200;
+    moto.velocidade;
+    // Velocidade 200
+```

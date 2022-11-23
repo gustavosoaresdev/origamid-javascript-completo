@@ -70,9 +70,17 @@ const moto2 = {
 
 Object.defineProperties(moto2, {
     rodas: {
-        value: 2,
+        get() {
+            return this._rodas;
+        },
+        set(valor) {
+            this._rodas = 'Total rodas: ' + valor * 2;
+        }
     }
 })
+
+/* Não pode ter valor (value) quando utilizarmos (get e set).
+Até porquê com o (get e set) nós estamos criando as propriedades... */
 
 delete moto2.rodas;
 /* Neste caso acima (delete moto2.rodas) não será deletado porquê
