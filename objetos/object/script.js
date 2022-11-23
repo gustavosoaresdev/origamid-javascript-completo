@@ -94,3 +94,10 @@ console.log(moto2); // {capacete: true, rodas: 2}
 vem com o valor false, então nesse caso se eu quisesse deixar elas false
 mesmo, eu não precisaria colocar elas no objeto, só se quiser deixar elas
 com o valor true, ai é necessário usalas. */
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const innerHeightConfig = Object.getOwnPropertyDescriptor(window, 'innerHeight');
+console.log(innerHeightConfig.configurable); // true

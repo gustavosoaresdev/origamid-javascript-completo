@@ -120,8 +120,24 @@ uma propriedade. Lembrando que ao acionarmos uma propriedade <br>
             }
         },
     })
-    
+
     moto.velocidade = 200;
     moto.velocidade;
     // Velocidade 200
+```
+
+## Object.getOwnPropertyDescriptors(obj)
+
+Lista todos os métodos e propriedades de um objeto, com as suas <br>
+devidas configurações.
+
+```js
+    Object.getOwnPropertyDescriptors(Array);
+    // Lista com métodos e propriedades de Array
+
+    Object.getOwnPropertyDescriptors(Array.prototype);
+    // Lista com métodos e propriedades do protótipo de Array
+
+    Object.getOwnPropertyDescriptor(window, 'innerHeight');
+    // Puxa de uma única propriedade
 ```
