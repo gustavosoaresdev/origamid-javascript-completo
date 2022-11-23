@@ -70,3 +70,33 @@ O assign irá modificar o objeto alvo.
     Object.assign(moto, funcaoAutomovel);
     Object.assign(carro, funcaoAutomovel);
 ```
+
+## Object.defineProperties()
+
+**Object.defineProperties(alvo, propriedades)** adiciona <br>
+ao alvo novas propriedades. A diferença aqui é a possibilidade de <br>
+serem definidas as características dessas propriedades.
+
+```js
+    const moto = {}
+    Object.defineProperties(moto, {
+        rodas: {
+            value: 2,
+            configurable: false, // impede deletar e mudança de valor
+            enumarable: true, // torna enumerável
+        },
+        capacete: {
+            value: true,
+            configurable: true,
+            writable: false, // impede mudança de valor
+        },
+    })
+
+    moto.rodas = 4;
+    delete moto.capacete;
+    moto;
+```
+
+*Existe também o* <br>
+*Object.defineProperty,* <br>
+*para uma propriedade única.*
