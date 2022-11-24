@@ -164,7 +164,28 @@ contendo a chave e o valor.
 
     Object.values(carro);
     // ['Ford', 2018]
-    
+
     Object.entries(carro);
     // [['marca', 'Ford'], ['ano', 2018]]
+```
+
+## Object.getOwnPropertyNames(obj)
+
+Retorna uma array com todas as propriedades diretas do objeto <br>
+(não retorna as do protótipo).
+
+```js
+    Object.getOwnPropertyNames(Array);
+    // ['length', 'name', 'prototype', 'isArray', 'from', 'of']
+
+    Object.getOwnPropertyNames(Array.prototype);
+    // [..., 'filter', 'map', 'every', 'some', 'reduce', ...]
+
+    const carro = {
+        marca: 'Ford',
+        ano: 2018,
+    }
+    
+    Object.getOwnPropertyNames(carro);
+    // ['marca', 'ano']
 ```
