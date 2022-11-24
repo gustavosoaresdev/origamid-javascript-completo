@@ -101,3 +101,16 @@ console.log('') // Apenas uma quebra de linha...
 
 const innerHeightConfig = Object.getOwnPropertyDescriptor(window, 'innerHeight');
 console.log(innerHeightConfig.configurable); // true
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const carro2 = {
+    marca: 'Fiat',
+    ano: 2015,
+}
+
+console.log(Object.keys(carro2));
+console.log(Object.values(carro2));
+console.log(Object.entries(carro2));
