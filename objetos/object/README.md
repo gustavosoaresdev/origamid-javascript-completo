@@ -189,3 +189,20 @@ Retorna uma array com todas as propriedades diretas do objeto <br>
     Object.getOwnPropertyNames(carro);
     // ['marca', 'ano']
 ```
+
+## Object.getPrototypeOf() e Object.is()
+
+**Object.getPrototypeOf()**, retorna o protótipo do objeto. <br>
+**Object.is(obj1, obj2)** verifica se os objetos são iguais e <br>
+retorna true ou false.
+
+```js
+    const frutas = ['Banana', 'Pêra']
+    Object.getPrototypeOf(frutas);
+    Object.getPrototypeOf(''); // String
+
+    const frutas1 = ['Banana', 'Pêra'];
+    const frutas2 = ['Banana', 'Pêra'];
+    
+    Object.is(frutas1, frutas2); // false
+```

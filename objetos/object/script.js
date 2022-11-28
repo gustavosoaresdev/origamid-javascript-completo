@@ -114,3 +114,36 @@ const carro2 = {
 console.log(Object.keys(carro2));
 console.log(Object.values(carro2));
 console.log(Object.entries(carro2));
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const array = [''];
+
+// Isso
+console.log(Object.getPrototypeOf(array));
+
+// É a mesma coisa que isso;
+console.log(Array.prototype);
+
+// Poderia ser assim também;
+console.log(Object.getPrototypeOf(['']));
+
+// O resultado é o mesmo...
+
+// Lembrando que esse método funciona para todos os tipos de dados.
+
+// Ex:
+console.log(Object.getPrototypeOf(20));
+console.log(Number.prototype); // Mesma coisa......
+
+const frutas1 = ['Banana', 'Pêra'];
+const frutas2 = ['Banana', 'Pêra'];
+const frutaIgual = frutas1; // Referência a (frutas1)
+
+console.log(Object.is(frutas1, frutas2)); // false
+console.log(Object.is(frutas1, frutaIgual)); // true
+
+/* (frutas1) e (frutas2) são "objetos diferentes", porquê se algum deles
+for alterado/modificado, o outro não será impactado. */
