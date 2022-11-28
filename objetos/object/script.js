@@ -147,3 +147,40 @@ console.log(Object.is(frutas1, frutaIgual)); // true
 
 /* (frutas1) e (frutas2) são "objetos diferentes", porquê se algum deles
 for alterado/modificado, o outro não será impactado. */
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+// OBJECT.FREEZE();
+/* Vai congelar o seu objeto, ele não vai permitir mudança de
+valor, deletar e adicionar novas propriedades e métodos. */
+
+// OBJECT.SEAL();
+/* Não permite adicionar novas propriedades ou métodos, mas
+permite mudança de valor nas anteriores. */
+
+// OBJECT.PREVENTEXTENSIONS();
+/* Previne que você adicione novas propriedades ou métodos,
+mas permite deletar as anteriores. */
+
+const carro3 = {
+    marca: 'Ford',
+    ano: 2018,
+}
+
+carro3.marca = 'Honda';
+Object.freeze(carro3);
+carro3.ano = 2022;
+
+Object.seal(carro3);
+delete carro3.marca;
+
+console.log(carro3); // {marca: 'Honda', ano: 2018}
+
+/* Sabe porquê mudou o valor de marca? porquê eu mudei o
+valor antes de congelar o objeto. Isso quer dizer que se
+você fazer algo com as propriedades antes de congelar ou
+usar algum outro método, vai funcionar normalmente! */
+
+console.log(Object.isFrozen(carro3)); // true

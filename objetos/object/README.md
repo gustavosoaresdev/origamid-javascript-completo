@@ -203,6 +203,29 @@ retorna true ou false.
 
     const frutas1 = ['Banana', 'Pêra'];
     const frutas2 = ['Banana', 'Pêra'];
-    
+
     Object.is(frutas1, frutas2); // false
+```
+
+## Object.freeze(), Object.seal() e Object.preventExtensions()
+
+**Object.freeze()** impede qualquer mudança nas propriedades. <br>
+**Object.seal()** previne a adição de novas propriedades e <br>
+impede que as atuais sejam deletadas. <br>
+**Object.preventExtensions()** previne a adição de novas <br>
+propriedades.
+
+```js
+    const carro = {
+        marca: 'Ford',
+        ano: 2018,
+    }
+
+    Object.freeze(carro);
+    Object.seal(carro);
+    Object.preventExtensions(carro);
+
+    Object.isFrozen(carro); // true
+    Object.isSealed(carro); // true
+    Object.isExtensible(carro); // false
 ```
