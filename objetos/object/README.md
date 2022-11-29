@@ -270,3 +270,31 @@ Verifica se é o protótipo do valor passado.
     const frutas = ['Banana', 'Uva'];
     Array.prototype.isPrototypeOf(frutas); // true
 ```
+
+## {}.toString()
+
+Retorna o tipo do objeto. O problema é toString() ser uma função <br>
+dos protótipos de Array, String e mais. Por isso é comum <br>
+utilizarmos a função direto do <br>
+**Object.prototype.toString.call(valor)**.
+
+```js
+    const frutas = ['Banana', 'Uva'];
+    frutas.toString(); // 'Banana,Uva'
+    typeof frutas; // object
+    Object.prototype.toString.call(frutas); // [object Array]
+
+    const frase = 'Uma String';
+    frase.toString(); // 'Uma String'
+    typeof frase; // string
+    Object.prototype.toString.call(frase); // [object String]
+
+    const carro = {marca: 'Ford'};
+    carro.toString(); // [object Object]
+    typeof carro; // object
+    Object.prototype.toString.call(carro); // [object Object]
+
+    const li = document.querySelectorAll('li');
+    typeof li; // object
+    Object.prototype.toString.call(li); // [object NodeList]
+```

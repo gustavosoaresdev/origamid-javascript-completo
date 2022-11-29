@@ -184,3 +184,22 @@ você fazer algo com as propriedades antes de congelar ou
 usar algum outro método, vai funcionar normalmente! */
 
 console.log(Object.isFrozen(carro3)); // true
+
+console.log('') // Apenas uma quebra de linha...
+
+/* ================================================================================= */
+
+const frutas3 = ['Banana', 'Uva'];
+const frase = 'Oi frase';
+const somar = function (a, b) {
+    return a + b;
+}
+
+const carro4 = {
+    marca: 'Ford'
+}
+
+console.log(carro4.toString()); // [object Object]
+
+// O jeito mais certo de verificar um tipo de dado é;
+Object.prototype.toString.call(frutas3); // [object Array]
