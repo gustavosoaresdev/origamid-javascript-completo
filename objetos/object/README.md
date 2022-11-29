@@ -229,3 +229,18 @@ propriedades.
     Object.isSealed(carro); // true
     Object.isExtensible(carro); // false
 ```
+
+## Propriedades e Métodos do Protótipo
+
+Já que tudo em JavaScript é objeto, as propriedades abaixo estão <br>
+disponíveis em todos os objetos criados a partir de funções <br>
+construtoras. **{}.constructor** retorna a função construtora do <br>
+objeto.
+
+```js
+    const frutas = ['Banana', 'Uva'];
+    frutas.constructor; // Array
+
+    const frase = 'Isso é uma String';
+    frase.constructor; // String
+```
