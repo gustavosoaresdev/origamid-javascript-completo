@@ -244,3 +244,20 @@ objeto.
     const frase = 'Isso é uma String';
     frase.constructor; // String
 ```
+
+## {}.hasOwnProperty('prop') e {}.propertyIsEnumerable('prop')
+
+Verifica se possui a propriedade e retorna true. A propriedade <br>
+deve ser direta do objeto e não do protótipo. O <br>
+**{}.propertyIsEnumerable()** verifica se a propriedade é enumerável.
+
+```js
+    const frutas = ['Banana', 'Uva'];
+
+    frutas.hasOwnProperty('map'); // false
+    Array.hasOwnProperty('map'); // false
+    Array.prototype.hasOwnProperty('map'); // true
+    
+    Array.prototype.propertyIsEnumerable('map'); // false
+    window.propertyIsEnumerable('innerHeight'); // true
+```
