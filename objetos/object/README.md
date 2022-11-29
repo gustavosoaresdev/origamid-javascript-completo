@@ -257,7 +257,16 @@ deve ser direta do objeto e não do protótipo. O <br>
     frutas.hasOwnProperty('map'); // false
     Array.hasOwnProperty('map'); // false
     Array.prototype.hasOwnProperty('map'); // true
-    
+
     Array.prototype.propertyIsEnumerable('map'); // false
     window.propertyIsEnumerable('innerHeight'); // true
+```
+
+## {}.isPrototypeOf(valor)
+
+Verifica se é o protótipo do valor passado.
+
+```js
+    const frutas = ['Banana', 'Uva'];
+    Array.prototype.isPrototypeOf(frutas); // true
 ```
