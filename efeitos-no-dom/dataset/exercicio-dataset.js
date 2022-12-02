@@ -1,5 +1,5 @@
 // Adicione um atributo data-anime="show-down" e
-// data-anime="show-right" a todos as section's
+// data-anime="show-right" a todas as section's
 // com descricão dos animais.
 
 // Utilizando estes atributos, adicione a classe
