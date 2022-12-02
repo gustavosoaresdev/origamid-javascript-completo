@@ -55,8 +55,22 @@ DOM / JS.
     divs.forEach((div) => {
         div.classList.add(div.dataset.anima);
     });
-    
+
     // adiciona em cada div
     // uma classe com o mesmo nome
     // que o valor de data
+```
+
+## Data vs Class
+
+A vantagem de se utilizar data atributes, é que torna mais fácil <br>
+evitarmos conflitos com estilos do CSS. Além de deixar a estrutura <br>
+da tag mais organizada.
+
+```html
+    <!-- Com data: -->
+    <div data-anima="left" data-tempo="1000">Div 1</div>
+    
+    <!-- Com class -->
+    <div class="anima-left tempo-1000">Div 2</div>
 ```
