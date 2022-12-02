@@ -38,3 +38,25 @@ que começarem com **data-**.
     div.dataset.tempo = 1000;
     // DOMStringMap {cor: "azul", width: "500", tempo: "1000"}
 ```
+
+## Data Atributes
+
+Os atributos e valores que começarem com data- poderão ser <br>
+utilizados como forma de configuração de plugins e interações <br>
+DOM / JS.
+
+```html
+    <div data-anima="left" data-tempo="1000">Div 1</div>
+    <div data-anima="right" data-tempo="2000">Div 2</div>
+```
+
+```js
+    const divs = document.querySelectorAll('[data-anima]');
+    divs.forEach((div) => {
+        div.classList.add(div.dataset.anima);
+    });
+    
+    // adiciona em cada div
+    // uma classe com o mesmo nome
+    // que o valor de data
+```
