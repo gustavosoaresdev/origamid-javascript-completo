@@ -1,4 +1,6 @@
-const h1 = document.querySelector('h1');
+const div = document.querySelector('[data-cor]');
 
-console.log(Object.prototype.toString.call(h1));
-console.log(h1.dataset); // DOMStringMap {}
+div.dataset.height = 1000;
+delete div.dataset.width;
+
+console.log(div.dataset); // DOMStringMap {cor: 'azul', height: '1000'}
