@@ -70,7 +70,27 @@ da tag mais organizada.
 ```html
     <!-- Com data: -->
     <div data-anima="left" data-tempo="1000">Div 1</div>
-    
+
     <!-- Com class -->
     <div class="anima-left tempo-1000">Div 2</div>
+```
+## Nomenclatura
+
+Por padrão o JavaScript não aceita - (traço) como caracter válido <br>
+para nomear propriedades. Então qualquer traço será removido e a <br>
+letra seguinte transformada em maiúscula.
+
+```html
+    <div data-anima-scroll="left">Div 1</div>
+```
+
+```js
+    const div = document.querySelector('[data-anima-scroll]');
+    div.dataset;
+    // {animaScroll: 'left'}
+    div.dataset.animaScroll; // left
+    div.dataset.tempoTotal = 1000;
+    // Na div vira data-tempo-total="1000"
+    
+    delete div.dataset.animaScroll; // remove o atributo
 ```
