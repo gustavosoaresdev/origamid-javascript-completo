@@ -50,3 +50,33 @@ importar.
 ```
 
 *Geralmente um valor por módulo.*
+
+## Named Exports
+
+Você pode exportar mais de um valor. Quando for importar utilize <br>
+as chaves para especificar cada valor. O nome importado deve ser <br>
+igual ao exportado.
+
+```js
+    // arquivo scroll.js
+    export function scrollSuave() {
+        ...
+    };
+    export function scrollAnimacao() {
+        ...
+    };
+```
+
+```js
+    // arquivo script.js
+    import { scrollSuave, scrollAnimacao } from './scroll.js';
+    scrollSuave();
+    scrollAnimacao();
+```
+
+```js
+    // Importe todos os valores em um objeto
+    import * as scroll from './scroll.js';
+    scroll.scrollSuave();
+    scroll.scrollAnimacao();
+```
