@@ -181,8 +181,11 @@
         <p>Todos os direitos reservados.</p>
     </footer>
 
-    <script type="module">
-        console.log(this); // undefined
+    <script>
+        'use strict';
+
+        nome = 'Gustavo';
+        console.log(nome); // nome is not defined
     </script>
     <script type="module" src="js/script.js"></script>
 </body>

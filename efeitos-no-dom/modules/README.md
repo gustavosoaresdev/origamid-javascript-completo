@@ -118,3 +118,21 @@ Não vazam para o escopo global.
 Ao invés de fazer referência ao window.
 
 #### Assíncrono
+
+## use strict
+
+O modo estrito previne que algumas ações consideradas erros. <br>
+Basta adicionarmos 'use strict' no topo de um arquivo, que <br>
+ele entrará neste modo.
+
+```js
+    'use strict';
+
+    nome = 'Ford'; // erro, variável global
+    delete Array.prototype; // erro, não deletável
+    window.top = 200; // erro, não pode mudar
+    const arguments = 3.14; // escrever em palavra reservada
+```
+
+*Por padrão todo module está no* <br>
+*modo estrito*
