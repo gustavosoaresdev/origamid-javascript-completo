@@ -80,3 +80,25 @@ igual ao exportado.
     scroll.scrollSuave();
     scroll.scrollAnimacao();
 ```
+
+## Valores do Export
+
+Podemos exportar objetos, funções, classes, números, strings e <br>
+mais.
+
+```js
+    // arquivo configuracao.js
+    export function scrollSuave() {};
+    export const ano = 2000;
+    export const obj = {nome: 'Ford'};
+    export const str = 'Frase';
+    export class Carro {};
+```
+
+```js
+    // arquivo script.js
+    import * as conf from './configuracao.js';
+    conf.str;
+    conf.obj;
+    conf.ano;
+```

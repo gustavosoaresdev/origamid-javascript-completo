@@ -6,6 +6,7 @@ import initTabNav from "./modules/tabnav.js";
 // import { teste1, teste2 } from "./modules/teste.js";
 import * as teste from "./modules/teste.js";
 
+console.log(teste.senha);
 teste.teste1();
 teste.teste2();
 // teste1();
