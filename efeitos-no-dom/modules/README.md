@@ -102,3 +102,19 @@ mais.
     conf.obj;
     conf.ano;
 ```
+
+## Características
+
+#### Strict mode
+
+**'use strict'** por padrão em todos os arquivos.
+
+#### Variáveis ficam no module apenas
+
+Não vazam para o escopo global.
+
+#### This fora de um objeto faz referência a undefined
+
+Ao invés de fazer referência ao window.
+
+#### Assíncrono
