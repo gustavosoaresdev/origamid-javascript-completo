@@ -5,23 +5,18 @@ export default function initModal() {
 
   if (botaoAbrir && botaoFechar && containerModal) {
 
-    function abrirModal(event) {
+    function toggleModal(event) {
       event.preventDefault();
-      containerModal.classList.add('ativo');
-    }
-
-    function fecharModal(event) {
-      event.preventDefault();
-      containerModal.classList.remove('ativo');
+      containerModal.classList.toggle('ativo');
     }
 
     function clickForaDoModal(event) {
       if (event.target === this)
-        fecharModal(event);
+        toggleModal(event);
     }
 
-    botaoAbrir.addEventListener('click', abrirModal);
-    botaoFechar.addEventListener('click', fecharModal);
+    botaoAbrir.addEventListener('click', toggleModal);
+    botaoFechar.addEventListener('click', toggleModal);
     containerModal.addEventListener('click', clickForaDoModal);
   }
 }
