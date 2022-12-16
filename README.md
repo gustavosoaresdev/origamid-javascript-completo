@@ -140,7 +140,7 @@ Eu rodo o ponto, volto o ponto e demonstro o ponto.
 
 - [X] Modules
 
-- [ ] Modal
+- [X] Modal
 
 - [ ] Tooltip
 
